@@ -1,0 +1,76 @@
+<div id="polar-cake" lang="ja">
+  <style>
+    #polar-cake { color: var(--foreground); }
+    #polar-cake .cake-picture { display: block; width: 100%; overflow: visible; }
+    #polar-cake .cake-picture text { fill: var(--foreground); font-weight: 400; }
+    #polar-cake .cake-label { margin-top: .5rem; }
+  </style>
+  <label class="form-label" for="cake-radius">まんなかから <output id="cake-radius-value" class="tabular-nums">2</output> ほ</label>
+  <input class="form-range" id="cake-radius" type="range" min="2" max="4" step="1" value="2" aria-label="まんなかからのきょり">
+  <svg class="cake-picture" role="img" aria-labelledby="cake-title cake-description"></svg>
+  <div class="viz-row cake-label" aria-live="polite">
+    <span>くるっとの はばは おなじ</span>
+    <span id="cake-side-value" class="tabular-nums">よこの みち：2 ほ</span>
+  </div>
+  <script>
+  (() => {
+    const root = document.getElementById('polar-cake');
+    const slider = root.querySelector('#cake-radius');
+    const output = root.querySelector('#cake-radius-value');
+    const side = root.querySelector('#cake-side-value');
+    const svg = root.querySelector('.cake-picture');
+    const ns = 'http://www.w3.org/2000/svg';
+    function make(tag, attributes, content) {
+      const el = document.createElementNS(ns, tag);
+      for (const [key, value] of Object.entries(attributes || {})) el.setAttribute(key, value);
+      if (content !== undefined) el.textContent = content;
+      svg.appendChild(el);
+      return el;
+    }
+    function draw() {
+      const r = Number(slider.value);
+      const width = Math.max(280, root.getBoundingClientRect().width);
+      const height = Math.min(350, Math.max(295, width * .65));
+      const cx = width / 2;
+      const cy = height - 32;
+      const scale = (height - 85) / 5;
+      const lo = -Math.PI / 2 - .5;
+      const hi = -Math.PI / 2 + .5;
+      const inner = r - 1;
+      const outer = r + 1;
+      const point = (radius, a) => [cx + radius * scale * Math.cos(a), cy + radius * scale * Math.sin(a)];
+      const coord = p => p.map(v => v.toFixed(2)).join(' ');
+      const arc = (radius, a = lo, b = hi) => `M ${coord(point(radius, a))} A ${radius * scale} ${radius * scale} 0 0 1 ${coord(point(radius, b))}`;
+      svg.replaceChildren();
+      svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+      svg.style.height = `${height}px`;
+      make('title', {id: 'cake-title'}, 'まるいケーキの ちいさな へや');
+      make('desc', {id: 'cake-description'}, `まんなかから${r}歩のへや。前後の幅は2歩、向きの開きは1ラジアンで固定。内側の扉は${inner}歩、外側は${outer}歩。真ん中を横に歩く道は${r}歩。`);
+      for (const a of [lo, hi]) make('path', {d: `M ${cx} ${cy} L ${coord(point(5, a))}`, fill: 'none', stroke: 'var(--border)', 'stroke-width': 1});
+      for (let radius = 1; radius <= 5; radius++) make('path', {d: arc(radius), fill: 'none', stroke: 'var(--border)', 'stroke-width': 1});
+      const room = `M ${coord(point(inner, lo))} L ${coord(point(outer, lo))} A ${outer * scale} ${outer * scale} 0 0 1 ${coord(point(outer, hi))} L ${coord(point(inner, hi))} A ${inner * scale} ${inner * scale} 0 0 0 ${coord(point(inner, lo))} Z`;
+      make('path', {d: room, fill: 'var(--viz-series-1)', 'fill-opacity': .12});
+      for (const radius of [inner, outer]) {
+        make('path', {d: arc(radius), fill: 'none', stroke: 'var(--viz-series-1)', 'stroke-width': 3});
+        for (let i = 0; i <= radius; i++) {
+          const a = lo + i / radius;
+          make('path', {d: `M ${coord(point(radius - .07, a))} L ${coord(point(radius + .07, a))}`, stroke: 'var(--viz-series-1)', 'stroke-width': 2});
+        }
+      }
+      make('path', {d: arc(r), fill: 'none', stroke: 'var(--viz-series-2)', 'stroke-width': 2, 'stroke-dasharray': '5 4'});
+      make('text', {x: cx, y: cy - outer * scale - 15, 'text-anchor': 'middle'}, `そとの とびら：${outer} ほ`);
+      make('text', {x: cx, y: cy - inner * scale + 23, 'text-anchor': 'middle'}, `うちの とびら：${inner} ほ`);
+      make('circle', {cx, cy: cy - r * scale, r: 4, fill: 'var(--foreground)'});
+      make('text', {x: cx, y: cy - r * scale + 25, 'text-anchor': 'middle'}, 'ここ');
+      make('circle', {cx, cy, r: 4, fill: 'var(--foreground)'});
+      make('text', {x: cx, y: cy + 23, 'text-anchor': 'middle'}, 'まんなか');
+      output.textContent = String(r);
+      side.textContent = `よこの みち：${r} ほ`;
+      slider.setAttribute('aria-valuetext', `${r}ほ`);
+    }
+    slider.addEventListener('input', draw);
+    new ResizeObserver(draw).observe(root);
+    draw();
+  })();
+  </script>
+</div>

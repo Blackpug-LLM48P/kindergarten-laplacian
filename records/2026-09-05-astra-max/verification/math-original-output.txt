@@ -1,0 +1,6 @@
+x passed; max error 4.7e-08
+radius passed; max error 6.6e-13
+radius_squared passed; max error 1.9e-07
+y_squared passed; max error 1.9e-07
+sector geometry: passed
+fragment format: passed; 4714 bytes
