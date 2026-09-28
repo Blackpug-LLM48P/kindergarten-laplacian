@@ -1,0 +1,67 @@
+# Metaphor category lexicon (English). See ja.yaml for the conventions.
+# Terms are matched case-insensitively on word boundaries; a trailing plural "s"/"es" is allowed.
+version: "2026.09.28"
+categories:
+  pizza:
+    group: round_food
+    terms: [pizza, pizza slice]
+  cake:
+    group: round_food
+    terms: [cake, birthday cake, layer cake]
+  pancake:
+    group: round_food
+    terms: [pancake, hotcake, crepe]
+  donut:
+    group: round_food
+    terms: [donut, doughnut, bagel]
+  baumkuchen:
+    group: round_food
+    terms: [baumkuchen]
+  trampoline:
+    group: elastic_surface
+    terms: [trampoline]
+  drumhead:
+    group: elastic_surface
+    terms: [drumhead, drum skin, drum]
+  rubber_sheet:
+    group: elastic_surface
+    terms: [rubber sheet, rubber membrane, stretchy sheet, balloon skin]
+  tree_rings:
+    group: concentric
+    terms: [tree ring, tree rings, growth ring, tree stump]
+  ripple:
+    group: concentric
+    terms: [ripple, pebble in a pond, stone in a pond, pond]
+  onion:
+    group: concentric
+    terms: [onion]
+  dartboard:
+    group: concentric
+    terms: [dartboard, dart board, bullseye, archery target]
+  soap_bubble:
+    group: concentric
+    terms: [soap bubble, bubble]
+  rings:
+    group: concentric
+    terms: [hula hoop, hoop]
+  running_track:
+    group: circular_motion
+    terms: [running track, race track, racetrack, outer lane, inner lane, track lane]
+  merry_go_round:
+    group: circular_motion
+    terms: [merry-go-round, merry go round, carousel, roundabout, spinning ride]
+  clock:
+    group: circular_motion
+    terms: [clock hand, hands of a clock, clock]
+  bicycle_wheel:
+    group: circular_motion
+    terms: [bicycle wheel, bike wheel, wheel spoke, spokes]
+  spider_web:
+    group: web
+    terms: [spider web, spiderweb, cobweb]
+  neighbors:
+    group: averaging
+    terms: [neighbor, neighbour, next-door friend]
+  terrain:
+    group: terrain
+    terms: [bowl, hill, valley, playground slide]

@@ -1,0 +1,10 @@
+numpy>=1.24
+sympy>=1.12
+pandas>=2.0
+pyarrow>=14      # features.parquet
+pyyaml>=6
+pytest>=7
+# 任意: Layer 3 の judge を Anthropic API で動かす場合
+# anthropic>=1.0
+# 任意: 意味的多様性に文埋め込みを使う場合
+# sentence-transformers

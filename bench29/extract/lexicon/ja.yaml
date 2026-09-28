@@ -1,0 +1,73 @@
+# 比喩カテゴリ辞書（日本語）
+#
+# category: 集計の最小単位。distrib では既定でこの粒度を使う。
+# group:    粗い粒度。pizza と cake を「円形食品」でまとめて見たいときは level="group" で集計する。
+#           （未決事項: どちらを正本にするかは黒パグ判断。両方の粒度で出せるようにしてある）
+#
+# terms は部分一致。重なった場合は長い語を優先する（「パンケーキ」は cake ではなく pancake）。
+# 辞書を変えたら version を上げること。features.parquet に記録され、比較は同一 version 内でのみ行う。
+version: "2026.09.28"
+categories:
+  pizza:
+    group: round_food
+    terms: [ピザ, ピッツァ]
+  cake:
+    group: round_food
+    terms: [ケーキ, ホールケーキ, ショートケーキ]
+  pancake:
+    group: round_food
+    terms: [パンケーキ, ホットケーキ]
+  donut:
+    group: round_food
+    terms: [ドーナツ, ドーナッツ]
+  baumkuchen:
+    group: round_food
+    terms: [バウムクーヘン]
+  trampoline:
+    group: elastic_surface
+    terms: [トランポリン]
+  drumhead:
+    group: elastic_surface
+    terms: [太鼓の皮, 太鼓, ドラムの膜]
+  rubber_sheet:
+    group: elastic_surface
+    terms: [ゴム膜, ゴムの膜, ゴムシート, 風船の膜]
+  tree_rings:
+    group: concentric
+    terms: [年輪, 木の輪切り, 切り株]
+  ripple:
+    group: concentric
+    terms: [波紋, 水面の輪, 池に石, 水たまりに石, 石を投げ]
+  onion:
+    group: concentric
+    terms: [玉ねぎ, タマネギ]
+  dartboard:
+    group: concentric
+    terms: [ダーツの的, ダーツ, 的当て]
+  soap_bubble:
+    group: concentric
+    terms: [しゃぼん玉, シャボン玉]
+  rings:
+    group: concentric
+    terms: [輪っか, リング, フラフープ]
+  running_track:
+    group: circular_motion
+    terms: [陸上トラック, 陸上のトラック, 校庭のトラック, 運動場のトラック, トラックを走, 外側のレーン, 内側のレーン, 運動会]
+  merry_go_round:
+    group: circular_motion
+    terms: [メリーゴーランド, 回転木馬, コーヒーカップ, 回転遊具]
+  clock:
+    group: circular_motion
+    terms: [時計の針, 長い針, 短い針]
+  bicycle_wheel:
+    group: circular_motion
+    terms: [自転車の車輪, 車輪, スポーク]
+  spider_web:
+    group: web
+    terms: [クモの巣, 蜘蛛の巣, くもの巣]
+  neighbors:
+    group: averaging
+    terms: [ご近所, お隣さん, となりの人, 隣の友だち, 隣のお友だち]
+  terrain:
+    group: terrain
+    terms: [お椀, おわん, くぼみ, 山と谷, 丘, すべり台, 坂道]
