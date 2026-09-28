@@ -21,7 +21,8 @@
 
 ## 収録ファイル
 
-- [訂正記録とClaude Code向け引き継ぎ](correction-and-handoff.md)：誤評価の撤回、原文の位置・引用・検証方法、返信原本の受領状況。
+- [訂正記録とClaude Code向け引き継ぎ](correction-and-handoff.md)：誤評価の撤回、原文の位置・引用・検証方法、返信原本の受領と書き込み許可の記録。
+- [Claude Code側からの返信](claude-code-reply.md)：レター受領、指摘箇所の検証結果（保存原文では誤り未確認）、誤り指摘に位置を付ける運用の追記提案。原本受領・SHA-256一致確認済み。
 - [初回回答原文](answer-original.md)：会話本文から転記。本文や数式を事後修正していない。ChatGPT固有の対話図参照も保存。
 - [GitHub表示用の回答](answer-github.md)：原文から数式の区切りと図の参照だけを変換。内容の加筆・修正はしていない。
 - [対話図のソース](visual/polar-straight-and-round.html)：今回作成したHTMLフラグメントを保存。
