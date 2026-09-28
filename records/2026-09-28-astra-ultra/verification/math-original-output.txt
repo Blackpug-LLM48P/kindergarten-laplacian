@@ -1,0 +1,11 @@
+At r=2, theta=0, step=0.001
+bowl r^2     Cartesian= 4.00000000; polar= 4.00000000; without extra= 2.00000000; terms=(2.0, 2.0, 0.0)
+plane x      Cartesian= 0.00000000; polar= 0.00000001; without extra=-0.49999999; terms=(0.0, 0.5, -0.49999999)
+saddle x*y   Cartesian= 0.00000000; polar= 0.00000000; without extra= 0.00000000; terms=(0.0, 0.0, 0.0)
+exp*cos      Cartesian=-0.07459123; polar=-0.07459121; without extra=-0.22377368; terms=(0.05967299, 0.14918247, -0.28344667)
+h=0.01: maximum polar-vs-analytic error over 16 cases = 2.352e-04
+h=0.001: maximum polar-vs-analytic error over 16 cases = 2.353e-06
+Geometry: outward displacement of straight tangent endpoints
+h=1: delta_r=0.2360679775, delta_r/h^2=0.2360679775; limit=1/(2r)=0.25
+h=0.1: delta_r=0.0024984395, delta_r/h^2=0.2498439450; limit=1/(2r)=0.25
+h=0.01: delta_r=0.0000249998, delta_r/h^2=0.2499984375; limit=1/(2r)=0.25
