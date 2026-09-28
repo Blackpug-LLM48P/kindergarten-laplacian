@@ -24,6 +24,7 @@
 - [対話図のソース](visual/polar-straight-and-round.html)：今回作成したHTMLフラグメントを保存。
 - [操作・検証記録](execution-record.md)：成功・失敗と、保存時の再実行を区別。
 - [独立レビュー](review.md)：導出案の確認範囲を明示。最終成果物全体の認証ではない。
+- [Claude Code側への共有レター](letter-to-claude-code.md)：29文字ベンチマークの観察目的、今回の暫定評価、恒等式の局所誤り、再現運用を共有。
 - [Python検算スクリプト](verification/check_math.py)と[初回の標準出力](verification/math-original-output.txt)。
 - [SHA-256一覧](manifest-sha256.txt)：この記録フォルダ内のファイルの整合性確認用。
 
