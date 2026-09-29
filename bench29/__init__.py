@@ -14,4 +14,4 @@
 __version__ = "0.1.0"
 
 # 特徴量の定義が変わったら上げる。features / profiles に必ず記録する。
-FEATURE_VERSION = "l1-2026.09.28"
+FEATURE_VERSION = "l1-2026.09.29"

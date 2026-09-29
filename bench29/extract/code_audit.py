@@ -61,7 +61,9 @@ def _polar_formula_literal(code: str) -> bool:
                 and _OVER_R2.search(line_group) and (_DIFF_R.search(line_group) or _OVER_R.search(line_group)):
             return True
     # 有限差分版: (f(r, t+dt) - 2f + f(r, t-dt)) / (r*r*dt*dt) のような角度 2 階差分
-    return bool(re.search(r"t\s*[+-]\s*d\w*\)[^\n]*/\s*\(?\s*r\s*\*\s*r|\(\s*r\s*\*\*\s*2\s*\*\s*d\w+\s*\*\*\s*2", code))
+    angle_step = re.search(r"(?:\bt|\bth|theta|phi)\s*[+-]\s*\w+\s*\)", code)
+    over_r2 = re.search(r"/\s*\(\s*r\s*\*\s*r\b|/\s*\(?\s*r\s*\*\*\s*2\s*\*", code)
+    return bool(angle_step and over_r2)
 
 
 def _logical_lines(code: str) -> list[str]:

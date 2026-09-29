@@ -14,7 +14,7 @@ from .metaphor import Lexicon, load_lexicon, metaphor_features
 from .structure import structure_features
 from .textspans import segment
 
-ID_COLUMNS = ("trial_id", "model", "model_version", "surface", "lang", "timestamp", "tokens_out")
+ID_COLUMNS = ("trial_id", "model", "model_version", "version_source", "surface", "lang", "timestamp", "tokens_out")
 
 
 def extract_features(trial: Trial, lexicon: Lexicon | None = None) -> dict[str, Any]:
@@ -30,6 +30,7 @@ def extract_features(trial: Trial, lexicon: Lexicon | None = None) -> dict[str, 
     row: dict[str, Any] = {k: getattr(trial, k) for k in ID_COLUMNS}
     row["params"] = json.dumps(trial.params, ensure_ascii=False, sort_keys=True)
     row["feature_version"] = FEATURE_VERSION
+    row["n_inferred_spans"] = sum(1 for s in spans if s.inferred)
 
     row.update({k: v for k, v in asdict(struct).items()})
     row["section_tags"] = json.dumps(struct.section_tags)

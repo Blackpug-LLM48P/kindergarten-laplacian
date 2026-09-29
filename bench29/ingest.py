@@ -4,8 +4,8 @@
   - JSONL / CSV: schema.Trial のフィールド名をそのまま列に持つもの（余分な列は meta へ）
   - records/: このリポジトリの記録フォルダ（answer-original.md、または README.md の「## 回答原文」以降）
 
-records/ の記録はモデル名・バージョンが未確認のものが多い。取り込み時は model_version に
-"unverified:<フォルダ名>" を入れ、未確認であることを値そのものに残す。
+records/ の記録はモデル名・バージョンを独立に確認できていない。画面表示は "ui:<表示>"、ユーザー申告は
+"user:<申告>"、手がかりがなければ "unverified:<フォルダ名>" を model_version に入れ、出どころを version_source に残す。
 """
 
 from __future__ import annotations
@@ -17,11 +17,13 @@ from pathlib import Path
 
 from .schema import Trial, make_trial_id
 
-# records/ フォルダ名 → (model, surface)。確認できた範囲だけを書く。
+# records/ フォルダ名 → (model, model_version, version_source)。確認できた範囲だけを書く。
+# チャット画面ではバージョン文字列を取れないため、画面表示やユーザー申告をそのまま入れ、出どころを version_source に残す。
 RECORD_META = {
-    "2026-09-05-astra-max": ("gpt-astra-max", "chat"),
-    "2026-09-16-fugu": ("fugu", "chat"),
-    "2026-09-28-astra-ultra": ("gpt-astra-ultra", "chat"),
+    "2026-09-05-astra-max": ("gpt-astra-max", "user:アストラ・最大", "user_report"),
+    "2026-09-16-fugu": ("fugu", None, "unknown"),
+    "2026-09-28-astra-ultra": ("gpt-astra-ultra", "user:アストラウルトラ", "user_report"),
+    "2026-09-29-sol-ultra": ("chatgpt-6.1-sol", "ui:6.1 Sol ウルトラ", "ui_label"),
 }
 
 
@@ -77,8 +79,9 @@ def from_records(records_dir: str | Path) -> list[Trial]:
         text = _record_answer(folder)
         if text is None:
             continue
-        model, surface = RECORD_META.get(folder.name, (folder.name, "chat"))
-        version = f"unverified:{folder.name}"
+        model, version, source = RECORD_META.get(folder.name, (folder.name, None, "unknown"))
+        version = version or f"unverified:{folder.name}"
+        surface = "chat"
         trials.append(Trial(
             trial_id=make_trial_id(model, version, "ja", surface, text),
             model=model,
@@ -87,6 +90,7 @@ def from_records(records_dir: str | Path) -> list[Trial]:
             lang="ja",
             response_text=text,
             timestamp=folder.name[:10],
+            version_source=source,
             meta={"source": str(folder), "note": "records/ から取り込み。統制試行ではない"},
         ))
     return trials

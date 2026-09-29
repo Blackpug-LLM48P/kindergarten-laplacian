@@ -41,11 +41,18 @@ python -m pytest tests
  "response_text": "...", "code_blocks": null, "exec_log": null, "tokens_out": 1834}
 ```
 
-`model_version` は必須（空だとエラー）。`code_blocks` を省くと本文のフェンスから抽出する（```math は除外）。
-`records/` からの取り込みはモデル版が未確認なので `model_version = "unverified:<フォルダ名>"` になる。
+`model_version` は必須（空だとエラー）。`code_blocks` を省くと本文から抽出する（```math は除外、フェンスのない Python も推定して拾う）。
+
+チャット画面ではバージョン文字列を取れないので、`version_source` で `model_version` の出どころを区別する:
+`api`（API の応答に含まれる版）/ `ui_label`（画面のモデル表示、例 `"ui:6.1 Sol ウルトラ"`）/ `user_report`（ユーザー申告）/ `unknown`。
+表示ラベルが同じでも中身が入れ替わることはあり得るので、同一ラベルで日をずらして回し、分布の JSD の跳ねで検出する。
+`records/` からの取り込みは `ingest.RECORD_META` の設定を使い、手がかりがなければ `"unverified:<フォルダ名>"` になる。
 
 ## Layer 1 の要点
 
+- **textspans.py**：本文を散文・数式・コードに分ける。アプリからコピーした本文は `$$` や ``` が消えていることがあるため、
+  区切りのない LaTeX 段落（`\text{}` の外に日本語がなく制御語を含む）とフェンスのない Python 段落も推定して拾い、
+  推定した区間数を `n_inferred_spans` に記録する。
 - **formula.py**：数式区間（`$$`, `\[ \]`, `\( \)`, `$ $`, ```math、平文の `∇²f = f_rr + …`）から候補式を拾い、
   自前の再帰下降パーサで SymPy 式にしてから、導関数値と座標に乱数を入れて標準形と数値照合する。
   `\frac{\partial^2 f}{\partial r^2}`、`\partial_r`、`f_{rr}`、`∂²f/∂θ²`、作用素形の `∇² = …`、`(1/r)∂_r(r∂_r f)`、

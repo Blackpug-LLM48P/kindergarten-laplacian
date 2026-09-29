@@ -15,6 +15,8 @@ from .textspans import Span, prose_text, segment
 SECTION_TAGS = ("intro", "metaphor", "derivation", "code", "verification", "caveat", "summary", "question", "other")
 
 _HEADING = re.compile(r"^(#{1,6})\s+\S|^\*\*[^*\n]{1,60}\*\*\s*$|^[0-9０-９]+[.)．]\s*\*\*", re.M)
+# 区切り線（コピーで Markdown の --- が ⸻ になることがある）もセクション境界にする
+_RULE = re.compile(r"^\s*(?:-{3,}|\*{3,}|_{3,}|⸻+|—{2,})\s*$", re.M)
 _STEP = re.compile(
     r"^\s*(?:#{1,6}\s*)?(?:\*\*)?\s*(?:ステップ|手順|Step|STEP|step)\s*[0-9０-９①-⑩]+"
     r"|^\s*(?:#{1,6}\s*)?(?:\*\*)?\s*[0-9０-９]+[.)．]\s+\S"
@@ -56,7 +58,7 @@ class StructureFeatures:
 
 def _sections(text: str) -> list[tuple[int, int, str]]:
     """見出し位置で本文を区切る。見出しがなければ全体を 1 区間とする（前置き部も 1 区間）。"""
-    starts = [m.start() for m in _HEADING.finditer(text)]
+    starts = sorted({m.start() for m in _HEADING.finditer(text)} | {m.end() for m in _RULE.finditer(text)})
     if not starts or starts[0] != 0:
         starts = [0] + starts
     bounds = starts + [len(text)]
@@ -80,16 +82,19 @@ def _tag_section(sec_text: str, spans_in: list[Span], metaphor_hits: int, is_fir
         return "metaphor"
     if math_chars / total >= 0.25 or re.search(_KEYWORDS["derivation"], sec_text, re.I):
         return "derivation"
+    # 末尾が読者への問いかけで終わる節は、「確認」等の語を含んでも question
+    if re.search(_KEYWORDS["question"], sec_text.strip(), re.I):
+        return "question"
     if re.search(_KEYWORDS["verification"], sec_text, re.I):
         return "verification"
-    if re.search(_KEYWORDS["question"], sec_text.strip(), re.I | re.M):
-        return "question"
     if is_first:
         return "intro"
     return "other"
 
 
 def _is_block(text: str, s: Span) -> bool:
+    if s.inferred:
+        return True
     head = text[s.start : s.start + 6].lstrip()
     return head.startswith(("$$", "\\[", "\\begin", "```", "~~~"))
 

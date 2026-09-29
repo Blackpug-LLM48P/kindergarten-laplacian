@@ -8,15 +8,14 @@ from __future__ import annotations
 
 import hashlib
 import json
-import re
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Iterable, Iterator
 
 SURFACES = ("api", "chat", "agent")
+# model_version の出どころ。チャット画面ではバージョン文字列を取れず、表示ラベルを信じるしかない
+VERSION_SOURCES = ("api", "ui_label", "user_report", "unknown")
 LANGS = ("ja", "en")
-
-_FENCE_RE = re.compile(r"^[ \t]*(`{3,}|~{3,})([^\n`]*)\n(.*?)^[ \t]*\1[ \t]*$", re.M | re.S)
 
 
 @dataclass
@@ -40,6 +39,7 @@ class Trial:
     code_blocks: list[CodeBlock] | None = None
     exec_log: str | None = None
     tokens_out: int | None = None
+    version_source: str = "unknown"
     # 由来・注記など自由記述（集計には使わない）
     meta: dict[str, Any] = field(default_factory=dict)
 
@@ -48,6 +48,8 @@ class Trial:
             raise ValueError(f"{self.trial_id}: surface must be one of {SURFACES}, got {self.surface!r}")
         if self.lang not in LANGS:
             raise ValueError(f"{self.trial_id}: lang must be one of {LANGS}, got {self.lang!r}")
+        if self.version_source not in VERSION_SOURCES:
+            raise ValueError(f"{self.trial_id}: version_source must be one of {VERSION_SOURCES}, got {self.version_source!r}")
         if not self.model_version:
             raise ValueError(f"{self.trial_id}: model_version is required (use the exact version string)")
         if self.code_blocks is None:
@@ -69,14 +71,11 @@ class Trial:
 
 
 def extract_code_blocks(text: str) -> list[CodeBlock]:
-    """Markdown のフェンス付きコードブロックを抽出する。```math は数式なので除く。"""
-    blocks = []
-    for m in _FENCE_RE.finditer(text):
-        lang = m.group(2).strip().split()[0].lower() if m.group(2).strip() else ""
-        if lang in ("math", "latex", "tex"):
-            continue
-        blocks.append(CodeBlock(language=lang, code=m.group(3), offset=m.start()))
-    return blocks
+    """本文からコードブロックを抽出する。```math は数式なので除く。
+    フェンスが失われた Python（アプリからのコピー）も textspans の推定で拾う。"""
+    from .extract.textspans import segment  # 循環 import を避けるため遅延
+
+    return [CodeBlock(language=s.lang, code=s.text, offset=s.start) for s in segment(text) if s.kind == "code"]
 
 
 def make_trial_id(model: str, model_version: str, lang: str, surface: str, response_text: str) -> str:

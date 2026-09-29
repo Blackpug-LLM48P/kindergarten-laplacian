@@ -114,7 +114,7 @@ def test_code_blocks_skip_math_fences():
 
 def test_records_end_to_end():
     trials = from_records(ROOT / "records")
-    assert {t.model for t in trials} == {"gpt-astra-max", "fugu", "gpt-astra-ultra"}
+    assert {t.model for t in trials} == {"gpt-astra-max", "fugu", "gpt-astra-ultra", "chatgpt-6.1-sol"}
     rows = {t.model: extract_features(t) for t in trials}
     # 3 件とも最終式は正しい（fugu の評価記録「完成式は正しい」、astra-ultra の訂正記録と一致すること）
     for model, row in rows.items():
@@ -122,6 +122,44 @@ def test_records_end_to_end():
     assert rows["fugu"]["formula_position"] == "head"  # 冒頭でゴールを提示している
     assert rows["fugu"]["metaphor_primary"] == "neighbors"
     assert rows["gpt-astra-max"]["metaphor_primary_group"] == "round_food"
+    assert rows["fugu"]["section_tags"].endswith('"question"]')  # 末尾は読者への問いかけ
+    # アプリからのコピーで $$ と ``` が消えた本文でも、式・コード・主比喩を拾えること
+    sol = rows["chatgpt-6.1-sol"]
+    assert sol["model_version"] == "ui:6.1 Sol ウルトラ" and sol["version_source"] == "ui_label"
+    assert sol["n_inferred_spans"] > 0 and sol["n_code_blocks"] == 1
+    assert sol["metaphor_primary"] == "sandbox" and sol["verification_type"] == "numeric"
+    # 示されたコードは極座標の差分式を既知の値 4 と比べるだけで、直交座標側の計算を持たない
+    assert sol["circular_verification_candidate"]
+
+
+def test_unfenced_latex_and_python_are_inferred():
+    from bench29.extract.textspans import segment
+
+    text = (
+        "説明です。角度を \\theta と呼びます。\n\n"
+        "\\frac{\\partial^2 f}{\\partial r^2}\n+\n\\frac1r f_r\n\n"
+        "\\text{距離}=r\\times\\text{角度}.\n\n"
+        "def f(x):\n    return x  # 戻り値\nprint(f(1))\n\n"
+        "The Laplacian uses \\nabla in the usual textbook way.\n"
+    )
+    kinds = [(s.kind, s.inferred) for s in segment(text) if s.inferred]
+    assert kinds == [("math", True), ("math", True), ("code", True)]
+    assert [b.language for b in extract_code_blocks(text)] == ["python"]
+
+
+def test_aligned_environment_is_math():
+    from bench29.extract.textspans import segment
+
+    text = "前\n\\begin{aligned}a&=b\\\\c&=d\\end{aligned}\n後"
+    assert [s.kind for s in segment(text)] == ["prose", "math", "prose"]
+
+
+def test_version_source_validation():
+    import pytest
+
+    assert Trial("t", "m", "ui:x", "chat", "ja", "x", version_source="ui_label").version_source == "ui_label"
+    with pytest.raises(ValueError):
+        Trial("t", "m", "v", "chat", "ja", "x", version_source="screen")
 
 
 def test_trial_validation():

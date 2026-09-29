@@ -6,7 +6,7 @@
 #
 # terms は部分一致。重なった場合は長い語を優先する（「パンケーキ」は cake ではなく pancake）。
 # 辞書を変えたら version を上げること。features.parquet に記録され、比較は同一 version 内でのみ行う。
-version: "2026.09.28"
+version: "2026.09.29"
 categories:
   pizza:
     group: round_food
@@ -68,6 +68,9 @@ categories:
   neighbors:
     group: averaging
     terms: [ご近所, お隣さん, となりの人, 隣の友だち, 隣のお友だち]
+  sandbox:
+    group: terrain
+    terms: [砂場, 砂遊び, 砂山]
   terrain:
     group: terrain
     terms: [お椀, おわん, くぼみ, 山と谷, 丘, すべり台, 坂道]

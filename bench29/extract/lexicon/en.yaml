@@ -1,6 +1,6 @@
 # Metaphor category lexicon (English). See ja.yaml for the conventions.
 # Terms are matched case-insensitively on word boundaries; a trailing plural "s"/"es" is allowed.
-version: "2026.09.28"
+version: "2026.09.29"
 categories:
   pizza:
     group: round_food
@@ -62,6 +62,9 @@ categories:
   neighbors:
     group: averaging
     terms: [neighbor, neighbour, next-door friend]
+  sandbox:
+    group: terrain
+    terms: [sandbox, sandpit, sand pile]
   terrain:
     group: terrain
     terms: [bowl, hill, valley, playground slide]
