@@ -1,0 +1,3757 @@
+{
+  "kind": "LLM rehearsal descriptive reference values",
+  "primary_rows": [
+    {
+      "input_id": "Q005",
+      "condition": "B2",
+      "group": "W02",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 4,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 2,
+          "denominator": 4,
+          "rate": 0.5
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 2,
+          "denominator": 4,
+          "rate": 0.5
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 4,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 10,
+        "doubtful": 2,
+        "duplicates_excluded": 1,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "has_UNSUP": {
+            "n": 1,
+            "denominator": 2,
+            "rate": 0.5
+          },
+          "mixed": {
+            "n": 1,
+            "denominator": 2,
+            "rate": 0.5
+          },
+          "branch": {
+            "n": 1,
+            "denominator": 2,
+            "rate": 0.5
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 22,
+          "P_UNSUP": 1,
+          "P_SUP": 2,
+          "P_SPLIT": 2,
+          "U_SUP": 3
+        },
+        "claims_total": 30
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 4,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "B2（規約・項目IDを用いない自由記述型の文章評価。箇条と段落による講評）",
+        "confidence": "mid",
+        "basis": "項目ID・スコア・台帳・規約名がなく、機能所見の箇条と問題・判断不能の段落から成る一般的な講評形式。O2が明示的にv5形式であるため対の残りと推測。"
+      }
+    },
+    {
+      "input_id": "Q005",
+      "condition": "v5",
+      "group": "W02",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 4,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 3,
+          "denominator": 4,
+          "rate": 0.75
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 4,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 12,
+        "doubtful": 0,
+        "duplicates_excluded": 3,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 18,
+          "K_SPLIT": 1,
+          "U_SUP": 3
+        },
+        "claims_total": 22
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 4,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "v5（AI鑑識 v5.0.0-rc.3 簡易モード、29項目台帳付き）",
+        "confidence": "high",
+        "basis": "冒頭に『AI鑑識 v5.0.0-rc.3』『出力モード：簡易』、文章疑義スコア、P/K/U/X集計、項目ID付き所見F01〜F03、初回29項目台帳を備える。"
+      }
+    },
+    {
+      "input_id": "Q007",
+      "condition": "v5",
+      "group": "W12",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 2,
+        "RF": 0,
+        "DET": {
+          "n": 1,
+          "denominator": 2,
+          "rate": 0.5
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "HOLD": {
+          "n": 1,
+          "denominator": 2,
+          "rate": 0.5
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FUN": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "parents": {
+        "total": 3,
+        "doubtful": 2,
+        "duplicates_excluded": 4,
+        "flags": {
+          "pure_SUP": {
+            "n": 2,
+            "denominator": 2,
+            "rate": 1.0
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "P_SUP": 4,
+          "U_SUP": 4,
+          "K_SUP": 4
+        },
+        "claims_total": 12
+      },
+      "hold_quality": {
+        "denominator": 1,
+        "counts": {
+          "relation_and_quotes": 1,
+          "specific_material": 1,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": 1.0,
+          "specific_material": 1.0,
+          "decision_branch": 0.0,
+          "all_three": 0.0
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 2,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "AI鑑識 v5.0.0-rc.3 形式（29項目台帳・文章疑義スコア・所見ID付き鑑識報告、簡易モード）の条件（v5系と推測）",
+        "confidence": "high",
+        "basis": "O1.md冒頭の自己呼称『AI鑑識 v5.0.0-rc.3』、文章疑義スコア・評価済み率・欠測幅、v4.3 P1互換の書式痕観測欄、29項目台帳ファイル（O1_ledger.md）の付属。"
+      }
+    },
+    {
+      "input_id": "Q007",
+      "condition": "B2",
+      "group": "W12",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 2,
+        "RF": 0,
+        "DET": {
+          "n": 2,
+          "denominator": 2,
+          "rate": 1.0
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FUN": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "parents": {
+        "total": 11,
+        "doubtful": 3,
+        "duplicates_excluded": 0,
+        "flags": {
+          "pure_SUP": {
+            "n": 3,
+            "denominator": 3,
+            "rate": 1.0
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "P_SUP": 7,
+          "U_SUP": 9,
+          "K_SUP": 10
+        },
+        "claims_total": 26
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 2,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "台帳・スコア・項目IDを持たない平文の関係レビュー（問題／機能／判断不能の3区分）。v5鑑識形式ではない比較条件（B2系と推測）",
+        "confidence": "mid",
+        "basis": "自己呼称・29項目台帳・スコアがなく、『問題がある箇所』『機能している箇所』『本文だけでは判断できない関係』の見出しで散文の所見を並べる形式。O1との形式差から推測。"
+      }
+    },
+    {
+      "input_id": "Q008",
+      "condition": "v5",
+      "group": "W01",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 5,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 4,
+          "denominator": 5,
+          "rate": 0.8
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 5,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 1,
+          "denominator": 5,
+          "rate": 0.2
+        },
+        "FMISS": {
+          "n": 1,
+          "denominator": 5,
+          "rate": 0.2
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 5,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 24,
+        "doubtful": 0,
+        "duplicates_excluded": 11,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 33,
+          "U_SUP": 2
+        },
+        "claims_total": 35
+      },
+      "hold_quality": {
+        "denominator": 1,
+        "counts": {
+          "relation_and_quotes": 1,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": 1.0,
+          "specific_material": 0.0,
+          "decision_branch": 0.0,
+          "all_three": 0.0
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 1,
+        "relation_denominator": 5,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 1,
+        "relations": [
+          {
+            "ref_id": "Q008-R5",
+            "events": [
+              "FUN",
+              "FHOLD"
+            ]
+          }
+        ]
+      },
+      "condition_guess": {
+        "guess": "v5（AI鑑識 v5.0.0-rc.3 簡易モード出力＋29項目初回台帳）",
+        "confidence": "high",
+        "basis": "自己呼称『AI鑑識 v5.0.0-rc.3』、P/K/U/X集計表、項目ID（S/C/R/E）、29項目台帳ファイル、書式痕観測（v4.3 P1互換）。"
+      }
+    },
+    {
+      "input_id": "Q008",
+      "condition": "B2",
+      "group": "W01",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 5,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 4,
+          "denominator": 5,
+          "rate": 0.8
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 5,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 5,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 1,
+          "denominator": 5,
+          "rate": 0.2
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 5,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 16,
+        "doubtful": 4,
+        "duplicates_excluded": 0,
+        "flags": {
+          "pure_SUP": {
+            "n": 3,
+            "denominator": 4,
+            "rate": 0.75
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 4,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 4,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 1,
+            "denominator": 4,
+            "rate": 0.25
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 4,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 28,
+          "K_UNSUP": 1,
+          "P_SUP": 7,
+          "U_SUP": 5,
+          "K_SPLIT": 1
+        },
+        "claims_total": 42
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 5,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "B2（鑑識フレームを用いない自由記述の関係分析：機能／問題／判断不能の3区分）",
+        "confidence": "mid",
+        "basis": "項目ID・スコア・台帳がなく、自然文の見出し3区分と箇条書き。v5鑑識書式の痕跡がない。B2の具体的形式は未読のため確信はmid。"
+      }
+    },
+    {
+      "input_id": "Q010",
+      "condition": "B2",
+      "group": "W10",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 3,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 1,
+          "denominator": 3,
+          "rate": 0.3333333333333333
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 15,
+        "doubtful": 7,
+        "duplicates_excluded": 1,
+        "flags": {
+          "pure_SUP": {
+            "n": 1,
+            "denominator": 7,
+            "rate": 0.14285714285714285
+          },
+          "has_UNSUP": {
+            "n": 2,
+            "denominator": 7,
+            "rate": 0.2857142857142857
+          },
+          "mixed": {
+            "n": 2,
+            "denominator": 7,
+            "rate": 0.2857142857142857
+          },
+          "branch": {
+            "n": 5,
+            "denominator": 7,
+            "rate": 0.7142857142857143
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 7,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 15,
+          "U_SUP": 6,
+          "P_SPLIT": 8,
+          "P_SUP": 14,
+          "P_UNSUP": 2
+        },
+        "claims_total": 45
+      },
+      "hold_quality": {
+        "denominator": 1,
+        "counts": {
+          "relation_and_quotes": 1,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": 1.0,
+          "specific_material": 0.0,
+          "decision_branch": 0.0,
+          "all_three": 0.0
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 1,
+        "relation_denominator": 3,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 1,
+        "relations": [
+          {
+            "ref_id": "Q010-R1",
+            "events": [
+              "FUN",
+              "FHOLD"
+            ]
+          }
+        ]
+      },
+      "condition_guess": {
+        "guess": "B2相当のベースライン（AI鑑識の項目ID・台帳・スコアを持たない自由記述の機能／問題／判断不能の三区分評価）",
+        "confidence": "mid",
+        "basis": "項目ID・疑義スコア・29項目台帳がなく、見出しで機能・問題・本文だけでは判断できない関係を分けた散文。"
+      }
+    },
+    {
+      "input_id": "Q010",
+      "condition": "v5",
+      "group": "W10",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 3,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 3,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 16,
+        "doubtful": 0,
+        "duplicates_excluded": 5,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 20,
+          "U_SUP": 6
+        },
+        "claims_total": 26
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 3,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "v5（AI鑑識 v5.0.0-rc.3、簡易モード、29項目台帳付き）",
+        "confidence": "high",
+        "basis": "冒頭の自己呼称「AI鑑識 v5.0.0-rc.3」「出力モード：簡易」、文章疑義スコア、P/K/U/X集計、29項目台帳ファイル。"
+      }
+    },
+    {
+      "input_id": "Q012",
+      "condition": "v5",
+      "group": "W10",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 1,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 8,
+        "doubtful": 0,
+        "duplicates_excluded": 3,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 14,
+          "U_SUP": 5,
+          "U_SPLIT": 1
+        },
+        "claims_total": 20
+      },
+      "hold_quality": {
+        "denominator": 1,
+        "counts": {
+          "relation_and_quotes": 1,
+          "specific_material": 1,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": 1.0,
+          "specific_material": 1.0,
+          "decision_branch": 0.0,
+          "all_three": 0.0
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 1,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "AI鑑識 v5.0.0-rc.3 規約に基づく構造化出力（簡易モード、29項目台帳付き）＝v5条件",
+        "confidence": "high",
+        "basis": "冒頭の『AI鑑識 v5.0.0-rc.3』表記、文章疑義スコア・P/K/U/X集計表、F番号所見、『初回29項目台帳』へのリンクと台帳ファイルの存在。"
+      }
+    },
+    {
+      "input_id": "Q012",
+      "condition": "B2",
+      "group": "W10",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 1,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 6,
+        "doubtful": 2,
+        "duplicates_excluded": 1,
+        "flags": {
+          "pure_SUP": {
+            "n": 2,
+            "denominator": 2,
+            "rate": 1.0
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 2,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 11,
+          "U_SUP": 4,
+          "P_SUP": 3
+        },
+        "claims_total": 18
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 1,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "規約・台帳・スコアを持たない自由記述の関係レビュー＝ベースライン（B2）条件と推測",
+        "confidence": "mid",
+        "basis": "版表記・項目ID・スコア・台帳がなく、機能/不足/判断不能の3見出しで本文引用を用いた自然文レビュー。"
+      }
+    },
+    {
+      "input_id": "Q013",
+      "condition": "v5",
+      "group": "W11",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 2,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 1,
+          "denominator": 2,
+          "rate": 0.5
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 1,
+          "denominator": 2,
+          "rate": 0.5
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 7,
+        "doubtful": 0,
+        "duplicates_excluded": 5,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 17,
+          "U_SUP": 7
+        },
+        "claims_total": 24
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 2,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "v5条件（AI鑑識 v5.0.0-rc.3 簡易モード、29項目台帳O1_ledger.md付き）",
+        "confidence": "high",
+        "basis": "見出し『AI鑑識 v5.0.0-rc.3』、29項目台帳、文章疑義スコア・評価済み率・欠測幅、R01書式痕観測欄、台帳ファイルの存在。"
+      }
+    },
+    {
+      "input_id": "Q013",
+      "condition": "B2",
+      "group": "W11",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 0,
+        "RF": 2,
+        "DET": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FUN": {
+          "n": 2,
+          "denominator": 2,
+          "rate": 1.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 2,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 14,
+        "doubtful": 3,
+        "duplicates_excluded": 0,
+        "flags": {
+          "pure_SUP": {
+            "n": 3,
+            "denominator": 3,
+            "rate": 1.0
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 23,
+          "P_SUP": 3,
+          "U_SUP": 7
+        },
+        "claims_total": 33
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 2,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "B2条件（規約・台帳・スコアを持たない自由記述のベースライン型出力）",
+        "confidence": "mid",
+        "basis": "『機能している関係／問題がある、または説明が不足している関係／判断できない関係』の3節箇条書きのみで、項目ID・台帳・スコア・規約名がない。台帳ファイルもない。"
+      }
+    },
+    {
+      "input_id": "Q017",
+      "condition": "B2",
+      "group": "W12",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 1,
+        "RF": 1,
+        "DET": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FUN": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 12,
+        "doubtful": 3,
+        "duplicates_excluded": 0,
+        "flags": {
+          "pure_SUP": {
+            "n": 1,
+            "denominator": 3,
+            "rate": 0.3333333333333333
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 2,
+            "denominator": 3,
+            "rate": 0.6666666666666666
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 3,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 15,
+          "U_SUP": 10,
+          "P_SPLIT": 3,
+          "P_SUP": 2
+        },
+        "claims_total": 30
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 2,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "B2/ベースライン型の自由記述出力（機能・問題・判断不能の3見出しの箇条、項目ID・台帳・スコアなし）",
+        "confidence": "mid",
+        "basis": "AI鑑識の版表示・項目台帳・スコア・F番号がなく、平易な3区分の箇条のみ。O2がv5形式と自己表示しているため対の他方と推測。"
+      }
+    },
+    {
+      "input_id": "Q017",
+      "condition": "v5",
+      "group": "W12",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 1,
+        "RF": 1,
+        "DET": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "HOLD": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FUN": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        }
+      },
+      "parents": {
+        "total": 8,
+        "doubtful": 0,
+        "duplicates_excluded": 1,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 14,
+          "U_SUP": 6,
+          "U_SPLIT": 1
+        },
+        "claims_total": 21
+      },
+      "hold_quality": {
+        "denominator": 1,
+        "counts": {
+          "relation_and_quotes": 1,
+          "specific_material": 1,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": 1.0,
+          "specific_material": 1.0,
+          "decision_branch": 0.0,
+          "all_three": 0.0
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 2,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "v5（AI鑑識 v5.0.0-rc.3、簡易出力モード＋29項目台帳付き）",
+        "confidence": "high",
+        "basis": "冒頭の『AI鑑識 v5.0.0-rc.3』『出力モード：簡易』、文章疑義スコア、S/C/R/E面集計、F番号所見、29項目台帳、v4.3 P1互換観測の自己表示。"
+      }
+    },
+    {
+      "input_id": "Q019",
+      "condition": "B2",
+      "group": "W12",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 1,
+        "RF": 0,
+        "DET": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "HOLD": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FUN": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "parents": {
+        "total": 11,
+        "doubtful": 4,
+        "duplicates_excluded": 0,
+        "flags": {
+          "pure_SUP": {
+            "n": 2,
+            "denominator": 4,
+            "rate": 0.5
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 4,
+            "rate": 0.0
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 4,
+            "rate": 0.0
+          },
+          "branch": {
+            "n": 2,
+            "denominator": 4,
+            "rate": 0.5
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 4,
+            "rate": 0.0
+          }
+        },
+        "claims": {
+          "K_SUP": 15,
+          "P_SUP": 6,
+          "U_SUP": 8,
+          "P_SPLIT": 3
+        },
+        "claims_total": 32
+      },
+      "hold_quality": {
+        "denominator": 0,
+        "counts": {
+          "relation_and_quotes": 0,
+          "specific_material": 0,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": null,
+          "specific_material": null,
+          "decision_branch": null,
+          "all_three": null
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 1,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "B2相当（項目ID・スコア・台帳を持たない自由記述型の比較条件。「機能している関係／問題がある関係／判断できない関係」の三分見出し）",
+        "confidence": "mid",
+        "basis": "規約名・版表示・29項目台帳・スコアがなく、関係を3区分で自然文記述している。O2がv5形式と明示するため対照側と推測。"
+      }
+    },
+    {
+      "input_id": "Q019",
+      "condition": "v5",
+      "group": "W12",
+      "acquisition_state": "complete",
+      "audit_complete": true,
+      "relations": {
+        "RP": 1,
+        "RF": 0,
+        "DET": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "PEND": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "HOLD": {
+          "n": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "MISS": {
+          "n": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "FUN": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FPEND": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FHOLD": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FMISS": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "FERR": {
+          "n": 0,
+          "denominator": 0,
+          "rate": null
+        }
+      },
+      "parents": {
+        "total": 14,
+        "doubtful": 0,
+        "duplicates_excluded": 5,
+        "flags": {
+          "pure_SUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "has_UNSUP": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "mixed": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "branch": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          },
+          "unresolved": {
+            "n": 0,
+            "denominator": 0,
+            "rate": null
+          }
+        },
+        "claims": {
+          "K_SUP": 19,
+          "U_SUP": 10
+        },
+        "claims_total": 29
+      },
+      "hold_quality": {
+        "denominator": 1,
+        "counts": {
+          "relation_and_quotes": 1,
+          "specific_material": 1,
+          "decision_branch": 0,
+          "all_three": 0
+        },
+        "rates": {
+          "relation_and_quotes": 1.0,
+          "specific_material": 1.0,
+          "decision_branch": 0.0,
+          "all_three": 0.0
+        },
+        "scope": "held correspondence to fixed accepted references only"
+      },
+      "coexistence": {
+        "any_multiple_events": 0,
+        "relation_denominator": 1,
+        "FUN_and_FERR": 0,
+        "recognition_and_hold": 0,
+        "relations": []
+      },
+      "condition_guess": {
+        "guess": "v5条件（「AI鑑識 v5.0.0-rc.3」簡易モード報告＋29項目台帳）",
+        "confidence": "high",
+        "basis": "冒頭の規約名・版表示、文章疑義スコア、S/C/R/E面集計、29項目台帳ファイル、v4.3 P1互換欄など形式から明白。"
+      }
+    }
+  ],
+  "coverage": {
+    "expected_outputs": 16,
+    "completed_output_keys": [
+      [
+        "Q005",
+        "B2"
+      ],
+      [
+        "Q005",
+        "v5"
+      ],
+      [
+        "Q007",
+        "B2"
+      ],
+      [
+        "Q007",
+        "v5"
+      ],
+      [
+        "Q008",
+        "B2"
+      ],
+      [
+        "Q008",
+        "v5"
+      ],
+      [
+        "Q010",
+        "B2"
+      ],
+      [
+        "Q010",
+        "v5"
+      ],
+      [
+        "Q012",
+        "B2"
+      ],
+      [
+        "Q012",
+        "v5"
+      ],
+      [
+        "Q013",
+        "B2"
+      ],
+      [
+        "Q013",
+        "v5"
+      ],
+      [
+        "Q017",
+        "B2"
+      ],
+      [
+        "Q017",
+        "v5"
+      ],
+      [
+        "Q019",
+        "B2"
+      ],
+      [
+        "Q019",
+        "v5"
+      ]
+    ],
+    "missing_output_keys": []
+  },
+  "paired_by_input": [
+    {
+      "input_id": "Q005",
+      "group": "W02",
+      "v5_minus_B2": {
+        "DET": null,
+        "PEND": null,
+        "HOLD": null,
+        "MISS": null,
+        "FUN": -0.25,
+        "FPEND": 0.0,
+        "FHOLD": 0.0,
+        "FMISS": 0.25,
+        "FERR": 0.0,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    },
+    {
+      "input_id": "Q008",
+      "group": "W01",
+      "v5_minus_B2": {
+        "DET": null,
+        "PEND": null,
+        "HOLD": null,
+        "MISS": null,
+        "FUN": 0.0,
+        "FPEND": 0.0,
+        "FHOLD": 0.2,
+        "FMISS": 0.0,
+        "FERR": 0.0,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    },
+    {
+      "input_id": "Q019",
+      "group": "W12",
+      "v5_minus_B2": {
+        "DET": -1.0,
+        "PEND": 0.0,
+        "HOLD": 1.0,
+        "MISS": 0.0,
+        "FUN": null,
+        "FPEND": null,
+        "FHOLD": null,
+        "FMISS": null,
+        "FERR": null,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    },
+    {
+      "input_id": "Q010",
+      "group": "W10",
+      "v5_minus_B2": {
+        "DET": null,
+        "PEND": null,
+        "HOLD": null,
+        "MISS": null,
+        "FUN": 0.0,
+        "FPEND": 0.0,
+        "FHOLD": -0.3333333333333333,
+        "FMISS": 0.0,
+        "FERR": 0.0,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    },
+    {
+      "input_id": "Q012",
+      "group": "W10",
+      "v5_minus_B2": {
+        "DET": null,
+        "PEND": null,
+        "HOLD": null,
+        "MISS": null,
+        "FUN": -1.0,
+        "FPEND": 0.0,
+        "FHOLD": 1.0,
+        "FMISS": 0.0,
+        "FERR": 0.0,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    },
+    {
+      "input_id": "Q013",
+      "group": "W11",
+      "v5_minus_B2": {
+        "DET": null,
+        "PEND": null,
+        "HOLD": null,
+        "MISS": null,
+        "FUN": -0.5,
+        "FPEND": 0.0,
+        "FHOLD": 0.0,
+        "FMISS": 0.5,
+        "FERR": 0.0,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    },
+    {
+      "input_id": "Q007",
+      "group": "W12",
+      "v5_minus_B2": {
+        "DET": -0.5,
+        "PEND": 0.0,
+        "HOLD": 0.5,
+        "MISS": 0.0,
+        "FUN": null,
+        "FPEND": null,
+        "FHOLD": null,
+        "FMISS": null,
+        "FERR": null,
+        "pure_SUP": 0.0,
+        "has_UNSUP": 0.0,
+        "mixed": 0.0,
+        "branch": 0.0,
+        "unresolved": 0.0
+      }
+    },
+    {
+      "input_id": "Q017",
+      "group": "W12",
+      "v5_minus_B2": {
+        "DET": -1.0,
+        "PEND": 0.0,
+        "HOLD": 1.0,
+        "MISS": 0.0,
+        "FUN": 0.0,
+        "FPEND": 0.0,
+        "FHOLD": 0.0,
+        "FMISS": 0.0,
+        "FERR": 0.0,
+        "pure_SUP": null,
+        "has_UNSUP": null,
+        "mixed": null,
+        "branch": null,
+        "unresolved": null
+      }
+    }
+  ],
+  "work_group_averages": [
+    {
+      "group": "W01",
+      "metrics": {
+        "DET": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "PEND": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "HOLD": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "MISS": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "FUN": {
+          "v5": {
+            "mean": 0.8,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.8,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FPEND": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FHOLD": {
+          "v5": {
+            "mean": 0.2,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.2,
+            "valid_Q": 1
+          }
+        },
+        "FMISS": {
+          "v5": {
+            "mean": 0.2,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.2,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FERR": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "pure_SUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.75,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "has_UNSUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "mixed": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "branch": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.25,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "unresolved": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        }
+      }
+    },
+    {
+      "group": "W02",
+      "metrics": {
+        "DET": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "PEND": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "HOLD": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "MISS": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "FUN": {
+          "v5": {
+            "mean": 0.25,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": -0.25,
+            "valid_Q": 1
+          }
+        },
+        "FPEND": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FHOLD": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FMISS": {
+          "v5": {
+            "mean": 0.75,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.25,
+            "valid_Q": 1
+          }
+        },
+        "FERR": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "pure_SUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "has_UNSUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "mixed": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "branch": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "unresolved": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        }
+      }
+    },
+    {
+      "group": "W10",
+      "metrics": {
+        "DET": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "PEND": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "HOLD": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "MISS": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "FUN": {
+          "v5": {
+            "mean": 0.5,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 1.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": -0.5,
+            "valid_Q": 2
+          }
+        },
+        "FPEND": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 2
+          }
+        },
+        "FHOLD": {
+          "v5": {
+            "mean": 0.5,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.16666666666666666,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.33333333333333337,
+            "valid_Q": 2
+          }
+        },
+        "FMISS": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 2
+          }
+        },
+        "FERR": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 2
+          }
+        },
+        "pure_SUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.5714285714285714,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "has_UNSUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.14285714285714285,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "mixed": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.14285714285714285,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "branch": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.35714285714285715,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "unresolved": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 2,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        }
+      }
+    },
+    {
+      "group": "W11",
+      "metrics": {
+        "DET": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "PEND": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "HOLD": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "MISS": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "FUN": {
+          "v5": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 1.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": -0.5,
+            "valid_Q": 1
+          }
+        },
+        "FPEND": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FHOLD": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FMISS": {
+          "v5": {
+            "mean": 0.5,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.5,
+            "valid_Q": 1
+          }
+        },
+        "FERR": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "pure_SUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 1.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "has_UNSUP": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "mixed": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "branch": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        },
+        "unresolved": {
+          "v5": {
+            "mean": null,
+            "valid_Q": 0,
+            "NA_Q": 1
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": null,
+            "valid_Q": 0
+          }
+        }
+      }
+    },
+    {
+      "group": "W12",
+      "metrics": {
+        "DET": {
+          "v5": {
+            "mean": 0.16666666666666666,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 1.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": -0.8333333333333334,
+            "valid_Q": 3
+          }
+        },
+        "PEND": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 3
+          }
+        },
+        "HOLD": {
+          "v5": {
+            "mean": 0.8333333333333334,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.8333333333333334,
+            "valid_Q": 3
+          }
+        },
+        "MISS": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 3
+          }
+        },
+        "FUN": {
+          "v5": {
+            "mean": 1.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 1.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FPEND": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FHOLD": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FMISS": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "FERR": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "pure_SUP": {
+          "v5": {
+            "mean": 1.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.6111111111111112,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "has_UNSUP": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "mixed": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "branch": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.3888888888888889,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        },
+        "unresolved": {
+          "v5": {
+            "mean": 0.0,
+            "valid_Q": 1,
+            "NA_Q": 2
+          },
+          "B2": {
+            "mean": 0.0,
+            "valid_Q": 3,
+            "NA_Q": 0
+          },
+          "paired_difference": {
+            "mean": 0.0,
+            "valid_Q": 1
+          }
+        }
+      }
+    }
+  ],
+  "group_equal_weight_overall": {
+    "DET": {
+      "v5": {
+        "mean": 0.16666666666666666,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 1.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "paired_difference": {
+        "mean": -0.8333333333333334,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "PEND": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "HOLD": {
+      "v5": {
+        "mean": 0.8333333333333334,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "paired_difference": {
+        "mean": 0.8333333333333334,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "MISS": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "FUN": {
+      "v5": {
+        "mean": 0.61,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "B2": {
+        "mean": 0.86,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": -0.25,
+        "valid_groups": 5,
+        "NA_groups": 0
+      }
+    },
+    "FPEND": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "B2": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      }
+    },
+    "FHOLD": {
+      "v5": {
+        "mean": 0.14,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "B2": {
+        "mean": 0.03333333333333333,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.10666666666666667,
+        "valid_groups": 5,
+        "NA_groups": 0
+      }
+    },
+    "FMISS": {
+      "v5": {
+        "mean": 0.29,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "B2": {
+        "mean": 0.14,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.15,
+        "valid_groups": 5,
+        "NA_groups": 0
+      }
+    },
+    "FERR": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "B2": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      }
+    },
+    "pure_SUP": {
+      "v5": {
+        "mean": 1.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.5865079365079365,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "has_UNSUP": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.12857142857142856,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "mixed": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.12857142857142856,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "branch": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.2992063492063492,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    },
+    "unresolved": {
+      "v5": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      },
+      "B2": {
+        "mean": 0.0,
+        "valid_groups": 5,
+        "NA_groups": 0
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "valid_groups": 1,
+        "NA_groups": 4
+      }
+    }
+  },
+  "pooled_alternative": {
+    "v5": {
+      "metric_order": "relation/parent equal-weight alternative, NOT work-group average",
+      "outputs": 8,
+      "RF": 16,
+      "RP": 4,
+      "DET": {
+        "n": 1,
+        "denominator": 4,
+        "rate": 0.25
+      },
+      "PEND": {
+        "n": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "HOLD": {
+        "n": 3,
+        "denominator": 4,
+        "rate": 0.75
+      },
+      "MISS": {
+        "n": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "FUN": {
+        "n": 10,
+        "denominator": 16,
+        "rate": 0.625
+      },
+      "FPEND": {
+        "n": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "FHOLD": {
+        "n": 2,
+        "denominator": 16,
+        "rate": 0.125
+      },
+      "FMISS": {
+        "n": 5,
+        "denominator": 16,
+        "rate": 0.3125
+      },
+      "FERR": {
+        "n": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "pure_SUP": {
+        "n": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "has_UNSUP": {
+        "n": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "mixed": {
+        "n": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "branch": {
+        "n": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "unresolved": {
+        "n": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "doubtful_parents": 2,
+      "zero_doubt_outputs": 7,
+      "any_UNSUP_outputs": 0
+    },
+    "B2": {
+      "metric_order": "relation/parent equal-weight alternative, NOT work-group average",
+      "outputs": 8,
+      "RF": 16,
+      "RP": 4,
+      "DET": {
+        "n": 4,
+        "denominator": 4,
+        "rate": 1.0
+      },
+      "PEND": {
+        "n": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "HOLD": {
+        "n": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "MISS": {
+        "n": 0,
+        "denominator": 4,
+        "rate": 0.0
+      },
+      "FUN": {
+        "n": 13,
+        "denominator": 16,
+        "rate": 0.8125
+      },
+      "FPEND": {
+        "n": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "FHOLD": {
+        "n": 1,
+        "denominator": 16,
+        "rate": 0.0625
+      },
+      "FMISS": {
+        "n": 3,
+        "denominator": 16,
+        "rate": 0.1875
+      },
+      "FERR": {
+        "n": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "pure_SUP": {
+        "n": 15,
+        "denominator": 28,
+        "rate": 0.5357142857142857
+      },
+      "has_UNSUP": {
+        "n": 3,
+        "denominator": 28,
+        "rate": 0.10714285714285714
+      },
+      "mixed": {
+        "n": 3,
+        "denominator": 28,
+        "rate": 0.10714285714285714
+      },
+      "branch": {
+        "n": 11,
+        "denominator": 28,
+        "rate": 0.39285714285714285
+      },
+      "unresolved": {
+        "n": 0,
+        "denominator": 28,
+        "rate": 0.0
+      },
+      "doubtful_parents": 28,
+      "zero_doubt_outputs": 0,
+      "any_UNSUP_outputs": 2
+    }
+  },
+  "primary_complete": true
+}

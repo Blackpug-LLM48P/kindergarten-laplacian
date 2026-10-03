@@ -151,3 +151,11 @@
 -                assert parent['claims']
 +                assert parent['claims'] or parent.get('duplicate_of')  # cc: 重複親のみ claims 空を許容（集計は重複親を除外）
 ```
+
+## 5. integrity_check.py（完全一致エラーの扱い）
+理由：書簡「完全一致エラーがあれば記録し、意味の裁定は書き換えない」。元スクリプトは validate_audits のエラーが1件でもあると停止する。今回2件（primary-Q008 O1-P22-C2：claim文が親spanの外〔同じ台帳行の別欄〕にある、primary-Q017 O1-P1-c2：source_quote に「の」を誤挿入）。どちらも監査者自身が quote_issues に訂正を記録済み。票は書き換えず、integrity_check は停止せずに final-integrity.json の recorded_exact_match_errors に列挙する。
+```diff
+-assert not [e for s in summaries for e in s['errors']]
++errors=[dict(e,file=s['file']) for s in summaries for e in s['errors']]  # cc: 完全一致エラーは停止せず記録（監査票は書き換えない）
++checks['recorded_exact_match_errors']=errors
+```

@@ -40,7 +40,8 @@ assert set(audit_completed)=={'primary-'+q+'.json' for q in plan['selected']}|{'
 for name,info in audit_completed.items(): assert digest(ROOT/'audits'/name)==info['sha256'],name
 assert len(summaries)==10
 for s in summaries: assert s['sha256']==digest(ROOT/s['file']),s['file']
-assert not [e for s in summaries for e in s['errors']]
+errors=[dict(e,file=s['file']) for s in summaries for e in s['errors']]  # cc: 完全一致エラーは停止せず記録（監査票は書き換えない）
+checks['recorded_exact_match_errors']=errors
 assert sum(len(s['outputs']) for s in summaries)==24
 assert all(o['audit_complete'] for s in summaries for o in s['outputs'])
 checks['validated_audit_files']=10

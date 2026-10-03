@@ -1,0 +1,278 @@
+[
+  {
+    "file": "audits/primary-Q005.json",
+    "sha256": "491c164bd73176f16b1d9a29a5616e4740cc626e051c0f438714348be4df533c",
+    "outputs": [
+      {
+        "input_id": "Q005",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 33,
+        "references": 4,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q005",
+        "alias": "O2",
+        "parents": 15,
+        "claims": 27,
+        "references": 4,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q007.json",
+    "sha256": "cd24551c7e1dc62aee8a495d5b1cf743b8b40b1668dae700a5dffa6cd15f1bee",
+    "outputs": [
+      {
+        "input_id": "Q007",
+        "alias": "O1",
+        "parents": 7,
+        "claims": 17,
+        "references": 2,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q007",
+        "alias": "O2",
+        "parents": 11,
+        "claims": 26,
+        "references": 2,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q008.json",
+    "sha256": "1374f09b4c389366445c8d9fef48ebc161b05e663999a32ad8dff11ca4cd9fa8",
+    "outputs": [
+      {
+        "input_id": "Q008",
+        "alias": "O1",
+        "parents": 35,
+        "claims": 47,
+        "references": 5,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q008",
+        "alias": "O2",
+        "parents": 16,
+        "claims": 42,
+        "references": 5,
+        "audit_complete": true
+      }
+    ],
+    "errors": [
+      {
+        "input": "Q008",
+        "output": "O1",
+        "claim_id": "O1-P22-C2",
+        "text": "ごんのその後の生死は明記されず、死亡を確定しない。"
+      }
+    ]
+  },
+  {
+    "file": "audits/primary-Q010.json",
+    "sha256": "ba31f8d23b16ffb1494144b738c4d5681c8e052d4a75c59ef70e65e4f0005dee",
+    "outputs": [
+      {
+        "input_id": "Q010",
+        "alias": "O1",
+        "parents": 16,
+        "claims": 47,
+        "references": 3,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q010",
+        "alias": "O2",
+        "parents": 21,
+        "claims": 32,
+        "references": 3,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q012.json",
+    "sha256": "339c24deed06a1a208f89deb86f0e7cde496e52bd86286d143c38c0b4f7e6025",
+    "outputs": [
+      {
+        "input_id": "Q012",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 24,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q012",
+        "alias": "O2",
+        "parents": 7,
+        "claims": 20,
+        "references": 1,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q013.json",
+    "sha256": "6df8ffafe9c963b17a0d27750d1a7db101a9d839b5f21407e46c122ae601c160",
+    "outputs": [
+      {
+        "input_id": "Q013",
+        "alias": "O1",
+        "parents": 12,
+        "claims": 24,
+        "references": 2,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q013",
+        "alias": "O2",
+        "parents": 14,
+        "claims": 33,
+        "references": 2,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q017.json",
+    "sha256": "9711a3c16f7c06b031476c5809cb7404d56d2daf13b2857d4b9316e1ac047ca4",
+    "outputs": [
+      {
+        "input_id": "Q017",
+        "alias": "O1",
+        "parents": 12,
+        "claims": 30,
+        "references": 2,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q017",
+        "alias": "O2",
+        "parents": 9,
+        "claims": 22,
+        "references": 2,
+        "audit_complete": true
+      }
+    ],
+    "errors": [
+      {
+        "input": "Q017",
+        "output": "O1",
+        "claim_id": "O1-P1-c2",
+        "source_quote": "生成AIの活用方針の策定比率"
+      }
+    ]
+  },
+  {
+    "file": "audits/primary-Q019.json",
+    "sha256": "4f3a72df0cb05ce5fbeea538768528ff888e858f5cd8ab30b96e924168d78391",
+    "outputs": [
+      {
+        "input_id": "Q019",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 32,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q019",
+        "alias": "O2",
+        "parents": 19,
+        "claims": 29,
+        "references": 1,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/secondary-1.json",
+    "sha256": "432c99eb570b6465b31786d9a9ee2b779de60923d6a24f0f467d9308b57ab3c1",
+    "outputs": [
+      {
+        "input_id": "Q005",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 29,
+        "references": 4,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q005",
+        "alias": "O2",
+        "parents": 12,
+        "claims": 22,
+        "references": 4,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q007",
+        "alias": "O1",
+        "parents": 13,
+        "claims": 22,
+        "references": 2,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q007",
+        "alias": "O2",
+        "parents": 11,
+        "claims": 26,
+        "references": 2,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/secondary-2.json",
+    "sha256": "5791743a387dc2de9b950b90f813886c8373e4870a078068fb4390fd967a6f14",
+    "outputs": [
+      {
+        "input_id": "Q012",
+        "alias": "O1",
+        "parents": 5,
+        "claims": 17,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q012",
+        "alias": "O2",
+        "parents": 7,
+        "claims": 20,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q013",
+        "alias": "O1",
+        "parents": 10,
+        "claims": 26,
+        "references": 2,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q013",
+        "alias": "O2",
+        "parents": 14,
+        "claims": 36,
+        "references": 2,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  }
+]

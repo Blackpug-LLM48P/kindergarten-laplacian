@@ -1,0 +1,35 @@
+{
+  "frozen_inputs": 8,
+  "frozen_prompts": 2,
+  "original_annotations_unchanged": 3,
+  "reference_and_rules_unchanged": true,
+  "original_completed_outputs_unchanged": 16,
+  "anonymous_audit_packets_exact": 8,
+  "recorded_exact_match_errors": [
+    {
+      "input": "Q008",
+      "output": "O1",
+      "claim_id": "O1-P22-C2",
+      "text": "ごんのその後の生死は明記されず、死亡を確定しない。",
+      "file": "audits/primary-Q008.json"
+    },
+    {
+      "input": "Q017",
+      "output": "O1",
+      "claim_id": "O1-P1-c2",
+      "source_quote": "生成AIの活用方針の策定比率",
+      "file": "audits/primary-Q017.json"
+    }
+  ],
+  "validated_audit_files": 10,
+  "validated_output_audits": 24,
+  "primary_output_metrics": 16,
+  "secondary_audit_outputs": 8,
+  "structural_checks_recorded": 8,
+  "source_integrity": {
+    "copied_input_files_exact": 8,
+    "original_zip_members_unchanged": 482,
+    "source_zip_sha256": "78ec2362c74cc16f6b944aad70012e1a85624c9e166af937063deaee2c33427d"
+  },
+  "timestamp": "2026-10-03T00:33:22.516137+00:00"
+}

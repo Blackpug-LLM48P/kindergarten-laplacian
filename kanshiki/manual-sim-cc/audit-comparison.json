@@ -1,0 +1,278 @@
+{
+  "outputs_compared": 8,
+  "relation_votes": 18,
+  "event_set_agreement": 15,
+  "event_set_agreement_rate": 0.8333333333333334,
+  "comparisons": [
+    {
+      "input_id": "Q012",
+      "alias": "O1",
+      "condition": "v5",
+      "relation_votes_compared": 1,
+      "event_set_agreement_count": 0,
+      "disagreements": [
+        {
+          "ref_id": "Q012-R2",
+          "primary_events": [
+            "FHOLD"
+          ],
+          "secondary_events": [
+            "FUN",
+            "FHOLD"
+          ],
+          "primary_reason": "両命題の引用と「ある意味では」の留保の機能（無条件の断定回避）は認識しているが、R2の中核命題である『同一条件の矛盾ではない』をF02・台帳E05で不確定（保留）とした。後の解説への導入としての働きはF02/今回わかったことで述べるがE05関係そのものは保留。FUNとはしない。",
+          "secondary_reason": "二命題と両『ある意味では』を引用し、留保が無条件の断定を避ける働き・後者の説明へ進む問題提起の働きを認識（FUN）。一方で核心である『同一条件での矛盾ではない』点は F02・台帳E05で『確定できない』と保留（FHOLD）。同居として両方を記録。"
+        }
+      ],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 20
+      },
+      "secondary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 15
+      },
+      "exact_same_claim_and_parent_spans": 0,
+      "exact_same_claim_label_agreement": 0,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q012",
+      "alias": "O2",
+      "condition": "B2",
+      "relation_votes_compared": 1,
+      "event_set_agreement_count": 1,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 18
+      },
+      "secondary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 18
+      },
+      "exact_same_claim_and_parent_spans": 0,
+      "exact_same_claim_label_agreement": 0,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q013",
+      "alias": "O1",
+      "condition": "v5",
+      "relation_votes_compared": 2,
+      "event_set_agreement_count": 2,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 24
+      },
+      "secondary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 25
+      },
+      "exact_same_claim_and_parent_spans": 0,
+      "exact_same_claim_label_agreement": 0,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q013",
+      "alias": "O2",
+      "condition": "B2",
+      "relation_votes_compared": 2,
+      "event_set_agreement_count": 2,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 3,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 33
+      },
+      "secondary_support": {
+        "doubtful_parents": 3,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 36
+      },
+      "exact_same_claim_and_parent_spans": 0,
+      "exact_same_claim_label_agreement": 0,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q005",
+      "alias": "O1",
+      "condition": "B2",
+      "relation_votes_compared": 4,
+      "event_set_agreement_count": 3,
+      "disagreements": [
+        {
+          "ref_id": "Q005-R3",
+          "primary_events": [
+            "FMISS"
+          ],
+          "secondary_events": [
+            "FUN"
+          ],
+          "primary_reason": "29行目の反応差（O1-P07）や『突きみだされたうらみ』（O1-P09）を扱い、評判が衣装に結びつくと述べるが、敵が猩々緋の武者を『鎗中村』と認識し本物を認識しないという指示対象のずれ、および地の文が敵の認識と事実を区別して書く関係は認識していない。近接するが必要な関係型を欠くため非対応。",
+          "secondary_reason": "29行目の敵の対応の対比を引き、新兵衛の評判（鎗中村）が衣装を着た若者へ向けられ本人には向かないという、敵の認識と実際の人物のずれを機能として認識している。『鎗中村』の二重鉤括弧や地の文による層の区別までは明言しないため、境界的な対応として記録。"
+        }
+      ],
+      "primary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 1,
+        "branch": 1,
+        "unresolved": 0,
+        "claims": 30
+      },
+      "secondary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 1,
+        "branch": 1,
+        "unresolved": 0,
+        "claims": 27
+      },
+      "exact_same_claim_and_parent_spans": 1,
+      "exact_same_claim_label_agreement": 1,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q005",
+      "alias": "O2",
+      "condition": "v5",
+      "relation_votes_compared": 4,
+      "event_set_agreement_count": 3,
+      "disagreements": [
+        {
+          "ref_id": "Q005-R3",
+          "primary_events": [
+            "FMISS"
+          ],
+          "secondary_events": [
+            "FUN"
+          ],
+          "primary_reason": "29行目の反応差を引き『敵が人物より外見に反応する』『人物と外見の分離』と述べるが、敵が猩々緋の武者を『鎗中村』と認識する指示対象のずれと、地の文が敵の認識と事実を区別する関係は扱っていない。E06は新兵衛の発話と地の文の境界であり、敵側認識と作中事実の区別ではない。近接するが必要な関係型を欠くため非対応（O1と同じ基準）。",
+          "secondary_reason": "29行目の対比を引き、敵が人物ではなく外見に反応する（猩々緋の武者を鎗中村として扱い本人に反応しない）ずれを機能として認識。『鎗中村』の二重鉤括弧の指示対象までは明言しないため境界的な対応。F01/E06の層区別は新兵衛の発話と地の文についてで、敵の認識層の区別ではない。"
+        }
+      ],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 22
+      },
+      "secondary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 19
+      },
+      "exact_same_claim_and_parent_spans": 4,
+      "exact_same_claim_label_agreement": 4,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q007",
+      "alias": "O1",
+      "condition": "v5",
+      "relation_votes_compared": 2,
+      "event_set_agreement_count": 2,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 12
+      },
+      "secondary_support": {
+        "doubtful_parents": 1,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 18
+      },
+      "exact_same_claim_and_parent_spans": 0,
+      "exact_same_claim_label_agreement": 0,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q007",
+      "alias": "O2",
+      "condition": "B2",
+      "relation_votes_compared": 2,
+      "event_set_agreement_count": 2,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 3,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 26
+      },
+      "secondary_support": {
+        "doubtful_parents": 3,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 26
+      },
+      "exact_same_claim_and_parent_spans": 0,
+      "exact_same_claim_label_agreement": 0,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    }
+  ],
+  "interpretation": "Primary scores retained. Secondary disagreements are sensitivity evidence, not corrected truths."
+}
