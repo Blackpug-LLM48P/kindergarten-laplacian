@@ -1,0 +1,15 @@
+{
+  "auditor_id": "P-Q007",
+  "files_read": [
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/audit-instructions-v1.md",
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/audit-rules-v1.md",
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/Q007/source.txt",
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/Q007/reference.json",
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/Q007/O1.md",
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/Q007/O1_ledger.md",
+    "/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/audit-primary-Q007/Q007/O2.md"
+  ],
+  "forbidden_access": [],
+  "model_id": "claude-opus-5-5",
+  "notes": "指定7ファイルのみ読了。自作のprimary-Q007.jsonは検査スクリプトで読み込んだのみ。外部知識・Web検索は不使用。検査（採択参照2件の収容、span・親・claim・source_quotesの完全一致、O1引用ブロックの本文一致）はすべて通過し、訂正は不要だった。O2の省略・部分引用2件をquote_issuesに記録した。"
+}

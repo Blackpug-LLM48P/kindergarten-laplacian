@@ -144,3 +144,10 @@
   for p in files: z.write(p,ROOT.name+'/'+p.relative_to(ROOT).as_posix())
  with zipfile.ZipFile(archive) as z: assert z.testzip() is None
 ```
+
+## 4. validate_audits.py（検証条件の限定的緩和）
+理由：主監査 Q013（O1の重複親5件）と Q019（O2の重複親5件）は、duplicate_of を付けた重複親の claims を空配列にした。元の検証は全親に claims を要求するため停止する。aggregate.py と compare_audits.py はいずれも duplicate_of 付きの親を分母・比較から除外するので、重複親の claims の有無は集計値に影響しない。票を書き換えずに、検証側で「duplicate_of がある親に限り claims 空を許容」とした。非重複親の claims 必須は維持。
+```diff
+-                assert parent['claims']
++                assert parent['claims'] or parent.get('duplicate_of')  # cc: 重複親のみ claims 空を許容（集計は重複親を除外）
+```

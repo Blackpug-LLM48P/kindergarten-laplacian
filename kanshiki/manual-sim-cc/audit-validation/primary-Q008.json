@@ -1,0 +1,3176 @@
+{
+  "role": "llm",
+  "auditor_id": "P-Q008",
+  "context": {
+    "read": [
+      "audit-instructions-v1.md",
+      "audit-rules-v1.md",
+      "Q008/source.txt",
+      "Q008/reference.json",
+      "Q008/O1.md",
+      "Q008/O1_ledger.md",
+      "Q008/O2.md"
+    ],
+    "external_knowledge": "本文が新美南吉『ごん狐』であることは一般知識として認識しうるが、判断には提示本文のみを用いた。外部資料・Web検索は使用していない。",
+    "condition_inferability": "高い。O1は『AI鑑識 v5.0.0-rc.3』の自己呼称・29項目台帳・スコア表を持ち、O2は見出し付きの自由記述で鑑識書式を持たない。採点規則がv5/B2の比較を述べるため条件は書式から推測可能。",
+    "note": "LLMによる手動工程のリハーサルであり、独立した人間評価ではない。"
+  },
+  "inputs": [
+    {
+      "input_id": "Q008",
+      "outputs": [
+        {
+          "output_alias": "O1",
+          "files": [
+            "O1.md",
+            "O1_ledger.md"
+          ],
+          "acquisition_state": "complete",
+          "audit_complete": true,
+          "condition_guess": {
+            "guess": "v5（AI鑑識 v5.0.0-rc.3 簡易モード出力＋29項目初回台帳）",
+            "confidence": "high",
+            "basis": "自己呼称『AI鑑識 v5.0.0-rc.3』、P/K/U/X集計表、項目ID（S/C/R/E）、29項目台帳ファイル、書式痕観測（v4.3 P1互換）。"
+          },
+          "correspondence": [
+            {
+              "ref_id": "Q008-R1",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O1.md",
+                  "text": "うなぎが食べたいと言ったにちがいない。"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "　ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "母の望みや死因は確認済みの事実として採用されていません。推量はごんの後悔と償いを動かしており"
+                }
+              ],
+              "reason": "F01が57行目の推量と76行目のつぐないを引用し、母の望み・死因が事実として採用されていないこと（推測と作中事実の境界）と、推量が償いを動かす機能を明示。参照の命題・本文層（心中語／地の文）と一致。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1062,
+                      1081
+                    ]
+                  ],
+                  "text": "うなぎが食べたいと言ったにちがいない。"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1118,
+                      1152
+                    ]
+                  ],
+                  "text": "　ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1158,
+                      1204
+                    ]
+                  ],
+                  "text": "母の望みや死因は確認済みの事実として採用されていません。推量はごんの後悔と償いを動かしており"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R2",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O1.md",
+                  "text": "贈り手についての食い違いは、加助がごんの行動を知らない場面の働きとして読めます。六の兵十の発話と直後の結末は、認識が遅れて変わることを示し"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "「ごん、お前だったのか。いつも栗をくれたのは」"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "text": "語り手の枠から物語へ、人物の思考から別人物の認識への移動に、同一条件下の不接続を認めない。"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "贈り手を読者が先に知り、兵十が最後に知る提示順"
+                }
+              ],
+              "reason": "F02が贈り手を知らない人物と読者の情報差、六での兵十の認識の遅れを機能として示し、台帳R03が人物の思考から別人物の認識への移動を不接続ではないと判断。143行目の兵十の内言は引用していないが、情報差のもとでの遅れた認識と視点移動の非問題性を認識しており対応可能と判断（確信mid）。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1398,
+                      1467
+                    ]
+                  ],
+                  "text": "贈り手についての食い違いは、加助がごんの行動を知らない場面の働きとして読めます。六の兵十の発話と直後の結末は、認識が遅れて変わることを示し"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1493,
+                      1516
+                    ]
+                  ],
+                  "text": "「ごん、お前だったのか。いつも栗をくれたのは」"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "positions": [
+                    [
+                      2236,
+                      2281
+                    ]
+                  ],
+                  "text": "語り手の枠から物語へ、人物の思考から別人物の認識への移動に、同一条件下の不接続を認めない。"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1873,
+                      1896
+                    ]
+                  ],
+                  "text": "贈り手を読者が先に知り、兵十が最後に知る提示順"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R3",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O1.md",
+                  "text": "一般的な教訓で締めていません。"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "　兵十は火縄銃をばたりと、とり落しました。青い煙が、まだ筒口から細く出ていました。"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "text": "銃撃後の発見と筒口の煙を残し、認識変更と取り返しのつかない行動を同時に見せる。"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "text": "ごんのその後の生死は明記されず、死亡を確定しない。"
+                }
+              ],
+              "reason": "結末が教訓で締めず、煙の像と認識変更で閉じること、生死を明記しないことを機能として認識。参照の命題（前段から生じ、生死・教訓を述べず像で閉じる）と対応。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1468,
+                      1483
+                    ]
+                  ],
+                  "text": "一般的な教訓で締めていません。"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1530,
+                      1571
+                    ]
+                  ],
+                  "text": "　兵十は火縄銃をばたりと、とり落しました。青い煙が、まだ筒口から細く出ていました。"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "positions": [
+                    [
+                      1891,
+                      1930
+                    ]
+                  ],
+                  "text": "銃撃後の発見と筒口の煙を残し、認識変更と取り返しのつかない行動を同時に見せる。"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "positions": [
+                    [
+                      1954,
+                      1979
+                    ]
+                  ],
+                  "text": "ごんのその後の生死は明記されず、死亡を確定しない。"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R4",
+              "events": [
+                "FMISS"
+              ],
+              "evidence_spans": [],
+              "reason": "報告・台帳ともに、いわしの投げ込み（74行目）、兵十の頬の傷（78行目）、独り言での原因の後置（80行目）への言及がない。監査完了済みで認識・保留なし。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": []
+            },
+            {
+              "ref_id": "Q008-R5",
+              "events": [
+                "FUN",
+                "FHOLD"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O1_ledger.md",
+                  "text": "城の記述も伝聞の物語内に置かれる。"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "text": "冒頭の伝聞枠と作中会話は本文の層として区別した。"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "　これは、私が小さいときに、村の茂平というおじいさんからきいたお話です。"
+                },
+                {
+                  "file": "O1.md",
+                  "text": "伝聞取得の場面や、加助がその間ずっと考えた経過は提示されていないため、対応の確認は観測不能です。物語の語り手・人物の申告を実作者の制作履歴へ置き換えず"
+                }
+              ],
+              "reason": "台帳E01が城の記述（4行目）を伝聞の物語内に置かれると判断し、S03・F03が伝聞枠を本文の層として語り手と実作者を区別しており、伝達層の区別という機能を認識（FUN、確信mid：4行目『そうです』の直接引用はない）。同時にF03/E03は同じ冒頭の伝聞枠を『観測不能』として保留しており、同一の枠に対する保留が同居するためFHOLDも記録。保留は具体資料と結果別分岐を欠く一般的な確認不能のためFPENDではない。",
+              "pend_checks": {
+                "relation_and_quotes": true,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "冒頭の枠を完全一致で引用し伝聞取得の対応を保留しているが、提示されれば判断できる具体資料の名指しも、確認結果による判断分岐もない。"
+              },
+              "validated_spans": [
+                {
+                  "file": "O1_ledger.md",
+                  "positions": [
+                    [
+                      2703,
+                      2720
+                    ]
+                  ],
+                  "text": "城の記述も伝聞の物語内に置かれる。"
+                },
+                {
+                  "file": "O1_ledger.md",
+                  "positions": [
+                    [
+                      611,
+                      635
+                    ]
+                  ],
+                  "text": "冒頭の伝聞枠と作中会話は本文の層として区別した。"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1659,
+                      1695
+                    ]
+                  ],
+                  "text": "　これは、私が小さいときに、村の茂平というおじいさんからきいたお話です。"
+                },
+                {
+                  "file": "O1.md",
+                  "positions": [
+                    [
+                      1733,
+                      1808
+                    ]
+                  ],
+                  "text": "伝聞取得の場面や、加助がその間ずっと考えた経過は提示されていないため、対応の確認は観測不能です。物語の語り手・人物の申告を実作者の制作履歴へ置き換えず"
+                }
+              ]
+            }
+          ],
+          "parents": [
+            {
+              "parent_id": "O1-P01",
+              "file": "O1.md",
+              "text": "1. **F01：思い込みが行動へつながる機能**（S01・S02・S06・S09・C01・C04・E04・E06）。SRC01・二の末尾は、ごんの思考として導入されています。\n\n```text\n　その晩、ごんは、穴の中で考えました。\n```\n\n同じ思考中の推量：\n\n```text\nうなぎが食べたいと言ったにちがいない。\n```\n\nSRC01・三、いわしを届けた後の地の文：\n\n```text\n　ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。\n```\n\n母の望みや死因は確認済みの事実として採用されていません。推量はごんの後悔と償いを動かしており、人物造形という別説明が成立します。",
+              "extraction_reason": "番号付き所見F01の一項（引用と判断段落を含む）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P01-C1",
+                  "text": "SRC01・二の末尾は、ごんの思考として導入されています。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "　その晩、ごんは、穴の中で考えました。"
+                  ],
+                  "reason": "55行目で思考として導入され、57行目の推量が続く。",
+                  "positions_within_parent": [
+                    [
+                      59,
+                      88
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P01-C2",
+                  "text": "母の望みや死因は確認済みの事実として採用されていません。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "うなぎが食べたいと言ったにちがいない"
+                  ],
+                  "reason": "推量形の心中語にとどまり、地の文は母の望み・死因を確定しない。",
+                  "positions_within_parent": [
+                    [
+                      238,
+                      266
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P01-C3",
+                  "text": "推量はごんの後悔と償いを動かしており",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "ちょッ、あんないたずらをしなけりゃよかった。",
+                    "ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。"
+                  ],
+                  "reason": "後悔の言葉と76行目の『つぐない』が推量に続く。",
+                  "positions_within_parent": [
+                    [
+                      266,
+                      284
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P01-C4",
+                  "text": "人物造形という別説明が成立します。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "推量が人物の後悔として描かれる点で、人物造形としての説明は本文と整合する。",
+                  "positions_within_parent": [
+                    [
+                      285,
+                      302
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1.md",
+                "positions": [
+                  [
+                    920,
+                    1222
+                  ]
+                ],
+                "text": "1. **F01：思い込みが行動へつながる機能**（S01・S02・S06・S09・C01・C04・E04・E06）。SRC01・二の末尾は、ごんの思考として導入されています。\n\n```text\n　その晩、ごんは、穴の中で考えました。\n```\n\n同じ思考中の推量：\n\n```text\nうなぎが食べたいと言ったにちがいない。\n```\n\nSRC01・三、いわしを届けた後の地の文：\n\n```text\n　ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。\n```\n\n母の望みや死因は確認済みの事実として採用されていません。推量はごんの後悔と償いを動かしており、人物造形という別説明が成立します。"
+              }
+            },
+            {
+              "parent_id": "O1-P02",
+              "file": "O1.md",
+              "text": "2. **F02：贈り手を知らない人物と読者の情報差**（S05・S10・C06・E04・E05・E06）。SRC01・三の地の文と、五の加助の発話を比較します。\n\n```text\nそのつぎの日には、栗ばかりでなく、まつたけも二、三ぼんもっていきました。\n```\n\n```text\n「さっきの話は、きっと、そりゃあ、神さまのしわざだぞ」\n```\n\n贈り手についての食い違いは、加助がごんの行動を知らない場面の働きとして読めます。六の兵十の発話と直後の結末は、認識が遅れて変わることを示し、一般的な教訓で締めていません。",
+              "extraction_reason": "番号付き所見F02の一項（後続の引用2つは同所見の補助引用で、親テキストは判断文までとした）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P02-C1",
+                  "text": "贈り手についての食い違いは、加助がごんの行動を知らない場面の働きとして読めます。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "そのつぎの日には、栗ばかりでなく、まつたけも二、三ぼんもっていきました。",
+                    "さっきの話は、きっと、そりゃあ、神さまのしわざだぞ"
+                  ],
+                  "reason": "加助の神さま説は贈与を知らない人物の推論として置かれ、地の文の贈与と矛盾を作らない。",
+                  "positions_within_parent": [
+                    [
+                      174,
+                      214
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P02-C2",
+                  "text": "六の兵十の発話と直後の結末は、認識が遅れて変わることを示し",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2",
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "「ごん、お前だったのか。いつも栗をくれたのは」"
+                  ],
+                  "reason": "撃った後に栗を見て送り主を知る順序が153行目で示される。",
+                  "positions_within_parent": [
+                    [
+                      214,
+                      243
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P02-C3",
+                  "text": "一般的な教訓で締めていません。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "青い煙が、まだ筒口から細く出ていました。"
+                  ],
+                  "reason": "末尾は煙の描写で終わり、教訓の文はない。",
+                  "positions_within_parent": [
+                    [
+                      244,
+                      259
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1.md",
+                "positions": [
+                  [
+                    1224,
+                    1483
+                  ]
+                ],
+                "text": "2. **F02：贈り手を知らない人物と読者の情報差**（S05・S10・C06・E04・E05・E06）。SRC01・三の地の文と、五の加助の発話を比較します。\n\n```text\nそのつぎの日には、栗ばかりでなく、まつたけも二、三ぼんもっていきました。\n```\n\n```text\n「さっきの話は、きっと、そりゃあ、神さまのしわざだぞ」\n```\n\n贈り手についての食い違いは、加助がごんの行動を知らない場面の働きとして読めます。六の兵十の発話と直後の結末は、認識が遅れて変わることを示し、一般的な教訓で締めていません。"
+              }
+            },
+            {
+              "parent_id": "O1-P03",
+              "file": "O1.md",
+              "text": "3. **F03・F04：申告の確認範囲を保留**（E03・E07）。SRC01冒頭の語り手による伝聞取得と、五の加助による思考経過の申告です。\n\n```text\n　これは、私が小さいときに、村の茂平というおじいさんからきいたお話です。\n```\n\n```text\nおれは、あれからずっと考えていたが、\n```\n\n伝聞取得の場面や、加助がその間ずっと考えた経過は提示されていないため、対応の確認は観測不能です。物語の語り手・人物の申告を実作者の制作履歴へ置き換えず、証拠がないこと自体を疑義にもしていません。",
+              "extraction_reason": "番号付き所見F03・F04の一項（出力自身が1項に束ねているため1親とし、2つの保留は1文に融合しているので1claimとした）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P03-C1",
+                  "text": "伝聞取得の場面や、加助がその間ずっと考えた経過は提示されていないため、対応の確認は観測不能です。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [
+                    "　これは、私が小さいときに、村の茂平というおじいさんからきいたお話です。",
+                    "おれは、あれからずっと考えていたが、"
+                  ],
+                  "reason": "伝聞取得の場面も加助の思考経過も本文に描かれておらず、確認不能という保留は本文に支えられる（E03・E07の2保留が1文に融合）。",
+                  "positions_within_parent": [
+                    [
+                      156,
+                      204
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P03-C2",
+                  "text": "物語の語り手・人物の申告を実作者の制作履歴へ置き換えず",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [],
+                  "reason": "語り手の枠（2行目）と実作者を区別する判断で、本文の層構造と整合。",
+                  "positions_within_parent": [
+                    [
+                      204,
+                      231
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1.md",
+                "positions": [
+                  [
+                    1577,
+                    1830
+                  ]
+                ],
+                "text": "3. **F03・F04：申告の確認範囲を保留**（E03・E07）。SRC01冒頭の語り手による伝聞取得と、五の加助による思考経過の申告です。\n\n```text\n　これは、私が小さいときに、村の茂平というおじいさんからきいたお話です。\n```\n\n```text\nおれは、あれからずっと考えていたが、\n```\n\n伝聞取得の場面や、加助がその間ずっと考えた経過は提示されていないため、対応の確認は観測不能です。物語の語り手・人物の申告を実作者の制作履歴へ置き換えず、証拠がないこと自体を疑義にもしていません。"
+              }
+            },
+            {
+              "parent_id": "O1-P04",
+              "file": "O1.md",
+              "text": "観測層はSRC01の生入力本文全体です。見出し・太字・箇条書き・コードフェンス・引用・番号付きリストの6種類は未検出。章標の漢数字「一」〜「六」は旧P1の対象構文に含めません。**v4.3 P1互換：0種類／旧加点0**（v5へ加算しません）。提出形式・掲載先は未提示で、実表示も未確認です。R01は未検出とし、提出先がないことだけを理由に保留へ変更していません。",
+              "extraction_reason": "書式痕観測（R01）の未構造判断段落。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P04-C1",
+                  "text": "見出し・太字・箇条書き・コードフェンス・引用・番号付きリストの6種類は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文に該当書式はない。",
+                  "positions_within_parent": [
+                    [
+                      20,
+                      59
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P04-C2",
+                  "text": "R01は未検出とし",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "書式痕は本文に見られない。",
+                  "positions_within_parent": [
+                    [
+                      146,
+                      155
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1.md",
+                "positions": [
+                  [
+                    628,
+                    810
+                  ]
+                ],
+                "text": "観測層はSRC01の生入力本文全体です。見出し・太字・箇条書き・コードフェンス・引用・番号付きリストの6種類は未検出。章標の漢数字「一」〜「六」は旧P1の対象構文に含めません。**v4.3 P1互換：0種類／旧加点0**（v5へ加算しません）。提出形式・掲載先は未提示で、実表示も未確認です。R01は未検出とし、提出先がないことだけを理由に保留へ変更していません。"
+              }
+            },
+            {
+              "parent_id": "O1-P05",
+              "file": "O1.md",
+              "text": "人物の思い込みと描かれた行動の食い違いが、償いと発見の遅れを進めています。伝聞・思考経過の申告には本文だけでは確認できない範囲があり、作者・生成工程は特定できません。",
+              "extraction_reason": "『今回わかったこと』の要約段落。F01・F02・F03/F04の言い直し。",
+              "duplicate_of": "O1-P01",
+              "claims": [
+                {
+                  "claim_id": "O1-P05-C1",
+                  "text": "人物の思い込みと描かれた行動の食い違いが、償いと発見の遅れを進めています。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1",
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01・F02の要約。",
+                  "positions_within_parent": [
+                    [
+                      0,
+                      37
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P05-C2",
+                  "text": "伝聞・思考経過の申告には本文だけでは確認できない範囲があり",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F03・F04の要約。",
+                  "positions_within_parent": [
+                    [
+                      37,
+                      66
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1.md",
+                "positions": [
+                  [
+                    824,
+                    907
+                  ]
+                ],
+                "text": "人物の思い込みと描かれた行動の食い違いが、償いと発見の遅れを進めています。伝聞・思考経過の申告には本文だけでは確認できない範囲があり、作者・生成工程は特定できません。"
+              }
+            },
+            {
+              "parent_id": "O1-P06",
+              "file": "O1.md",
+              "text": "F02で確認した、贈り手を読者が先に知り、兵十が最後に知る提示順を維持する方針が適切です。",
+              "extraction_reason": "改善アドバイス。F02の助言形での言い直し。",
+              "duplicate_of": "O1-P02",
+              "claims": [
+                {
+                  "claim_id": "O1-P06-C1",
+                  "text": "贈り手を読者が先に知り、兵十が最後に知る提示順",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F02の再述。",
+                  "positions_within_parent": [
+                    [
+                      9,
+                      32
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1.md",
+                "positions": [
+                  [
+                    1864,
+                    1909
+                  ]
+                ],
+                "text": "F02で確認した、贈り手を読者が先に知り、兵十が最後に知る提示順を維持する方針が適切です。"
+              }
+            },
+            {
+              "parent_id": "O1-P07",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二末尾。「ところが」がごんの想像した母の望みと自分の行為の対立を結ぶ。下記補助引用参照。",
+              "extraction_reason": "台帳S01。F01所属だが『ところが』の接続機能という報告にない独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P07-C1",
+                  "text": "「ところが」がごんの想像した母の望みと自分の行為の対立を結ぶ。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "ところが、わしがいたずらをして、うなぎをとって来てしまった。"
+                  ],
+                  "reason": "57行目で『ところが』が母の望みの想像とごんの行為を対置する。",
+                  "positions_within_parent": [
+                    [
+                      10,
+                      41
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    363,
+                    413
+                  ]
+                ],
+                "text": "SRC01・二末尾。「ところが」がごんの想像した母の望みと自分の行為の対立を結ぶ。下記補助引用参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P08",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二末尾。「にちがいない」の反復は、ごんが自分の行為に責任を結び付ける思考の進行を示す。報告および下記補助引用参照。",
+              "extraction_reason": "台帳S02。推量形の反復という報告にない独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P08-C1",
+                  "text": "「にちがいない」の反復は、ごんが自分の行為に責任を結び付ける思考の進行を示す。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "うなぎが食べたいと言ったにちがいない",
+                    "そのままおっ母は、死んじゃったにちがいない。"
+                  ],
+                  "reason": "57行目で推量が重ねられ、自責の結論へ進む。",
+                  "positions_within_parent": [
+                    [
+                      10,
+                      49
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    475,
+                    538
+                  ]
+                ],
+                "text": "SRC01・二末尾。「にちがいない」の反復は、ごんが自分の行為に責任を結び付ける思考の進行を示す。報告および下記補助引用参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P09",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。整理宣言・称賛・反応伺いの過剰な挿入を認めない。冒頭の伝聞枠と作中会話は本文の層として区別した。",
+              "extraction_reason": "台帳S03（未検出）の独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P09-C1",
+                  "text": "整理宣言・称賛・反応伺いの過剰な挿入を認めない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文にそうした挿入はない。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      32
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P09-C2",
+                  "text": "冒頭の伝聞枠と作中会話は本文の層として区別した。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [
+                    "村の茂平というおじいさんからきいたお話です。"
+                  ],
+                  "reason": "伝聞枠を本文の層として扱う判断。",
+                  "positions_within_parent": [
+                    [
+                      32,
+                      56
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    579,
+                    635
+                  ]
+                ],
+                "text": "SRC01全文。整理宣言・称賛・反応伺いの過剰な挿入を認めない。冒頭の伝聞枠と作中会話は本文の層として区別した。"
+              }
+            },
+            {
+              "parent_id": "O1-P10",
+              "file": "O1_ledger.md",
+              "text": "SRC01全76段落。描写・行動・単独の台詞で長さと役割が変わり、不自然に同じ段落設計へ均す関係は未検出。局所構文と段落設計をともに確認。",
+              "extraction_reason": "台帳S04（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P10-C1",
+                  "text": "描写・行動・単独の台詞で長さと役割が変わり、不自然に同じ段落設計へ均す関係は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "段落の長さ・役割は多様（空行区切り76段落を監査者が確認）。",
+                  "positions_within_parent": [
+                    [
+                      11,
+                      53
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    680,
+                    749
+                  ]
+                ],
+                "text": "SRC01全76段落。描写・行動・単独の台詞で長さと役割が変わり、不自然に同じ段落設計へ均す関係は未検出。局所構文と段落設計をともに確認。"
+              }
+            },
+            {
+              "parent_id": "O1-P11",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二末尾の後悔から六の兵十の発見まで。口語・感情表現は、その人物が知る内容と出来事の変化に対応する。報告およびF01補助引用参照。",
+              "extraction_reason": "台帳S05。感情表現と人物の知識の対応という独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P11-C1",
+                  "text": "口語・感情表現は、その人物が知る内容と出来事の変化に対応する。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "後悔（57行目）、不満（138行目）、驚き（151行目）がそれぞれの知識状態に対応。",
+                  "positions_within_parent": [
+                    [
+                      24,
+                      55
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    788,
+                    858
+                  ]
+                ],
+                "text": "SRC01・二末尾の後悔から六の兵十の発見まで。口語・感情表現は、その人物が知る内容と出来事の変化に対応する。報告およびF01補助引用参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P12",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二末尾。強い推量はごんの思考と明示され、三の償いへつながる。本文の説明として死因を断定したものにはしない。報告F01参照。",
+              "extraction_reason": "台帳S06。F01の言い直し。",
+              "duplicate_of": "O1-P01",
+              "claims": [
+                {
+                  "claim_id": "O1-P12-C1",
+                  "text": "強い推量はごんの思考と明示され、三の償いへつながる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01と同じ。",
+                  "positions_within_parent": [
+                    [
+                      10,
+                      36
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    908,
+                    975
+                  ]
+                ],
+                "text": "SRC01・二末尾。強い推量はごんの思考と明示され、三の償いへつながる。本文の説明として死因を断定したものにはしない。報告F01参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P13",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。人物の口語と、場面を運ぶ地の文の間に機能上のねじれを認めない。",
+              "extraction_reason": "台帳S07（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P13-C1",
+                  "text": "人物の口語と、場面を運ぶ地の文の間に機能上のねじれを認めない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文で口語と地の文の役割は区別されている。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      39
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1017,
+                    1056
+                  ]
+                ],
+                "text": "SRC01全文。人物の口語と、場面を運ぶ地の文の間に機能上のねじれを認めない。"
+              }
+            },
+            {
+              "parent_id": "O1-P14",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。漁具・葬式・念仏などは行動や場面と対応し、抽象語・専門語で対象や行動を隠す関係は未検出。",
+              "extraction_reason": "台帳S08（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P14-C1",
+                  "text": "漁具・葬式・念仏などは行動や場面と対応し、抽象語・専門語で対象や行動を隠す関係は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "はりきりという、網をゆすぶっていました"
+                  ],
+                  "reason": "はりきり網は本文中で行動とともに説明される。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      52
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1099,
+                    1151
+                  ]
+                ],
+                "text": "SRC01全文。漁具・葬式・念仏などは行動や場面と対応し、抽象語・専門語で対象や行動を隠す関係は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P15",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二末尾の独白は三の贈与行動を開始させる。報告F01参照。",
+              "extraction_reason": "台帳S09。F01の言い直し。",
+              "duplicate_of": "O1-P01",
+              "claims": [
+                {
+                  "claim_id": "O1-P15-C1",
+                  "text": "SRC01・二末尾の独白は三の贈与行動を開始させる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01と同じ。",
+                  "positions_within_parent": [
+                    [
+                      0,
+                      26
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1206,
+                    1240
+                  ]
+                ],
+                "text": "SRC01・二末尾の独白は三の贈与行動を開始させる。報告F01参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P16",
+              "file": "O1_ledger.md",
+              "text": "SRC01・三の反復する贈与から五の神への帰属、六の認識変更へ。同じ贈与の話でも贈り手についての判断が変わる。報告F02参照。",
+              "extraction_reason": "台帳S10。反復の役割という報告にない独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P16-C1",
+                  "text": "同じ贈与の話でも贈り手についての判断が変わる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "神さまのしわざだぞ",
+                    "「ごん、お前だったのか。いつも栗をくれたのは」"
+                  ],
+                  "reason": "130行目の神さま説から153行目のごんへの帰属へ変わる。",
+                  "positions_within_parent": [
+                    [
+                      32,
+                      55
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1280,
+                    1343
+                  ]
+                ],
+                "text": "SRC01・三の反復する贈与から五の神への帰属、六の認識変更へ。同じ贈与の話でも贈り手についての判断が変わる。報告F02参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P17",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二の締めの因果推量は、ごんの後悔を示して次章の行動へつなぐ。一般則や確認済みの死因へ繰り上げない。報告F01参照。",
+              "extraction_reason": "台帳C01。F01の言い直し。",
+              "duplicate_of": "O1-P01",
+              "claims": [
+                {
+                  "claim_id": "O1-P17-C1",
+                  "text": "SRC01・二の締めの因果推量は、ごんの後悔を示して次章の行動へつなぐ。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01と同じ。",
+                  "positions_within_parent": [
+                    [
+                      0,
+                      36
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1389,
+                    1452
+                  ]
+                ],
+                "text": "SRC01・二の締めの因果推量は、ごんの後悔を示して次章の行動へつなぐ。一般則や確認済みの死因へ繰り上げない。報告F01参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P18",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文、とくに六の結末。展開なしの道徳・希望・安全な結末への回収は未検出。",
+              "extraction_reason": "台帳C02（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P18-C1",
+                  "text": "展開なしの道徳・希望・安全な結末への回収は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "青い煙が、まだ筒口から細く出ていました。"
+                  ],
+                  "reason": "結末に道徳的回収はない。",
+                  "positions_within_parent": [
+                    [
+                      16,
+                      41
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1493,
+                    1534
+                  ]
+                ],
+                "text": "SRC01全文、とくに六の結末。展開なしの道徳・希望・安全な結末への回収は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P19",
+              "file": "O1_ledger.md",
+              "text": "SRC01全76段落。行動の継続や台詞の応答でつながり、説明・留保・小結が段落ごとに関係を切る状態は未検出。",
+              "extraction_reason": "台帳C03（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P19-C1",
+                  "text": "行動の継続や台詞の応答でつながり、説明・留保・小結が段落ごとに関係を切る状態は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "段落は行動と応答で連続する。",
+                  "positions_within_parent": [
+                    [
+                      11,
+                      54
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1576,
+                    1630
+                  ]
+                ],
+                "text": "SRC01全76段落。行動の継続や台詞の応答でつながり、説明・留保・小結が段落ごとに関係を切る状態は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P20",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二末尾の思考説明は、いたずらから償いへ行動が変わる理由を提示する。人物造形・因果理解の働きが確認でき、中心の経験を薄める関係は認めない。報告F01参照。",
+              "extraction_reason": "台帳C04。F01の言い直し。",
+              "duplicate_of": "O1-P01",
+              "claims": [
+                {
+                  "claim_id": "O1-P20-C1",
+                  "text": "SRC01・二末尾の思考説明は、いたずらから償いへ行動が変わる理由を提示する。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01と同じ。",
+                  "positions_within_parent": [
+                    [
+                      0,
+                      39
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1667,
+                    1749
+                  ]
+                ],
+                "text": "SRC01・二末尾の思考説明は、いたずらから償いへ行動が変わる理由を提示する。人物造形・因果理解の働きが確認でき、中心の経験を薄める関係は認めない。報告F01参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P21",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文、とくに六の末尾。認識変更と銃の動作で終わり、本文を同義反復するまとめは未検出。",
+              "extraction_reason": "台帳C05（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P21-C1",
+                  "text": "認識変更と銃の動作で終わり、本文を同義反復するまとめは未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "兵十は火縄銃をばたりと、とり落しました。"
+                  ],
+                  "reason": "末尾は動作と描写で終わる。",
+                  "positions_within_parent": [
+                    [
+                      16,
+                      47
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1795,
+                    1842
+                  ]
+                ],
+                "text": "SRC01全文、とくに六の末尾。認識変更と銃の動作で終わり、本文を同義反復するまとめは未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P22",
+              "file": "O1_ledger.md",
+              "text": "SRC01・六。銃撃後の発見と筒口の煙を残し、認識変更と取り返しのつかない行動を同時に見せる。報告F02と下記補助引用参照。",
+              "extraction_reason": "台帳C06。煙の像が認識変更と取り返しのつかなさを同時に示すという報告にない独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P22-C1",
+                  "text": "銃撃後の発見と筒口の煙を残し、認識変更と取り返しのつかない行動を同時に見せる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "青い煙が、まだ筒口から細く出ていました。"
+                  ],
+                  "reason": "153・157行目に対応。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      47
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P22-C2",
+                  "text": "ごんのその後の生死は明記されず、死亡を確定しない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "ごんは、ぐったりと目をつぶったまま、うなずきました。"
+                  ],
+                  "reason": "生死は明記されていない。",
+                  "positions_within_parent": []
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1883,
+                    1945
+                  ]
+                ],
+                "text": "SRC01・六。銃撃後の発見と筒口の煙を残し、認識変更と取り返しのつかない行動を同時に見せる。報告F02と下記補助引用参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P23",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。報告の書式痕観測を参照。P1の6種類なし。漢数字の章標はP1対象外で、不適合を示す関係も未検出。",
+              "extraction_reason": "台帳R01。報告の書式痕観測段落の言い直し。",
+              "duplicate_of": "O1-P04",
+              "claims": [
+                {
+                  "claim_id": "O1-P23-C1",
+                  "text": "P1の6種類なし。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "O1-P04と同じ。",
+                  "positions_within_parent": [
+                    [
+                      20,
+                      29
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    1996,
+                    2052
+                  ]
+                ],
+                "text": "SRC01全文。報告の書式痕観測を参照。P1の6種類なし。漢数字の章標はP1対象外で、不適合を示す関係も未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P24",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。未置換変数、制作メモ、雛形、余分な対話枠は未検出。作中の台詞を対話転載としない。",
+              "extraction_reason": "台帳R02（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P24-C1",
+                  "text": "未置換変数、制作メモ、雛形、余分な対話枠は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文に該当なし。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      33
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2119,
+                    2167
+                  ]
+                ],
+                "text": "SRC01全文。未置換変数、制作メモ、雛形、余分な対話枠は未検出。作中の台詞を対話転載としない。"
+              }
+            },
+            {
+              "parent_id": "O1-P25",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。ごん・兵十・加助、贈与と誤認の対象は連続する。語り手の枠から物語へ、人物の思考から別人物の認識への移動に、同一条件下の不接続を認めない。",
+              "extraction_reason": "台帳R03（未検出）。視点移動の非問題判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P25-C1",
+                  "text": "ごん・兵十・加助、贈与と誤認の対象は連続する。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "人物と対象は章をまたいで一貫。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      31
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P25-C2",
+                  "text": "語り手の枠から物語へ、人物の思考から別人物の認識への移動に、同一条件下の不接続を認めない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2",
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [
+                    "こないだうなぎをぬすみやがったあのごん狐めが、またいたずらをしに来たな。"
+                  ],
+                  "reason": "六での兵十側への移動は場面上の機能を持ち、不接続ではない。",
+                  "positions_within_parent": [
+                    [
+                      31,
+                      76
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2205,
+                    2281
+                  ]
+                ],
+                "text": "SRC01全文。ごん・兵十・加助、贈与と誤認の対象は連続する。語り手の枠から物語へ、人物の思考から別人物の認識への移動に、同一条件下の不接続を認めない。"
+              }
+            },
+            {
+              "parent_id": "O1-P26",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。地の文と台詞、描写と終盤の短い動作は場面の展開と対応し、同じ用途で理由なく複合的に文体・粒度が変わる関係は未検出。",
+              "extraction_reason": "台帳R04（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P26-C1",
+                  "text": "同じ用途で理由なく複合的に文体・粒度が変わる関係は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文に該当なし。",
+                  "positions_within_parent": [
+                    [
+                      36,
+                      65
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2321,
+                    2386
+                  ]
+                ],
+                "text": "SRC01全文。地の文と台詞、描写と終盤の短い動作は場面の展開と対応し、同じ用途で理由なく複合的に文体・粒度が変わる関係は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P27",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。章間はいたずら、後悔、償い、贈り手の推測、発見へ進み、二重導入・接合の重複や欠け・用語定義の変化は未検出。",
+              "extraction_reason": "台帳R05（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P27-C1",
+                  "text": "二重導入・接合の重複や欠け・用語定義の変化は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "章の進行は連続している。",
+                  "positions_within_parent": [
+                    [
+                      35,
+                      61
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2436,
+                    2497
+                  ]
+                ],
+                "text": "SRC01全文。章間はいたずら、後悔、償い、贈り手の推測、発見へ進み、二重導入・接合の重複や欠け・用語定義の変化は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P28",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。小書きカタカナや「まつたけ」「松たけ」等の表記差はあるが、別言語・抽出断片の混入や参照を壊す局所的混在は未検出。",
+              "extraction_reason": "台帳R06（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P28-C1",
+                  "text": "小書きカタカナや「まつたけ」「松たけ」等の表記差はあるが、別言語・抽出断片の混入や参照を壊す局所的混在は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "まつたけも二、三ぼんもっていきました",
+                    "栗や松たけを持っていってやるのに"
+                  ],
+                  "reason": "表記差は実在し、混入はない。",
+                  "positions_within_parent": [
+                    [
+                      8,
+                      64
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2540,
+                    2604
+                  ]
+                ],
+                "text": "SRC01全文。小書きカタカナや「まつたけ」「松たけ」等の表記差はあるが、別言語・抽出断片の混入や参照を壊す局所的混在は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P29",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。語りの枠と作中世界が対象で、作者が外界へ提示する重要な事実主張は確認されない。城の記述も伝聞の物語内に置かれる。",
+              "extraction_reason": "台帳E01（対象外）。伝聞層の認識を含む。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P29-C1",
+                  "text": "作者が外界へ提示する重要な事実主張は確認されない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "対象外判断。疑義でも保留でもないためKに分類。",
+                  "positions_within_parent": [
+                    [
+                      22,
+                      47
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O1-P29-C2",
+                  "text": "城の記述も伝聞の物語内に置かれる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [
+                    "おとのさまが、おられたそうです。"
+                  ],
+                  "reason": "4行目は『そうです』の伝聞表現。",
+                  "positions_within_parent": [
+                    [
+                      47,
+                      64
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2656,
+                    2720
+                  ]
+                ],
+                "text": "SRC01全文。語りの枠と作中世界が対象で、作者が外界へ提示する重要な事実主張は確認されない。城の記述も伝聞の物語内に置かれる。"
+              }
+            },
+            {
+              "parent_id": "O1-P30",
+              "file": "O1_ledger.md",
+              "text": "SRC01全文。雨の日数、十日ほどの経過、魚やまつたけの数量は作中の概数として置かれ、対象・時間・数量の明示的な不対応は未検出。",
+              "extraction_reason": "台帳E02（未検出）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P30-C1",
+                  "text": "対象・時間・数量の明示的な不対応は未検出。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "二、三日雨がふりつづいた",
+                    "三日もの雨で"
+                  ],
+                  "reason": "『二、三日』と『三日』は両立する。",
+                  "positions_within_parent": [
+                    [
+                      43,
+                      64
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2774,
+                    2838
+                  ]
+                ],
+                "text": "SRC01全文。雨の日数、十日ほどの経過、魚やまつたけの数量は作中の概数として置かれ、対象・時間・数量の明示的な不対応は未検出。"
+              }
+            },
+            {
+              "parent_id": "O1-P31",
+              "file": "O1_ledger.md",
+              "text": "SRC01冒頭、語り手が茂平から話を聞いたという取得の申告。報告F03の完全一致引用参照。取得の出来事を裏付ける別の場面・資料はない。",
+              "extraction_reason": "台帳E03。F03の言い直し。",
+              "duplicate_of": "O1-P03",
+              "claims": [
+                {
+                  "claim_id": "O1-P31-C1",
+                  "text": "取得の出来事を裏付ける別の場面・資料はない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R5"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F03と同じ。",
+                  "positions_within_parent": [
+                    [
+                      45,
+                      67
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    2888,
+                    2955
+                  ]
+                ],
+                "text": "SRC01冒頭、語り手が茂平から話を聞いたという取得の申告。報告F03の完全一致引用参照。取得の出来事を裏付ける別の場面・資料はない。"
+              }
+            },
+            {
+              "parent_id": "O1-P32",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二のごんの因果推量と、五の加助の神への帰属。いずれも人物の判断として置かれ、ごんの行動・六の認識変更との情報差が物語を進める。報告F01・F02参照。",
+              "extraction_reason": "台帳E04。F01・F02の言い直し。",
+              "duplicate_of": "O1-P02",
+              "claims": [
+                {
+                  "claim_id": "O1-P32-C1",
+                  "text": "いずれも人物の判断として置かれ、ごんの行動・六の認識変更との情報差が物語を進める。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1",
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01・F02と同じ。",
+                  "positions_within_parent": [
+                    [
+                      28,
+                      69
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    3017,
+                    3098
+                  ]
+                ],
+                "text": "SRC01・二のごんの因果推量と、五の加助の神への帰属。いずれも人物の判断として置かれ、ごんの行動・六の認識変更との情報差が物語を進める。報告F01・F02参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P33",
+              "file": "O1_ledger.md",
+              "text": "SRC01・三のごんによる贈与と、五の神への帰属を比較。対象は同じ贈与だが、発話は贈り手を知らない加助の推論であり、作品が両方を事実として採用した矛盾ではない。六の発見へつながる。報告F02参照。",
+              "extraction_reason": "台帳E05。両立不能な矛盾ではないという報告にない独自判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O1-P33-C1",
+                  "text": "発話は贈り手を知らない加助の推論であり、作品が両方を事実として採用した矛盾ではない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "神さまのしわざだぞ"
+                  ],
+                  "reason": "加助の発話は推論として示される。",
+                  "positions_within_parent": [
+                    [
+                      38,
+                      80
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    3164,
+                    3262
+                  ]
+                ],
+                "text": "SRC01・三のごんによる贈与と、五の神への帰属を比較。対象は同じ贈与だが、発話は贈り手を知らない加助の推論であり、作品が両方を事実として採用した矛盾ではない。六の発見へつながる。報告F02参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P34",
+              "file": "O1_ledger.md",
+              "text": "SRC01・二の思考導入、三の描かれた贈与、五の推測、六の発見は区別可能。発話・推量と作中事実の境界を保つ。報告F01・F02参照。",
+              "extraction_reason": "台帳E06。F01の言い直し。",
+              "duplicate_of": "O1-P01",
+              "claims": [
+                {
+                  "claim_id": "O1-P34-C1",
+                  "text": "発話・推量と作中事実の境界を保つ。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [],
+                  "reason": "F01と同じ。",
+                  "positions_within_parent": [
+                    [
+                      37,
+                      54
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    3337,
+                    3403
+                  ]
+                ],
+                "text": "SRC01・二の思考導入、三の描かれた贈与、五の推測、六の発見は区別可能。発話・推量と作中事実の境界を保つ。報告F01・F02参照。"
+              }
+            },
+            {
+              "parent_id": "O1-P35",
+              "file": "O1_ledger.md",
+              "text": "SRC01・五、加助の「あれからずっと」考えていたという実際の経過の申告。報告F04参照。ごんの贈与に関する申告には三の行動描写の支持があるが、加助の思考経過の確認不足を取り消さない。",
+              "extraction_reason": "台帳E07。F04の言い直し。",
+              "duplicate_of": "O1-P03",
+              "claims": [
+                {
+                  "claim_id": "O1-P35-C1",
+                  "text": "ごんの贈与に関する申告には三の行動描写の支持がある",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "86行目の贈与描写が支える。",
+                  "positions_within_parent": [
+                    [
+                      45,
+                      70
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O1_ledger.md",
+                "positions": [
+                  [
+                    3470,
+                    3562
+                  ]
+                ],
+                "text": "SRC01・五、加助の「あれからずっと」考えていたという実際の経過の申告。報告F04参照。ごんの贈与に関する申告には三の行動描写の支持があるが、加助の思考経過の確認不足を取り消さない。"
+              }
+            }
+          ],
+          "other_reference_mentions": [],
+          "new_discoveries": [],
+          "quote_issues": [
+            {
+              "location": "O1-P22-C2",
+              "type": "claim_outside_parent_text",
+              "detail": "claim text『ごんのその後の生死は明記されず、死亡を確定しない。』はO1_ledger.mdに完全一致で存在するが、親O1-P22のtext（台帳C06行の根拠欄）ではなく同じ行の『未確認範囲・保留』欄にある。",
+              "correction": "親O1-P22の範囲を台帳C06行の根拠欄から保留欄まで（下記の連続文字列）として読む。意味の裁定（U/SUP）は変更しない。",
+              "corrected_parent_text": "| C06 | 機能 | SRC01・六。銃撃後の発見と筒口の煙を残し、認識変更と取り返しのつかない行動を同時に見せる。報告F02と下記補助引用参照。 | F02 | ごんのその後の生死は明記されず、死亡を確定しない。 |",
+              "corrected_parent_text_in_file": true
+            }
+          ],
+          "extraction_notes": [
+            "報告の『文章疑義スコア』段落の『評価した項目では疑義を確認しませんでした』および集計は算術・総括として親に数えない。『保留は、語り手の伝聞取得と加助の思考経過の申告について…』はF03/F04の言い直しのため親にしない。",
+            "台帳のF01〜F04所属行のうち、報告にない独自判断を含む行（S01, S02, S05, S10, C06, E05）は独立親として保持し、報告所見の言い直しにとどまる行（S06, S09, C01, C04, E03, E04, E06, E07, R01）はduplicate_ofを付けた。",
+            "台帳の『同一所見を補う引用』節と『初回集計と検算』節は引用参照・算術のため親に数えない。",
+            "報告冒頭の『空行区切りで76段落』は監査者が空行分割で76と確認（関係判断ではないため親にしない）。",
+            "R5のFHOLDは、F03/E03の保留対象（伝聞取得の実際の対応）が参照命題（伝達層の区別の機能）と同一の枠・引用を扱う点で同一関係上の保留と判断したが、命題がずれるとの読みもありうる。"
+          ],
+          "post_check": {
+            "all_accepted_refs_contained": true,
+            "span_exact_match": "all match",
+            "parent_exact_match": "all match",
+            "source_quotes_exact_match": "all match",
+            "claim_in_parent": "1 mismatch recorded in quote_issues"
+          }
+        },
+        {
+          "output_alias": "O2",
+          "files": [
+            "O2.md"
+          ],
+          "acquisition_state": "complete",
+          "audit_complete": true,
+          "condition_guess": {
+            "guess": "B2（鑑識フレームを用いない自由記述の関係分析：機能／問題／判断不能の3区分）",
+            "confidence": "mid",
+            "basis": "項目ID・スコア・台帳がなく、自然文の見出し3区分と箇条書き。v5鑑識書式の痕跡がない。B2の具体的形式は未読のため確信はmid。"
+          },
+          "correspondence": [
+            {
+              "ref_id": "Q008-R1",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O2.md",
+                  "text": "「うなぎが食べたいと言ったにちがいない」「そのままおっ母は、死んじゃったにちがいない」は、ごんが葬式を見て組み立てた推測であり"
+                },
+                {
+                  "file": "O2.md",
+                  "text": "後悔に至る心理的なつながりは明確だが、その想像を事実や死因として扱うことはできない。ただし、「その晩、ごんは、穴の中で考えました」と内面の記述に位置付けられているので、本文自体がその因果関係を確定したとは読めない。"
+                },
+                {
+                  "file": "O2.md",
+                  "text": "確認できるのは、ごんがそう信じて償いを始めたという関係までである。"
+                }
+              ],
+              "reason": "推量が内面記述に置かれ本文が因果を確定しないこと（推測と作中事実の境界）と、それが償いを始めさせることを認識。『問題がある関係』見出し下だが、出力は冒頭で人物の推論の問題と本文の構成上の不整合を区別すると明言しており、本文関係を欠陥とは判断していないためFERRとしない。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      1640,
+                      1703
+                    ]
+                  ],
+                  "text": "「うなぎが食べたいと言ったにちがいない」「そのままおっ母は、死んじゃったにちがいない」は、ごんが葬式を見て組み立てた推測であり"
+                },
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      1737,
+                      1844
+                    ]
+                  ],
+                  "text": "後悔に至る心理的なつながりは明確だが、その想像を事実や死因として扱うことはできない。ただし、「その晩、ごんは、穴の中で考えました」と内面の記述に位置付けられているので、本文自体がその因果関係を確定したとは読めない。"
+                },
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      2540,
+                      2573
+                    ]
+                  ],
+                  "text": "確認できるのは、ごんがそう信じて償いを始めたという関係までである。"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R2",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O2.md",
+                  "text": "「うわアぬすと狐め」という最初の認識と、最後の「またいたずらをしに来たな」が対応し、その間に読者が知った償いを兵十は知らない。この認識の差が悲劇を支えている。"
+                },
+                {
+                  "file": "O2.md",
+                  "text": "兵十が送り主を知らないことにも説明がある"
+                },
+                {
+                  "file": "O2.md",
+                  "text": "その時点で見たのは狐が家に入ったことで、今回の目的は確認していない。家に置かれた栗を見るのが発砲後になることで、この判断の誤りが表面化する。"
+                }
+              ],
+              "reason": "143行目の兵十の内言、149行目の栗の発見、101〜105行目の情報差を結び、情報差が誤射と遅れた認識を成立させることを認識。『視点』という語での明示はないが、兵十側の判断として143行目を読み、読者と兵十の情報差を機能として述べており、参照の命題に対応（確信mid）。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      49,
+                      128
+                    ]
+                  ],
+                  "text": "「うわアぬすと狐め」という最初の認識と、最後の「またいたずらをしに来たな」が対応し、その間に読者が知った償いを兵十は知らない。この認識の差が悲劇を支えている。"
+                },
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      1144,
+                      1164
+                    ]
+                  ],
+                  "text": "兵十が送り主を知らないことにも説明がある"
+                },
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      2302,
+                      2372
+                    ]
+                  ],
+                  "text": "その時点で見たのは狐が家に入ったことで、今回の目的は確認していない。家に置かれた栗を見るのが発砲後になることで、この判断の誤りが表面化する。"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R3",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O2.md",
+                  "text": "栗はそれまで繰り返し現れていたため、最後だけ突然与えられた解決材料ではない。「火縄銃をばたりと、とり落しました」と「青い煙が、まだ筒口から細く出ていました」は、認識が変わった直後にも発砲の結果が残っていることを示し、理解が遅れた悲劇を閉じている。"
+                },
+                {
+                  "file": "O2.md",
+                  "text": "死そのものは明記されていない。"
+                }
+              ],
+              "reason": "結末が前段の贈与から生じ、銃と煙の像で閉じること、生死が明記されないことを認識。教訓の不在は明言していないが、前段から生じる像による閉じ方を機能として述べており対応。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      1459,
+                      1582
+                    ]
+                  ],
+                  "text": "栗はそれまで繰り返し現れていたため、最後だけ突然与えられた解決材料ではない。「火縄銃をばたりと、とり落しました」と「青い煙が、まだ筒口から細く出ていました」は、認識が変わった直後にも発砲の結果が残っていることを示し、理解が遅れた悲劇を閉じている。"
+                },
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      2877,
+                      2892
+                    ]
+                  ],
+                  "text": "死そのものは明記されていない。"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R4",
+              "events": [
+                "FUN"
+              ],
+              "evidence_spans": [
+                {
+                  "file": "O2.md",
+                  "text": "ごんの「まず一つ、いいことをした」という評価は、翌日の「盗人と思われて」「ひどい目にあわされた」で覆される。この矛盾は語りの破綻ではなく、ごんの判断が結果を見通していなかったことを示す。"
+                },
+                {
+                  "file": "O2.md",
+                  "text": "さらに兵十の負傷へつながり、助ける目的にも反する。"
+                }
+              ],
+              "reason": "74行目の投げ込みと翌日80行目の独り言による原因の判明、兵十の負傷への因果、語りの破綻ではないことを認識。78行目の傷が先に示される提示順そのものには触れていないが、同一対象・時点の因果整合を本文で認識しており対応（確信mid）。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": [
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      882,
+                      975
+                    ]
+                  ],
+                  "text": "ごんの「まず一つ、いいことをした」という評価は、翌日の「盗人と思われて」「ひどい目にあわされた」で覆される。この矛盾は語りの破綻ではなく、ごんの判断が結果を見通していなかったことを示す。"
+                },
+                {
+                  "file": "O2.md",
+                  "positions": [
+                    [
+                      1944,
+                      1969
+                    ]
+                  ],
+                  "text": "さらに兵十の負傷へつながり、助ける目的にも反する。"
+                }
+              ]
+            },
+            {
+              "ref_id": "Q008-R5",
+              "events": [
+                "FMISS"
+              ],
+              "evidence_spans": [],
+              "reason": "冒頭の伝聞枠・『そうです』の伝聞層への言及がない。監査完了済みで認識・保留なし。",
+              "pend_checks": {
+                "relation_and_quotes": false,
+                "specific_material": false,
+                "decision_branch": false,
+                "reason": "not_applicable"
+              },
+              "validated_spans": []
+            }
+          ],
+          "parents": [
+            {
+              "parent_id": "O2-P01",
+              "file": "O2.md",
+              "text": "本文では、ごんの行動が変わっても、その変化が兵十には伝わらないという関係が、結末まで一貫している。「うわアぬすと狐め」という最初の認識と、最後の「またいたずらをしに来たな」が対応し、その間に読者が知った償いを兵十は知らない。この認識の差が悲劇を支えている。問題のある推論や行動も描かれているが、それらと本文の構成上の不整合は区別して読む必要がある。",
+              "extraction_reason": "見出し前の未構造の判断段落。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P01-C1",
+                  "text": "ごんの行動が変わっても、その変化が兵十には伝わらないという関係が、結末まで一貫している。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "おれの知らんうちに、おいていくんだ"
+                  ],
+                  "reason": "兵十は送り主を知らないまま六に至る。",
+                  "positions_within_parent": [
+                    [
+                      5,
+                      49
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P01-C2",
+                  "text": "その間に読者が知った償いを兵十は知らない。この認識の差が悲劇を支えている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "うわアぬすと狐め",
+                    "またいたずらをしに来たな。"
+                  ],
+                  "reason": "26行目と143行目の認識が対応し、情報差が誤射を生む。",
+                  "positions_within_parent": [
+                    [
+                      91,
+                      128
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    0,
+                    174
+                  ]
+                ],
+                "text": "本文では、ごんの行動が変わっても、その変化が兵十には伝わらないという関係が、結末まで一貫している。「うわアぬすと狐め」という最初の認識と、最後の「またいたずらをしに来たな」が対応し、その間に読者が知った償いを兵十は知らない。この認識の差が悲劇を支えている。問題のある推論や行動も描かれているが、それらと本文の構成上の不整合は区別して読む必要がある。"
+              }
+            },
+            {
+              "parent_id": "O2-P02",
+              "file": "O2.md",
+              "text": "- 雨の描写が、その後の川の状態につながっている。「二、三日雨がふりつづいた」に対して「三日もの雨で、水が、どっとましていました」と説明され、濁流や水に倒される草の描写にも理由が与えられている。背景描写が場面の状況を具体化しており、出来事から浮いていない。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P02-C1",
+                  "text": "雨の描写が、その後の川の状態につながっている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "二、三日雨がふりつづいた",
+                    "三日もの雨で、水が、どっとましていました"
+                  ],
+                  "reason": "8行目と12行目が対応。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      25
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P02-C2",
+                  "text": "背景描写が場面の状況を具体化しており、出来事から浮いていない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "黄いろくにごった水に横だおしになって、もまれています。"
+                  ],
+                  "reason": "増水の描写が漁の場面を具体化する。",
+                  "positions_within_parent": [
+                    [
+                      97,
+                      128
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    190,
+                    318
+                  ]
+                ],
+                "text": "- 雨の描写が、その後の川の状態につながっている。「二、三日雨がふりつづいた」に対して「三日もの雨で、水が、どっとましていました」と説明され、濁流や水に倒される草の描写にも理由が与えられている。背景描写が場面の状況を具体化しており、出来事から浮いていない。"
+              }
+            },
+            {
+              "parent_id": "O2-P03",
+              "file": "O2.md",
+              "text": "- 冒頭の人物紹介が、最初の事件と終盤の判断を準備している。「いたずらばかりしました」という紹介の後に、魚を川へ投げ返す行動が描かれ、兵十にはうなぎを奪うところを見られる。したがって、最後に兵十が「あのごん狐めが、またいたずらをしに来たな」と考えることには、過去の目撃という根拠がある。ただし、その根拠が現在の行動まで正しく説明するわけではなく、古い認識を更新できないことが結末の原因になっている。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P03-C1",
+                  "text": "冒頭の人物紹介が、最初の事件と終盤の判断を準備している。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "いたずらばかりしました"
+                  ],
+                  "reason": "6行目の紹介と22〜26行目の事件が対応。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      30
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P03-C2",
+                  "text": "最後に兵十が「あのごん狐めが、またいたずらをしに来たな」と考えることには、過去の目撃という根拠がある。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "「うわアぬすと狐め」と、どなりたてました。",
+                    "こないだうなぎをぬすみやがったあのごん狐めが、またいたずらをしに来たな。"
+                  ],
+                  "reason": "26行目の目撃が143行目の判断の根拠。",
+                  "positions_within_parent": [
+                    [
+                      92,
+                      143
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P03-C3",
+                  "text": "古い認識を更新できないことが結末の原因になっている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "ドンと、うちました。"
+                  ],
+                  "reason": "旧認識のまま撃つ。",
+                  "positions_within_parent": [
+                    [
+                      173,
+                      199
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    320,
+                    519
+                  ]
+                ],
+                "text": "- 冒頭の人物紹介が、最初の事件と終盤の判断を準備している。「いたずらばかりしました」という紹介の後に、魚を川へ投げ返す行動が描かれ、兵十にはうなぎを奪うところを見られる。したがって、最後に兵十が「あのごん狐めが、またいたずらをしに来たな」と考えることには、過去の目撃という根拠がある。ただし、その根拠が現在の行動まで正しく説明するわけではなく、古い認識を更新できないことが結末の原因になっている。"
+              }
+            },
+            {
+              "parent_id": "O2-P04",
+              "file": "O2.md",
+              "text": "- 葬式を察する過程では、観察と推測が段階的につながっている。「祭なら、太鼓や笛の音がしそうなものだ」と予想を確かめ、兵十の家に集まる人々を見て「ああ、葬式だ」と判断する。その後の「死んだのは兵十のおっ母だ」という推測は、第三節の「おっ母が死んでしまっては」という語りによって裏付けられる。ごんの推測がすべて無根拠なのではなく、後から確認されるものもある。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P04-C1",
+                  "text": "葬式を察する過程では、観察と推測が段階的につながっている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "祭なら、太鼓や笛の音がしそうなものだ",
+                    "「ああ、葬式だ」と、ごんは思いました。"
+                  ],
+                  "reason": "37〜41行目の段階的推論。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      31
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P04-C2",
+                  "text": "その後の「死んだのは兵十のおっ母だ」という推測は、第三節の「おっ母が死んでしまっては」という語りによって裏付けられる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "死んだのは兵十のおっ母だ",
+                    "おっ母が死んでしまっては"
+                  ],
+                  "reason": "62行目の地の文が51行目の推測を裏付ける。",
+                  "positions_within_parent": [
+                    [
+                      86,
+                      145
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    521,
+                    699
+                  ]
+                ],
+                "text": "- 葬式を察する過程では、観察と推測が段階的につながっている。「祭なら、太鼓や笛の音がしそうなものだ」と予想を確かめ、兵十の家に集まる人々を見て「ああ、葬式だ」と判断する。その後の「死んだのは兵十のおっ母だ」という推測は、第三節の「おっ母が死んでしまっては」という語りによって裏付けられる。ごんの推測がすべて無根拠なのではなく、後から確認されるものもある。"
+              }
+            },
+            {
+              "parent_id": "O2-P05",
+              "file": "O2.md",
+              "text": "- 「一人ぼっち」の反復が、ごんと兵十を結び付けている。冒頭の「ごんは、一人ぼっちの小狐」に対し、母を失った兵十についても「もう一人ぼっちでした」と述べられ、ごん自身が「おれと同じ一人ぼっちの兵十か」と受け止める。うなぎへの後悔に加えて、共通する孤独が、その後の贈り物を理解する手掛かりになっている。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P05-C1",
+                  "text": "「一人ぼっち」の反復が、ごんと兵十を結び付けている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "ごんは、一人ぼっちの小狐",
+                    "もう一人ぼっちでした",
+                    "おれと同じ一人ぼっちの兵十か"
+                  ],
+                  "reason": "6・62・64行目。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      28
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P05-C2",
+                  "text": "共通する孤独が、その後の贈り物を理解する手掛かりになっている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "おれと同じ一人ぼっちの兵十か"
+                  ],
+                  "reason": "64行目の直後に贈与が始まる（解釈だが本文の配置と整合）。",
+                  "positions_within_parent": [
+                    [
+                      119,
+                      150
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    701,
+                    851
+                  ]
+                ],
+                "text": "- 「一人ぼっち」の反復が、ごんと兵十を結び付けている。冒頭の「ごんは、一人ぼっちの小狐」に対し、母を失った兵十についても「もう一人ぼっちでした」と述べられ、ごん自身が「おれと同じ一人ぼっちの兵十か」と受け止める。うなぎへの後悔に加えて、共通する孤独が、その後の贈り物を理解する手掛かりになっている。"
+              }
+            },
+            {
+              "parent_id": "O2-P06",
+              "file": "O2.md",
+              "text": "- いわしの一件は、善意と結果の食い違いを具体化している。ごんの「まず一つ、いいことをした」という評価は、翌日の「盗人と思われて」「ひどい目にあわされた」で覆される。この矛盾は語りの破綻ではなく、ごんの判断が結果を見通していなかったことを示す。続いて贈り物が「山で栗をどっさりひろって」に変わるため、他人から盗む償いの失敗が、その後の行動の変化につながっている。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P06-C1",
+                  "text": "いわしの一件は、善意と結果の食い違いを具体化している。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R4"
+                  ],
+                  "source_quotes": [
+                    "まず一つ、いいことをしたと思いました。",
+                    "盗人と思われて、いわし屋のやつに、ひどい目にあわされた"
+                  ],
+                  "reason": "76行目と80行目。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      29
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P06-C2",
+                  "text": "この矛盾は語りの破綻ではなく、ごんの判断が結果を見通していなかったことを示す。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R4"
+                  ],
+                  "source_quotes": [
+                    "ごんは、これはしまったと思いました。"
+                  ],
+                  "reason": "因果は本文内で閉じる。",
+                  "positions_within_parent": [
+                    [
+                      83,
+                      122
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P06-C3",
+                  "text": "他人から盗む償いの失敗が、その後の行動の変化につながっている。",
+                  "stance": "K",
+                  "support": "UNSUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "つぎの日には、ごんは山で栗をどっさりひろって、それをかかえて、兵十の家へいきました。",
+                    "ごんは、これはしまったと思いました。"
+                  ],
+                  "reason": "本文ではごんは栗を拾って兵十の家へ行った後に独り言を聞いて失敗を知る（78〜82行目）。栗への変化は失敗を知る前に起きており、失敗が変化をもたらしたという因果は本文の時系列に支えられない。",
+                  "positions_within_parent": [
+                    [
+                      150,
+                      181
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    853,
+                    1034
+                  ]
+                ],
+                "text": "- いわしの一件は、善意と結果の食い違いを具体化している。ごんの「まず一つ、いいことをした」という評価は、翌日の「盗人と思われて」「ひどい目にあわされた」で覆される。この矛盾は語りの破綻ではなく、ごんの判断が結果を見通していなかったことを示す。続いて贈り物が「山で栗をどっさりひろって」に変わるため、他人から盗む償いの失敗が、その後の行動の変化につながっている。"
+              }
+            },
+            {
+              "parent_id": "O2-P07",
+              "file": "O2.md",
+              "text": "- 贈り物の反復が、送り主をめぐる謎と誤解を育てている。「つぎの日も、そのつぎの日も」という継続は、兵十の「まいにちまいにちくれるんだよ」に対応する。また、ごんが「そっと」置き、兵十の「知らんうちに」届けているため、兵十が送り主を知らないことにも説明がある。第四節で加助が栗を見るよう誘われ、第五節で「神さまのしわざ」と説明する流れも、同じ謎を受け継いでいる。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P07-C1",
+                  "text": "贈り物の反復が、送り主をめぐる謎と誤解を育てている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "つぎの日も、そのつぎの日もごんは",
+                    "まいにちまいにちくれるんだよ"
+                  ],
+                  "reason": "86行目と101行目が対応。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      28
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P07-C2",
+                  "text": "兵十が送り主を知らないことにも説明がある。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "そっと物置の方へまわって",
+                    "おれの知らんうちに、おいていくんだ"
+                  ],
+                  "reason": "84行目と105行目。",
+                  "positions_within_parent": [
+                    [
+                      108,
+                      129
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P07-C3",
+                  "text": "第四節で加助が栗を見るよう誘われ、第五節で「神さまのしわざ」と説明する流れも、同じ謎を受け継いでいる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "その栗を見せてやるよ",
+                    "神さまのしわざだぞ"
+                  ],
+                  "reason": "111行目と126行目。",
+                  "positions_within_parent": [
+                    [
+                      129,
+                      180
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    1036,
+                    1216
+                  ]
+                ],
+                "text": "- 贈り物の反復が、送り主をめぐる謎と誤解を育てている。「つぎの日も、そのつぎの日も」という継続は、兵十の「まいにちまいにちくれるんだよ」に対応する。また、ごんが「そっと」置き、兵十の「知らんうちに」届けているため、兵十が送り主を知らないことにも説明がある。第四節で加助が栗を見るよう誘われ、第五節で「神さまのしわざ」と説明する流れも、同じ謎を受け継いでいる。"
+              }
+            },
+            {
+              "parent_id": "O2-P08",
+              "file": "O2.md",
+              "text": "- 第五節から第六節へのつながりは、ごんの感情の複雑さを示している。「そのおれにはお礼をいわない」と不満を抱きながら、「そのあくる日もごんは、栗をもって」出かける。お礼を求める気持ちは生じているが、それで贈与をやめたわけではない。償いと承認への欲求が併存しており、感情が変化したことと行動が継続することは両立する。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P08-C1",
+                  "text": "お礼を求める気持ちは生じているが、それで贈与をやめたわけではない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "そのおれにはお礼をいわないで",
+                    "そのあくる日もごんは、栗をもって"
+                  ],
+                  "reason": "138行目と141行目。",
+                  "positions_within_parent": [
+                    [
+                      82,
+                      115
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P08-C2",
+                  "text": "感情が変化したことと行動が継続することは両立する。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文の連続と整合。",
+                  "positions_within_parent": [
+                    [
+                      132,
+                      157
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    1218,
+                    1375
+                  ]
+                ],
+                "text": "- 第五節から第六節へのつながりは、ごんの感情の複雑さを示している。「そのおれにはお礼をいわない」と不満を抱きながら、「そのあくる日もごんは、栗をもって」出かける。お礼を求める気持ちは生じているが、それで贈与をやめたわけではない。償いと承認への欲求が併存しており、感情が変化したことと行動が継続することは両立する。"
+              }
+            },
+            {
+              "parent_id": "O2-P09",
+              "file": "O2.md",
+              "text": "- 結末では、積み重ねられた贈り物が認識を変える証拠になる。「土間に栗が、かためておいてある」のを見て、兵十は「お前だったのか。いつも栗をくれたのは」と結び付ける。栗はそれまで繰り返し現れていたため、最後だけ突然与えられた解決材料ではない。「火縄銃をばたりと、とり落しました」と「青い煙が、まだ筒口から細く出ていました」は、認識が変わった直後にも発砲の結果が残っていることを示し、理解が遅れた悲劇を閉じている。",
+              "extraction_reason": "箇条書き一項（機能）。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P09-C1",
+                  "text": "結末では、積み重ねられた贈り物が認識を変える証拠になる。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2",
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "土間に栗が、かためておいてある",
+                    "お前だったのか。いつも栗をくれたのは"
+                  ],
+                  "reason": "149・153行目。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      30
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P09-C2",
+                  "text": "栗はそれまで繰り返し現れていたため、最後だけ突然与えられた解決材料ではない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [],
+                  "reason": "84〜86・141行目の栗。",
+                  "positions_within_parent": [
+                    [
+                      82,
+                      120
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P09-C3",
+                  "text": "認識が変わった直後にも発砲の結果が残っていることを示し、理解が遅れた悲劇を閉じている。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "火縄銃をばたりと、とり落しました",
+                    "青い煙が、まだ筒口から細く出ていました"
+                  ],
+                  "reason": "157行目。",
+                  "positions_within_parent": [
+                    [
+                      162,
+                      205
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    1377,
+                    1582
+                  ]
+                ],
+                "text": "- 結末では、積み重ねられた贈り物が認識を変える証拠になる。「土間に栗が、かためておいてある」のを見て、兵十は「お前だったのか。いつも栗をくれたのは」と結び付ける。栗はそれまで繰り返し現れていたため、最後だけ突然与えられた解決材料ではない。「火縄銃をばたりと、とり落しました」と「青い煙が、まだ筒口から細く出ていました」は、認識が変わった直後にも発砲の結果が残っていることを示し、理解が遅れた悲劇を閉じている。"
+              }
+            },
+            {
+              "parent_id": "O2-P10",
+              "file": "O2.md",
+              "text": "- 母の死とうなぎを奪った事件を結び付ける推論には、根拠の不足がある。「うなぎが食べたいと言ったにちがいない」「そのままおっ母は、死んじゃったにちがいない」は、ごんが葬式を見て組み立てた推測であり、母の希望や病状、兵十が魚を捕っていた目的は本文で確認されていない。後悔に至る心理的なつながりは明確だが、その想像を事実や死因として扱うことはできない。ただし、「その晩、ごんは、穴の中で考えました」と内面の記述に位置付けられているので、本文自体がその因果関係を確定したとは読めない。",
+              "extraction_reason": "『問題がある関係』箇条書き一項。対象は人物の推論。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P10-C1",
+                  "text": "母の死とうなぎを奪った事件を結び付ける推論には、根拠の不足がある。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "うなぎが食べたいと言ったにちがいない",
+                    "そのままおっ母は、死んじゃったにちがいない。"
+                  ],
+                  "reason": "人物（ごん）の推論の根拠不足として本文に支えられる。本文の欠陥とは述べていない。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      35
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P10-C2",
+                  "text": "母の希望や病状、兵十が魚を捕っていた目的は本文で確認されていない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [],
+                  "reason": "地の文はこれらを確定しない。",
+                  "positions_within_parent": [
+                    [
+                      99,
+                      132
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P10-C3",
+                  "text": "後悔に至る心理的なつながりは明確だが",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "ちょッ、あんないたずらをしなけりゃよかった。"
+                  ],
+                  "reason": "57行目。",
+                  "positions_within_parent": [
+                    [
+                      132,
+                      150
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P10-C4",
+                  "text": "本文自体がその因果関係を確定したとは読めない。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "その晩、ごんは、穴の中で考えました。"
+                  ],
+                  "reason": "心中語として位置付けられる。",
+                  "positions_within_parent": [
+                    [
+                      216,
+                      239
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    1605,
+                    1844
+                  ]
+                ],
+                "text": "- 母の死とうなぎを奪った事件を結び付ける推論には、根拠の不足がある。「うなぎが食べたいと言ったにちがいない」「そのままおっ母は、死んじゃったにちがいない」は、ごんが葬式を見て組み立てた推測であり、母の希望や病状、兵十が魚を捕っていた目的は本文で確認されていない。後悔に至る心理的なつながりは明確だが、その想像を事実や死因として扱うことはできない。ただし、「その晩、ごんは、穴の中で考えました」と内面の記述に位置付けられているので、本文自体がその因果関係を確定したとは読めない。"
+              }
+            },
+            {
+              "parent_id": "O2-P11",
+              "file": "O2.md",
+              "text": "- ごんの最初の償いには、手段と目的の食い違いがある。「うなぎのつぐない」のために、いわし売の「かごの中から、五、六ぴきのいわしをつかみ出」すため、奪ったことを償おうとして別の相手から奪っている。さらに兵十の負傷へつながり、助ける目的にも反する。ここは行動上の問題だが、本文は「これはしまった」という反応まで描いており、失敗を放置せず、ごんの学びにつなげている。",
+              "extraction_reason": "『問題がある関係』箇条書き一項。対象は人物の行動。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P11-C1",
+                  "text": "ごんの最初の償いには、手段と目的の食い違いがある。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "うなぎのつぐない",
+                    "かごの中から、五、六ぴきのいわしをつかみ出して"
+                  ],
+                  "reason": "盗んだいわしで償う行動は74・76行目に描かれる。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      27
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P11-C2",
+                  "text": "さらに兵十の負傷へつながり、助ける目的にも反する。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R4"
+                  ],
+                  "source_quotes": [
+                    "かすり傷がついています",
+                    "いわし屋にぶんなぐられて、あんな傷までつけられたのか。"
+                  ],
+                  "reason": "78〜82行目。",
+                  "positions_within_parent": [
+                    [
+                      98,
+                      123
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P11-C3",
+                  "text": "失敗を放置せず、ごんの学びにつなげている。",
+                  "stance": "K",
+                  "support": "SPLIT",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "ごんは、これはしまったと思いました。",
+                    "つぎの日も、そのつぎの日もごんは、栗をひろっては"
+                  ],
+                  "reason": "『これはしまった』の後も盗まない贈与が続く点は学びと読めるが、栗への切替は失敗を知る前に起きており、本文は学びを明言しない。解釈が分かれる。",
+                  "positions_within_parent": [
+                    [
+                      160,
+                      181
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    1846,
+                    2027
+                  ]
+                ],
+                "text": "- ごんの最初の償いには、手段と目的の食い違いがある。「うなぎのつぐない」のために、いわし売の「かごの中から、五、六ぴきのいわしをつかみ出」すため、奪ったことを償おうとして別の相手から奪っている。さらに兵十の負傷へつながり、助ける目的にも反する。ここは行動上の問題だが、本文は「これはしまった」という反応まで描いており、失敗を放置せず、ごんの学びにつなげている。"
+              }
+            },
+            {
+              "parent_id": "O2-P12",
+              "file": "O2.md",
+              "text": "- 加助の説明は、確信の強さに比べて証拠が弱い。「どうも、そりゃ、人間じゃない、神さまだ」と言うが、示されているのは、知らないうちに贈り物が置かれることと、兵十が一人になったことだけである。それだけでは送り主を特定できない。「あれからずっと考えていた」は考えた時間を示しても、結論の裏付けにはならない。一方、この誤った説明が、ごんの「引き合わないなあ」という不満を引き起こすため、物語上の働きはある。",
+              "extraction_reason": "『問題がある関係』箇条書き一項。対象は人物の発話。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P12-C1",
+                  "text": "加助の説明は、確信の強さに比べて証拠が弱い。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "どうも、そりゃ、人間じゃない、神さまだ"
+                  ],
+                  "reason": "130行目の根拠は贈与の匿名性と兵十の孤独のみ。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      24
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P12-C2",
+                  "text": "「あれからずっと考えていた」は考えた時間を示しても、結論の裏付けにはならない。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "おれは、あれからずっと考えていたが"
+                  ],
+                  "reason": "130行目。",
+                  "positions_within_parent": [
+                    [
+                      112,
+                      151
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P12-C3",
+                  "text": "この誤った説明が、ごんの「引き合わないなあ」という不満を引き起こすため、物語上の働きはある。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "引き合わないなあ"
+                  ],
+                  "reason": "138行目。",
+                  "positions_within_parent": [
+                    [
+                      154,
+                      200
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    2029,
+                    2229
+                  ]
+                ],
+                "text": "- 加助の説明は、確信の強さに比べて証拠が弱い。「どうも、そりゃ、人間じゃない、神さまだ」と言うが、示されているのは、知らないうちに贈り物が置かれることと、兵十が一人になったことだけである。それだけでは送り主を特定できない。「あれからずっと考えていた」は考えた時間を示しても、結論の裏付けにはならない。一方、この誤った説明が、ごんの「引き合わないなあ」という不満を引き起こすため、物語上の働きはある。"
+              }
+            },
+            {
+              "parent_id": "O2-P13",
+              "file": "O2.md",
+              "text": "- 最後の兵十の判断には、過去と現在を同一視する問題がある。「こないだうなぎをぬすみやがった」ことから「またいたずらをしに来たな」と考えるが、その時点で見たのは狐が家に入ったことで、今回の目的は確認していない。家に置かれた栗を見るのが発砲後になることで、この判断の誤りが表面化する。最初の被害経験と、途中で贈り主を知る機会がなかったことが説明されているため、行動のつながりは理解できるが、判断そのものは誤っている。",
+              "extraction_reason": "『問題がある関係』箇条書き一項。対象は人物の判断。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P13-C1",
+                  "text": "最後の兵十の判断には、過去と現在を同一視する問題がある。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "こないだうなぎをぬすみやがったあのごん狐めが、またいたずらをしに来たな。"
+                  ],
+                  "reason": "143行目。人物の判断の誤りで本文の欠陥ではない。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      30
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P13-C2",
+                  "text": "家に置かれた栗を見るのが発砲後になることで、この判断の誤りが表面化する。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "土間に栗が、かためておいてあるのが目につきました。"
+                  ],
+                  "reason": "149行目。",
+                  "positions_within_parent": [
+                    [
+                      105,
+                      141
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P13-C3",
+                  "text": "行動のつながりは理解できる",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [],
+                  "reason": "26行目の目撃と101〜105行目の情報差が説明する。",
+                  "positions_within_parent": [
+                    [
+                      179,
+                      192
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P13-C4",
+                  "text": "判断そのものは誤っている。",
+                  "stance": "P",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R2"
+                  ],
+                  "source_quotes": [
+                    "ごん、お前だったのか。いつも栗をくれたのは"
+                  ],
+                  "reason": "153行目で誤りが判明する。",
+                  "positions_within_parent": [
+                    [
+                      194,
+                      207
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    2231,
+                    2438
+                  ]
+                ],
+                "text": "- 最後の兵十の判断には、過去と現在を同一視する問題がある。「こないだうなぎをぬすみやがった」ことから「またいたずらをしに来たな」と考えるが、その時点で見たのは狐が家に入ったことで、今回の目的は確認していない。家に置かれた栗を見るのが発砲後になることで、この判断の誤りが表面化する。最初の被害経験と、途中で贈り主を知る機会がなかったことが説明されているため、行動のつながりは理解できるが、判断そのものは誤っている。"
+              }
+            },
+            {
+              "parent_id": "O2-P14",
+              "file": "O2.md",
+              "text": "- ごんの後悔が、実際に母の最期の希望に対応していたかは判断できない。「うなぎが食べたいとおもいながら、死んだんだろう」は想像であり、母や兵十からの説明がない。確認できるのは、ごんがそう信じて償いを始めたという関係までである。",
+              "extraction_reason": "『本文だけでは判断できない関係』箇条書き一項。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P14-C1",
+                  "text": "ごんの後悔が、実際に母の最期の希望に対応していたかは判断できない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "うなぎが食べたいとおもいながら、死んだんだろう"
+                  ],
+                  "reason": "推測の真偽は本文で確定されない。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      35
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P14-C2",
+                  "text": "確認できるのは、ごんがそう信じて償いを始めたという関係までである。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R1"
+                  ],
+                  "source_quotes": [
+                    "うなぎのつぐないに"
+                  ],
+                  "reason": "76行目。",
+                  "positions_within_parent": [
+                    [
+                      80,
+                      113
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    2460,
+                    2573
+                  ]
+                ],
+                "text": "- ごんの後悔が、実際に母の最期の希望に対応していたかは判断できない。「うなぎが食べたいとおもいながら、死んだんだろう」は想像であり、母や兵十からの説明がない。確認できるのは、ごんがそう信じて償いを始めたという関係までである。"
+              }
+            },
+            {
+              "parent_id": "O2-P15",
+              "file": "O2.md",
+              "text": "- 栗を運び続けた動機の比重は確定できない。「おれと同じ一人ぼっち」という共感、「うなぎのつぐない」という後悔、「お礼をいわない」という不満はそれぞれ示されるが、どれがどの程度行動を支えていたかは述べられていない。第六節の継続だけから、完全な無私にも、お礼だけを目的とした行為にも限定できない。",
+              "extraction_reason": "『本文だけでは判断できない関係』箇条書き一項。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P15-C1",
+                  "text": "栗を運び続けた動機の比重は確定できない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [
+                    "おれと同じ一人ぼっち",
+                    "うなぎのつぐない",
+                    "お礼をいわない"
+                  ],
+                  "reason": "動機の比重は本文に述べられない。",
+                  "positions_within_parent": [
+                    [
+                      2,
+                      22
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    2575,
+                    2722
+                  ]
+                ],
+                "text": "- 栗を運び続けた動機の比重は確定できない。「おれと同じ一人ぼっち」という共感、「うなぎのつぐない」という後悔、「お礼をいわない」という不満はそれぞれ示されるが、どれがどの程度行動を支えていたかは述べられていない。第六節の継続だけから、完全な無私にも、お礼だけを目的とした行為にも限定できない。"
+              }
+            },
+            {
+              "parent_id": "O2-P16",
+              "file": "O2.md",
+              "text": "- 結末で二人がどこまで互いを理解したかは限定して判断する必要がある。「いつも栗をくれたのは」という問いに、ごんが「うなずきました」と応じるため、送り主の確認は成立している。しかし、うなぎへの後悔や孤独への共感を兵十が知ったとは書かれていない。また、「ぐったりと目をつぶったまま」という描写は重傷を示すが、死そのものは明記されていない。認識の転換は読み取れる一方、全面的な和解やその後の生死は確定できない。",
+              "extraction_reason": "『本文だけでは判断できない関係』箇条書き一項。",
+              "duplicate_of": null,
+              "claims": [
+                {
+                  "claim_id": "O2-P16-C1",
+                  "text": "送り主の確認は成立している。",
+                  "stance": "K",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "いつも栗をくれたのは",
+                    "うなずきました"
+                  ],
+                  "reason": "153・155行目。",
+                  "positions_within_parent": [
+                    [
+                      73,
+                      87
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P16-C2",
+                  "text": "うなぎへの後悔や孤独への共感を兵十が知ったとは書かれていない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [],
+                  "source_quotes": [],
+                  "reason": "本文に記述なし。",
+                  "positions_within_parent": [
+                    [
+                      91,
+                      122
+                    ]
+                  ]
+                },
+                {
+                  "claim_id": "O2-P16-C3",
+                  "text": "全面的な和解やその後の生死は確定できない。",
+                  "stance": "U",
+                  "support": "SUP",
+                  "ref_ids": [
+                    "Q008-R3"
+                  ],
+                  "source_quotes": [
+                    "ぐったりと目をつぶったまま"
+                  ],
+                  "reason": "生死は明記されない。",
+                  "positions_within_parent": [
+                    [
+                      182,
+                      203
+                    ]
+                  ]
+                }
+              ],
+              "validated_span": {
+                "file": "O2.md",
+                "positions": [
+                  [
+                    2724,
+                    2927
+                  ]
+                ],
+                "text": "- 結末で二人がどこまで互いを理解したかは限定して判断する必要がある。「いつも栗をくれたのは」という問いに、ごんが「うなずきました」と応じるため、送り主の確認は成立している。しかし、うなぎへの後悔や孤独への共感を兵十が知ったとは書かれていない。また、「ぐったりと目をつぶったまま」という描写は重傷を示すが、死そのものは明記されていない。認識の転換は読み取れる一方、全面的な和解やその後の生死は確定できない。"
+              }
+            }
+          ],
+          "other_reference_mentions": [],
+          "new_discoveries": [
+            {
+              "note": "O2-P06-C3：いわしの失敗が栗への切替を生んだという因果は、本文の時系列（栗を拾って訪れた後に独り言を聞く、78〜82行目）と合わない。新規発見として記録し初期参照は増やさない。"
+            }
+          ],
+          "quote_issues": [],
+          "extraction_notes": [
+            "『問題がある関係』の4項目はいずれも人物の推論・行動・判断を対象とし、出力冒頭で本文の構成上の不整合と区別すると明言しているため、参照機能関係へのFERRとは扱わずP主張として支持裁定した。",
+            "O2-P16の『死そのものは明記されていない』と『その後の生死は確定できない』は同一判断のため後者のみclaim化した（水増し回避）。"
+          ],
+          "post_check": {
+            "all_accepted_refs_contained": true,
+            "span_exact_match": "all match",
+            "parent_exact_match": "all match",
+            "source_quotes_exact_match": "all match",
+            "claim_in_parent": "all match"
+          }
+        }
+      ]
+    }
+  ]
+}

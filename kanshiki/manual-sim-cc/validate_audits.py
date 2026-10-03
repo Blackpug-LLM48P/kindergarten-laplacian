@@ -46,7 +46,7 @@ def validate(path):
             assert len(parent_ids)==len(set(parent_ids))
             for parent in output['parents']:
                 parent['validated_span']=check_span(parent)
-                assert parent['claims']
+                assert parent['claims'] or parent.get('duplicate_of')  # cc: 重複親のみ claims 空を許容（集計は重複親を除外）
                 for claim in parent['claims']:
                     hits=positions(parent['text'],claim['text'])
                     if not hits: report['errors'].append({'input':q,'output':alias,'claim_id':claim['claim_id'],'text':claim['text']})
