@@ -1,0 +1,290 @@
+{
+  "pairs": [
+    {
+      "pair": "AB",
+      "n_a": 32,
+      "n_b": 18,
+      "matches": 16,
+      "dice": 0.64,
+      "jaccard": 0.47058823529411764,
+      "polarity_agreement": 0.875,
+      "item_set_agreement": 0.4375,
+      "by_input": [
+        {
+          "input_id": "Q005",
+          "n_a": 3,
+          "n_b": 2,
+          "matches": 1,
+          "dice": 0.4,
+          "jaccard": 0.25,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.0
+        },
+        {
+          "input_id": "Q008",
+          "n_a": 5,
+          "n_b": 2,
+          "matches": 2,
+          "dice": 0.5714285714285714,
+          "jaccard": 0.4,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q019",
+          "n_a": 4,
+          "n_b": 2,
+          "matches": 2,
+          "dice": 0.6666666666666666,
+          "jaccard": 0.5,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q010",
+          "n_a": 5,
+          "n_b": 3,
+          "matches": 2,
+          "dice": 0.5,
+          "jaccard": 0.3333333333333333,
+          "polarity_agreement": 0.5,
+          "item_set_agreement": 0.0
+        },
+        {
+          "input_id": "Q012",
+          "n_a": 1,
+          "n_b": 1,
+          "matches": 1,
+          "dice": 1.0,
+          "jaccard": 1.0,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 1.0
+        },
+        {
+          "input_id": "Q013",
+          "n_a": 2,
+          "n_b": 0,
+          "matches": 0,
+          "dice": 0.0,
+          "jaccard": 0.0,
+          "polarity_agreement": null,
+          "item_set_agreement": null
+        },
+        {
+          "input_id": "Q007",
+          "n_a": 6,
+          "n_b": 4,
+          "matches": 4,
+          "dice": 0.8,
+          "jaccard": 0.6666666666666666,
+          "polarity_agreement": 0.75,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q017",
+          "n_a": 6,
+          "n_b": 4,
+          "matches": 4,
+          "dice": 0.8,
+          "jaccard": 0.6666666666666666,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.5
+        }
+      ]
+    },
+    {
+      "pair": "AC",
+      "n_a": 32,
+      "n_b": 23,
+      "matches": 18,
+      "dice": 0.6545454545454545,
+      "jaccard": 0.4864864864864865,
+      "polarity_agreement": 1.0,
+      "item_set_agreement": 0.6111111111111112,
+      "by_input": [
+        {
+          "input_id": "Q005",
+          "n_a": 3,
+          "n_b": 3,
+          "matches": 1,
+          "dice": 0.3333333333333333,
+          "jaccard": 0.2,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 1.0
+        },
+        {
+          "input_id": "Q008",
+          "n_a": 5,
+          "n_b": 3,
+          "matches": 3,
+          "dice": 0.75,
+          "jaccard": 0.6,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.6666666666666666
+        },
+        {
+          "input_id": "Q019",
+          "n_a": 4,
+          "n_b": 2,
+          "matches": 2,
+          "dice": 0.6666666666666666,
+          "jaccard": 0.5,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q010",
+          "n_a": 5,
+          "n_b": 4,
+          "matches": 4,
+          "dice": 0.8888888888888888,
+          "jaccard": 0.8,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q012",
+          "n_a": 1,
+          "n_b": 2,
+          "matches": 1,
+          "dice": 0.6666666666666666,
+          "jaccard": 0.5,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.0
+        },
+        {
+          "input_id": "Q013",
+          "n_a": 2,
+          "n_b": 2,
+          "matches": 0,
+          "dice": 0.0,
+          "jaccard": 0.0,
+          "polarity_agreement": null,
+          "item_set_agreement": null
+        },
+        {
+          "input_id": "Q007",
+          "n_a": 6,
+          "n_b": 4,
+          "matches": 4,
+          "dice": 0.8,
+          "jaccard": 0.6666666666666666,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.75
+        },
+        {
+          "input_id": "Q017",
+          "n_a": 6,
+          "n_b": 3,
+          "matches": 3,
+          "dice": 0.6666666666666666,
+          "jaccard": 0.5,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "pair": "BC",
+      "n_a": 18,
+      "n_b": 23,
+      "matches": 15,
+      "dice": 0.7317073170731707,
+      "jaccard": 0.5769230769230769,
+      "polarity_agreement": 0.8666666666666667,
+      "item_set_agreement": 0.6666666666666666,
+      "by_input": [
+        {
+          "input_id": "Q005",
+          "n_a": 2,
+          "n_b": 3,
+          "matches": 1,
+          "dice": 0.4,
+          "jaccard": 0.25,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.0
+        },
+        {
+          "input_id": "Q008",
+          "n_a": 2,
+          "n_b": 3,
+          "matches": 2,
+          "dice": 0.8,
+          "jaccard": 0.6666666666666666,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q019",
+          "n_a": 2,
+          "n_b": 2,
+          "matches": 2,
+          "dice": 1.0,
+          "jaccard": 1.0,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 1.0
+        },
+        {
+          "input_id": "Q010",
+          "n_a": 3,
+          "n_b": 4,
+          "matches": 2,
+          "dice": 0.5714285714285714,
+          "jaccard": 0.4,
+          "polarity_agreement": 0.5,
+          "item_set_agreement": 0.5
+        },
+        {
+          "input_id": "Q012",
+          "n_a": 1,
+          "n_b": 2,
+          "matches": 1,
+          "dice": 0.6666666666666666,
+          "jaccard": 0.5,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.0
+        },
+        {
+          "input_id": "Q013",
+          "n_a": 0,
+          "n_b": 2,
+          "matches": 0,
+          "dice": 0.0,
+          "jaccard": 0.0,
+          "polarity_agreement": null,
+          "item_set_agreement": null
+        },
+        {
+          "input_id": "Q007",
+          "n_a": 4,
+          "n_b": 4,
+          "matches": 4,
+          "dice": 1.0,
+          "jaccard": 1.0,
+          "polarity_agreement": 0.75,
+          "item_set_agreement": 0.75
+        },
+        {
+          "input_id": "Q017",
+          "n_a": 4,
+          "n_b": 3,
+          "matches": 3,
+          "dice": 0.8571428571428571,
+          "jaccard": 0.75,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 1.0
+        }
+      ]
+    }
+  ],
+  "raw_annotations": 73,
+  "duplicates": 0,
+  "group_status_counts": {
+    "accepted": 20,
+    "split": 1,
+    "rejected": 18,
+    "alignment_ambiguous": 0
+  },
+  "eligible_problem": 4,
+  "eligible_function": 16
+}

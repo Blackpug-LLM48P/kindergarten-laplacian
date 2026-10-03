@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-03T00:22:05.281854+00:00",
+  "files": {
+    "reference.json": "c04351b3168dd4f3077ef1f2eda0cc2492625148a45cf48858db1342ecd631e8",
+    "annotation-validation.json": "a605ef9537ff8352f0c0bc549a6ee4a1d4eafc7cd36ce4a35defb5a2c6f04826",
+    "agreement.json": "fd75b63b1826f86236831ed6aeeadf472d319698133604526cc8bcfed4ea776e",
+    "audit-rules-v1.md": "1cb17e3a994dc688de9b66d5d7e52f3f9400a368d669939e1835bf1247cf2c37"
+  },
+  "role": "llm_candidate_reference_only",
+  "frozen_before_outputs": true
+}

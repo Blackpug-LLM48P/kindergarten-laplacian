@@ -1,0 +1,274 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/structure/v5_Q010-combined.md",
+  "output_sha256": "392a0724f00aca5fe46324887b91c46b7b0a2f0feb3778e3b6b33e9617d652d1",
+  "sources": {
+    "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt": "4825196211b3fdb5af30afd0f6cc5615651badc322d5edf59f8b23a1fc109820"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 16,
+      "exact": 16,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 35,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "この見かけ上のパラドックスは、実は「あたま」という言葉の内容に関する定義の曖昧不"
+        },
+        {
+          "line": 39,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "しかしそれだけでは科学者にはなれない事ももちろんである。やはり観察と分析と推理の"
+        },
+        {
+          "line": 47,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "頭のいい人は、言わば富士のすそ野まで来て、そこから頂上をながめただけで、それで富"
+        },
+        {
+          "line": 51,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "頭のよい人は、あまりに多く頭の力を過信する恐れがある。"
+        },
+        {
+          "line": 59,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "頭のいい人には恋ができない。恋は盲目である。"
+        },
+        {
+          "line": 63,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "科学は孔子のいわゆる「格物」の学であって「致知」の一部に過ぎない。"
+        },
+        {
+          "line": 67,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "これを読んで何事をも考えない人はおそらく科学の世界に縁のない科学教育者か科学商人"
+        },
+        {
+          "line": 127,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "正確でかつ緻密な頭脳を要する。"
+        },
+        {
+          "line": 133,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "何かしら不可解な疑点を認めそうしてその闡明に苦吟するということ"
+        },
+        {
+          "line": 139,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "つまり、頭が悪いと同時に頭がよくなくてはならないのである。"
+        },
+        {
+          "line": 149,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "まさかそれほどでなくても、そういったような傾向になる恐れがある。"
+        },
+        {
+          "line": 153,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "一方でまた自分の思ったような結果が出たときに、それが実は思ったとは別の原因のため"
+        },
+        {
+          "line": 163,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "しかし科学の世界ではすべての間違いは泡沫のように消えて真なもののみが生き残る。"
+        },
+        {
+          "line": 173,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "　私に親しいある老科学者がある日私に次のようなことを語って聞かせた。"
+        },
+        {
+          "line": 179,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "最後にもう一つ、頭のいい、ことに年少気鋭の科学者が科学者としては立派な科学者でも"
+        },
+        {
+          "line": 185,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q010.txt"
+          ],
+          "head": "この老科学者の世迷い言を読んで"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        91
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "機能",
+        "S02": "機能",
+        "S03": "機能",
+        "S04": "機能",
+        "S05": "未検出",
+        "S06": "不確定",
+        "S07": "機能",
+        "S08": "機能",
+        "S09": "未検出",
+        "S10": "機能",
+        "C01": "未検出",
+        "C02": "機能",
+        "C03": "未検出",
+        "C04": "未検出",
+        "C05": "機能",
+        "C06": "未検出",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "機能",
+        "R04": "未検出",
+        "R05": "機能",
+        "R06": "未検出",
+        "E01": "観測不能",
+        "E02": "対象外",
+        "E03": "観測不能",
+        "E04": "不確定",
+        "E05": "機能",
+        "E06": "機能",
+        "E07": "対象外"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "一意の完全台帳",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "pass",
+      "selected_table_index": 1,
+      "invalid_rows": [],
+      "tables": [
+        {
+          "start_line": 12,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "status": "unverifiable",
+      "reason": "スコア欄が複数ある。現在値の欄を番号で指定する必要がある",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 0,
+        "K": 9,
+        "U": 1,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 6,
+        "U": 0,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 6,
+        "U": 0,
+        "X": 0
+      },
+      "E": {
+        "P": 0,
+        "K": 2,
+        "U": 3,
+        "X": 2
+      }
+    },
+    "total": {
+      "P": 0,
+      "K": 23,
+      "U": 4,
+      "X": 2
+    },
+    "score": "0.0",
+    "score_fraction": "0/23",
+    "rate": "85.2",
+    "width": [
+      "0.0",
+      "14.8"
+    ],
+    "state": "数値"
+  },
+  "overall": "unverifiable"
+}

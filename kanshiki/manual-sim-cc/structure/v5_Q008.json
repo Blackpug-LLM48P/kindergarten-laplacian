@@ -1,0 +1,285 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/structure/v5_Q008-combined.md",
+  "output_sha256": "33638c3a70b2e2f8b01e20d02be10eb7157b6efbe04196ff551e339cf6a03ead",
+  "sources": {
+    "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt": "3f3f6215c1d116f323a704785474d016f39c780e0d755d4d7d90bcec8790f5c6"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 13,
+      "exact": 13,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 33,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "　その晩、ごんは、穴の中で考えました。"
+        },
+        {
+          "line": 39,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "うなぎが食べたいと言ったにちがいない。"
+        },
+        {
+          "line": 45,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "　ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。"
+        },
+        {
+          "line": 53,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "そのつぎの日には、栗ばかりでなく、まつたけも二、三ぼんもっていきました。"
+        },
+        {
+          "line": 57,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "「さっきの話は、きっと、そりゃあ、神さまのしわざだぞ」"
+        },
+        {
+          "line": 63,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "「ごん、お前だったのか。いつも栗をくれたのは」"
+        },
+        {
+          "line": 67,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "　兵十は火縄銃をばたりと、とり落しました。青い煙が、まだ筒口から細く出ていました"
+        },
+        {
+          "line": 73,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "　これは、私が小さいときに、村の茂平というおじいさんからきいたお話です。"
+        },
+        {
+          "line": 77,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "おれは、あれからずっと考えていたが、"
+        },
+        {
+          "line": 132,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "ところが、わしがいたずらをして、うなぎをとって来てしまった。"
+        },
+        {
+          "line": 136,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "そのままおっ母は、死んじゃったにちがいない。"
+        },
+        {
+          "line": 140,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "ちょッ、あんないたずらをしなけりゃよかった。"
+        },
+        {
+          "line": 146,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q008.txt"
+          ],
+          "head": "　そして足音をしのばせてちかよって、今戸口を出ようとするごんを、ドンと、うちまし"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        98
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "機能",
+        "S02": "機能",
+        "S03": "未検出",
+        "S04": "未検出",
+        "S05": "機能",
+        "S06": "機能",
+        "S07": "未検出",
+        "S08": "未検出",
+        "S09": "機能",
+        "S10": "機能",
+        "C01": "機能",
+        "C02": "未検出",
+        "C03": "未検出",
+        "C04": "機能",
+        "C05": "未検出",
+        "C06": "機能",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "未検出",
+        "R04": "未検出",
+        "R05": "未検出",
+        "R06": "未検出",
+        "E01": "対象外",
+        "E02": "未検出",
+        "E03": "観測不能",
+        "E04": "機能",
+        "E05": "機能",
+        "E06": "機能",
+        "E07": "観測不能"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "一意の完全台帳",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "fail",
+      "selected_table_index": 1,
+      "invalid_rows": [
+        {
+          "line": 154,
+          "face": "S",
+          "head": "| S | 0 | 6 | 4 | 0 | 0 | 0 | 0 | 0／10／0／0 |"
+        },
+        {
+          "line": 155,
+          "face": "C",
+          "head": "| C | 0 | 3 | 3 | 0 | 0 | 0 | 0 | 0／6／0／0 |"
+        },
+        {
+          "line": 156,
+          "face": "R",
+          "head": "| R | 0 | 0 | 6 | 0 | 0 | 0 | 0 | 0／6／0／0 |"
+        },
+        {
+          "line": 157,
+          "face": "E",
+          "head": "| E | 0 | 3 | 1 | 0 | 0 | 2 | 1 | 0／4／2／1 |"
+        }
+      ],
+      "tables": [
+        {
+          "start_line": 12,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "expected": {
+        "state": "数値",
+        "score": "0.0",
+        "score_fraction": "0/26",
+        "rate": "92.9",
+        "width": [
+          "0.0",
+          "7.1"
+        ]
+      },
+      "shown_state": "数値",
+      "shown_score": "0.0",
+      "shown_rate": "92.9",
+      "shown_width": [
+        "0.0",
+        "7.1"
+      ],
+      "problems": [],
+      "status": "pass",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 0,
+        "K": 10,
+        "U": 0,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 6,
+        "U": 0,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 6,
+        "U": 0,
+        "X": 0
+      },
+      "E": {
+        "P": 0,
+        "K": 4,
+        "U": 2,
+        "X": 1
+      }
+    },
+    "total": {
+      "P": 0,
+      "K": 26,
+      "U": 2,
+      "X": 1
+    },
+    "score": "0.0",
+    "score_fraction": "0/26",
+    "rate": "92.9",
+    "width": [
+      "0.0",
+      "7.1"
+    ],
+    "state": "数値"
+  },
+  "overall": "fail"
+}

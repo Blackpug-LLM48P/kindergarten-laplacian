@@ -1,0 +1,214 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/structure/v5_Q007-combined.md",
+  "output_sha256": "4ea6c133c37c47618df98eee1e3ae1abeff5669396a746b1696471d337f9a230",
+  "sources": {
+    "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt": "38869aaa1de6a7eaf582e6bf02922b416fc73b39598336ad40f406a341b99d96"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 7,
+      "exact": 7,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 36,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増"
+        },
+        {
+          "line": 42,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査か"
+        },
+        {
+          "line": 52,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "何らかの業務で生成AIを利用していると回答した割合は、日本で55.2％（「業務で"
+        },
+        {
+          "line": 58,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "24　所属企業のAI活用方針を知っている者に対して、何らかの業務で生成AI利用し"
+        },
+        {
+          "line": 68,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "生成AI導入に際しての懸念事項について尋ねたところ"
+        },
+        {
+          "line": 74,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "生成AIの活用推進による自社への影響に対する考え方について、日本では、「業務効率"
+        },
+        {
+          "line": 80,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/home/user/kindergarten-laplacian/kanshiki/manual-sim-cc/blind/texts/Q007.txt"
+          ],
+          "head": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるた"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        102
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "疑義",
+        "S02": "未検出",
+        "S03": "未検出",
+        "S04": "機能",
+        "S05": "未検出",
+        "S06": "未検出",
+        "S07": "未検出",
+        "S08": "未検出",
+        "S09": "未検出",
+        "S10": "機能",
+        "C01": "未検出",
+        "C02": "未検出",
+        "C03": "未検出",
+        "C04": "機能",
+        "C05": "未検出",
+        "C06": "不確定",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "不確定",
+        "R04": "未検出",
+        "R05": "不確定",
+        "R06": "未検出",
+        "E01": "疑義",
+        "E02": "疑義",
+        "E03": "観測不能",
+        "E04": "観測不能",
+        "E05": "疑義",
+        "E06": "機能",
+        "E07": "観測不能"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "一意の完全台帳",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "fail",
+      "selected_table_index": 1,
+      "invalid_rows": [
+        {
+          "line": 136,
+          "face": "S",
+          "head": "| S | 1 | 2 | 7 | 0 | 0 | 0 | 0 | 1／10／0／0 |"
+        },
+        {
+          "line": 137,
+          "face": "C",
+          "head": "| C | 0 | 1 | 4 | 1 | 0 | 0 | 0 | 0／5／1／0 |"
+        },
+        {
+          "line": 138,
+          "face": "R",
+          "head": "| R | 0 | 0 | 4 | 2 | 0 | 0 | 0 | 0／4／2／0 |"
+        },
+        {
+          "line": 139,
+          "face": "E",
+          "head": "| E | 3 | 1 | 0 | 0 | 0 | 3 | 0 | 3／4／3／0 |"
+        }
+      ],
+      "tables": [
+        {
+          "start_line": 13,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "status": "unverifiable",
+      "reason": "スコア欄が複数ある。現在値の欄を番号で指定する必要がある",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 1,
+        "K": 10,
+        "U": 0,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 5,
+        "U": 1,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 4,
+        "U": 2,
+        "X": 0
+      },
+      "E": {
+        "P": 3,
+        "K": 4,
+        "U": 3,
+        "X": 0
+      }
+    },
+    "total": {
+      "P": 4,
+      "K": 23,
+      "U": 6,
+      "X": 0
+    },
+    "score": "17.4",
+    "score_fraction": "4/23",
+    "rate": "79.3",
+    "width": [
+      "13.8",
+      "34.5"
+    ],
+    "state": "数値"
+  },
+  "overall": "fail"
+}

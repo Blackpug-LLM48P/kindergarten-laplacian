@@ -1,0 +1,109 @@
+{
+  "input_id": "Q013",
+  "groups": [
+    {
+      "ref_id": "Q013-R1",
+      "status": "accepted",
+      "polarity": "function",
+      "members": [
+        "A-Q013-1"
+      ],
+      "duplicate_ids": [],
+      "quote_a": "２被控訴人は、控訴人Ａに対し、５４６万８６６０円及びうち２７５万円",
+      "quote_b": "３被控訴人は、控訴人Ｂに対し、２７３万４３３０円及びうち１３７万５０００円",
+      "loc": "5・7・9行目（主文2〜4）／19・31・51行目",
+      "target_time_condition_proposition": "対象：主文2〜4の認容額と第1・第2の請求額・減縮額。命題：Ｂ・Ｃの額はＡのちょうど半額（5,468,660/2=2,734,330、2,750,000/2=1,375,000、275,000/2=137,500）で、原審請求額（5,837,739と2,918,869）・減縮後額（31・51行目）とも対応する。",
+      "relation_type": "数値の対象・計算の対応（E02の機能）",
+      "text_layer": "判決主文と事実及び理由",
+      "required_evidence": "主文2〜4の額、19・31・51行目の請求額・減縮額。",
+      "alternative_explanations": "比率の根拠となる相続分は本文に明記されない（比率からの推定）。",
+      "missing_material": "原判決別表（算定内訳）。",
+      "member_original_judgments": {
+        "A-Q013-1": "function / [E02] 控訴人Ｂ・Ｃの認容額（２７３万４３３０円、うち１３７万５０００円・１３万７５００円）はいずれも控訴人Ａ（５４６万８６６０円、うち２７５万円・２７万５０００円）のちょうど半額で、相続分（Ａ：1/2、Ｂ・Ｃ：各1/4）に対応"
+      },
+      "agreement_state": "単独（Aのみ・function）",
+      "decision_reason": "1名のみだが、主文・控訴の趣旨・事案の概要・補正後の請求額の間で数値が一貫することを検算で確認でき採択。相続分の推定は採択根拠に含めない。",
+      "rule_excluded": false,
+      "rule_reason": "安全弁（短文≤3段落のC03/R04/S04段落判断保留、外部資料未提示のみでの疑義禁止、E01外界限定、E07対象限定、依頼条件の別枠、R01先行観測）のいずれもこの関係の判定を禁じない。出力を見ずに事前固定。",
+      "referee_access": "R（LLM裁定者、claude-opus-5-5）。採点規則v1・ITEM-DEFINITIONS rc.3・注釈手順・本文編集の設計に関与していない。既読：規則抜粋、ITEM-DEFINITIONS-rc.3、reference雛形、本文8本（Q005,Q007,Q008,Q010,Q012,Q013,Q017,Q019）、A/B/C票。モデル出力・プロンプト・監査票・_sealed_prior・編集意図・operator-output-mapは未読。同一原文の別版（Q007/Q017/Q019、Q010/Q012）を同一セッションで併読しており、版間差の認識が注意配分に影響した可能性はあるが、判断は各本文内の根拠のみで行った。"
+    },
+    {
+      "ref_id": "Q013-R2",
+      "status": "accepted",
+      "polarity": "function",
+      "members": [
+        "A-Q013-2"
+      ],
+      "duplicate_ids": [],
+      "quote_a": "じん肺健康診断を受診してエックス線写真撮影を受けた平成１１年１０月１９日",
+      "quote_b": "平成１１年１０月１９日にもじん肺健康診断を受診し、エックス線写真による検査及び肺機能検査を受けた。",
+      "loc": "29行目／41行目",
+      "target_time_condition_proposition": "対象：除斥期間の起算点・提訴・死亡の日付。命題：原審が起算点とした平成11年10月19日の健診・撮影は補正後の前提事実と一致し、提訴（令和2年5月8日）・死亡（令和2年6月14日、『原審係属後』）も段落間で整合する。",
+      "relation_type": "日付の対応（E05の機能：同一条件での矛盾なし）",
+      "text_layer": "判決の事案の概要と前提事実（補正）",
+      "required_evidence": "27・29・41・45行目の日付。",
+      "alternative_explanations": "なし。",
+      "missing_material": "引用された原判決本体（前提事実⑺等）。整合判定には不要。",
+      "member_original_judgments": {
+        "A-Q013-2": "function / [E05] 原審が除斥期間の起算点とした日付（平成１１年１０月１９日の健診・エックス線撮影）は、補正後の前提事実の記載と一致する。また提訴日（令和２年５月８日）・本件決定日（平成１２年５月３０日）・死亡（「原審係属後に死亡」と「令和"
+      },
+      "agreement_state": "単独（Aのみ・function）",
+      "decision_reason": "1名のみだが、同一事実の日付が段落間で一致し、除斥期間判断の構造と矛盾しないことを本文で確認でき採択。",
+      "rule_excluded": false,
+      "rule_reason": "安全弁（短文≤3段落のC03/R04/S04段落判断保留、外部資料未提示のみでの疑義禁止、E01外界限定、E07対象限定、依頼条件の別枠、R01先行観測）のいずれもこの関係の判定を禁じない。出力を見ずに事前固定。",
+      "referee_access": "R（LLM裁定者、claude-opus-5-5）。採点規則v1・ITEM-DEFINITIONS rc.3・注釈手順・本文編集の設計に関与していない。既読：規則抜粋、ITEM-DEFINITIONS-rc.3、reference雛形、本文8本（Q005,Q007,Q008,Q010,Q012,Q013,Q017,Q019）、A/B/C票。モデル出力・プロンプト・監査票・_sealed_prior・編集意図・operator-output-mapは未読。同一原文の別版（Q007/Q017/Q019、Q010/Q012）を同一セッションで併読しており、版間差の認識が注意配分に影響した可能性はあるが、判断は各本文内の根拠のみで行った。"
+    },
+    {
+      "ref_id": "Q013-R3",
+      "status": "rejected",
+      "polarity": "unresolved",
+      "members": [
+        "C-Q013-1"
+      ],
+      "duplicate_ids": [],
+      "quote_a": "第２項につき控訴人Ａのために４３０万円",
+      "quote_b": "第３項につき控訴人Ｂのために２１０万円",
+      "loc": "13行目（主文6）",
+      "target_time_condition_proposition": "対象：主文6の仮執行免脱の担保額と主文2〜4の認容額。命題：認容額は2:1だが担保額は430万:210万で2倍でない。",
+      "relation_type": "数値の比例（E02）",
+      "text_layer": "判決主文",
+      "required_evidence": "主文2〜4と主文6の額。",
+      "alternative_explanations": "担保額は裁量的に定まり、認容額への比例を要しない。",
+      "missing_material": "担保額算定の基準。",
+      "member_original_judgments": {
+        "C-Q013-1": "unresolved / [E02] 認容額はＡがＢ・Ｃのちょうど2倍（５４６万８６６０円対２７３万４３３０円）だが、仮執行免脱の担保額は４３０万円対２１０万円で2倍になっていない。担保額は裁量的に定まり比例を要しないため、矛盾とは確定できない。"
+      },
+      "agreement_state": "単独（Cのみ・unresolved）",
+      "decision_reason": "1名のみ・保留。担保額が認容額に比例すべきとする条件が本文にないため、同一条件の比較が成立せず棄却。",
+      "rule_excluded": false,
+      "rule_reason": "安全弁（短文≤3段落のC03/R04/S04段落判断保留、外部資料未提示のみでの疑義禁止、E01外界限定、E07対象限定、依頼条件の別枠、R01先行観測）のいずれもこの関係の判定を禁じない。出力を見ずに事前固定。",
+      "referee_access": "R（LLM裁定者、claude-opus-5-5）。採点規則v1・ITEM-DEFINITIONS rc.3・注釈手順・本文編集の設計に関与していない。既読：規則抜粋、ITEM-DEFINITIONS-rc.3、reference雛形、本文8本（Q005,Q007,Q008,Q010,Q012,Q013,Q017,Q019）、A/B/C票。モデル出力・プロンプト・監査票・_sealed_prior・編集意図・operator-output-mapは未読。同一原文の別版（Q007/Q017/Q019、Q010/Q012）を同一セッションで併読しており、版間差の認識が注意配分に影響した可能性はあるが、判断は各本文内の根拠のみで行った。"
+    },
+    {
+      "ref_id": "Q013-R4",
+      "status": "rejected",
+      "polarity": "unresolved",
+      "members": [
+        "C-Q013-2"
+      ],
+      "duplicate_ids": [],
+      "quote_a": "（前記前提事実⑺）",
+      "quote_b": "",
+      "loc": "51行目",
+      "target_time_condition_proposition": "対象：解決金受領の事実と遅延損害金起算日の根拠。命題：参照される前提事実⑺が提示本文にない。",
+      "relation_type": "出典参照と支持（E03）",
+      "text_layer": "判決理由（原判決の引用）",
+      "required_evidence": "原判決の前提事実⑺の内容。",
+      "alternative_explanations": "判決書の引用形式として通常で、資料不足であって不整合ではない。",
+      "missing_material": "原判決『事実及び理由』第2の1（前提事実⑺）。",
+      "member_original_judgments": {
+        "C-Q013-2": "unresolved / [E03] 解決金について『前記前提事実⑺』を参照するが、提示本文の前提事実は原判決の引用と⑴⑵の補正のみで、⑺の内容は本文中にない。引用による参照で通常の判決形式だが、提示範囲では支持内容を確認できない。"
+      },
+      "agreement_state": "単独（Cのみ・unresolved）",
+      "decision_reason": "1名のみ・保留。引用先の未提示のみが不足であり、本文内の不対応は確認できないため棄却。",
+      "rule_excluded": true,
+      "rule_reason": "判断基準5『外部資料や実行記録が未提示・未照合という理由だけでは疑義にしない』の安全弁に該当（引用先資料の未提示のみ）。出力を見ずに事前固定。",
+      "referee_access": "R（LLM裁定者、claude-opus-5-5）。採点規則v1・ITEM-DEFINITIONS rc.3・注釈手順・本文編集の設計に関与していない。既読：規則抜粋、ITEM-DEFINITIONS-rc.3、reference雛形、本文8本（Q005,Q007,Q008,Q010,Q012,Q013,Q017,Q019）、A/B/C票。モデル出力・プロンプト・監査票・_sealed_prior・編集意図・operator-output-mapは未読。同一原文の別版（Q007/Q017/Q019、Q010/Q012）を同一セッションで併読しており、版間差の認識が注意配分に影響した可能性はあるが、判断は各本文内の根拠のみで行った。"
+    }
+  ]
+}
