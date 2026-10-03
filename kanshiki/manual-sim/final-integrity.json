@@ -1,0 +1,19 @@
+{
+  "frozen_inputs": 8,
+  "frozen_prompts": 2,
+  "original_annotations_unchanged": 3,
+  "reference_and_rules_unchanged": true,
+  "original_completed_outputs_unchanged": 16,
+  "anonymous_audit_packets_exact": 8,
+  "validated_audit_files": 10,
+  "validated_output_audits": 24,
+  "primary_output_metrics": 16,
+  "secondary_audit_outputs": 8,
+  "structural_checks_recorded": 8,
+  "source_integrity": {
+    "copied_input_files_exact": 8,
+    "original_zip_members_unchanged": 482,
+    "source_zip_sha256": "78ec2362c74cc16f6b944aad70012e1a85624c9e166af937063deaee2c33427d"
+  },
+  "timestamp": "2026-10-02T21:21:47.461086+00:00"
+}

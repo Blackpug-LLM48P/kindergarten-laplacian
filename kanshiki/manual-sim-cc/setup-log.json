@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-03T00:09:48.692784+00:00",
+  "role": "llm_manual_rehearsal_operator",
+  "input_zip": {
+    "path": "453f1d75-kanshiki-v5-manual-rehearsal-20261003.zip",
+    "sha256": "9b452a3cd7588abf4a7ef848fa713bf060b8be538604f92a9f32bf22dd479a69",
+    "members": 169
+  },
+  "sha256sums": {
+    "entries": 168,
+    "matched": 168,
+    "mismatched": 0
+  },
+  "final_integrity_json_crosscheck": {
+    "frozen_inputs_rehashed": 8,
+    "prompts_rehashed": 2,
+    "outputs_rehashed_against_output_completions": 16,
+    "audit_rules_matches_rules_freeze": true,
+    "note": "final-integrity.json の件数記載（frozen_inputs 8 等）は形式的な件数のみ確認。元キット482ファイルZIPは今回入手しておらず original_zip_members_unchanged=482 は再検証不能（前回記録の転記）。"
+  },
+  "sealed_prior": {
+    "location": "manual-sim-cc/_sealed_prior/",
+    "letter_listed": [
+      "annotations/",
+      "reference.json",
+      "reference-freeze.json",
+      "agreement.json",
+      "annotation-validation.json",
+      "audits/",
+      "audit-validation/",
+      "audit-comparison.json",
+      "audit-validation-summary.json",
+      "metrics.json",
+      "METRIC-DETAILS.md",
+      "REPORT.md",
+      "final-review.md",
+      "qa-review.md",
+      "operation-check.json"
+    ],
+    "additionally_sealed": {
+      "audit-packets/": "前回の候補参照（Qごとのreference.json）を含むため",
+      "annotations-freeze.json": "前回注釈のハッシュ",
+      "audit-completions.json": "前回監査の完了記録",
+      "audit-q008-work.py": "前回監査者の作業スクリプト（監査判断を含む可能性）",
+      "final-integrity.json": "前回の件数集計",
+      "execution-context.json": "前回実行文脈",
+      "operator-output-map.json": "操作対応表（注釈者・監査者に見せない。prepare_packets.pyで同一規則から再生成）"
+    }
+  },
+  "orchestrator_exposure": {
+    "note": "実行者（メイン）は封印物を開いていない。ただし次の経路で前回の結論の一部に触れた。サブエージェントへの指示文には一切転記しない。",
+    "items": [
+      "引き継ぎ書簡：前回の採択問題関係はQ007の1件のみ、文学でv5の機能認識がB2より低い傾向、v5の疑義親所見が極端に少ない傾向（目的2の仮説）",
+      "build_report.py（実行に必要なため読了）：前回REPORTの固定文（注釈83件・引用154件・45関係群・採択33群〔problem 1/function 32〕・split 3・棄却9・singleton 19群、T3の結論、本番前確認1〜4）がハードコードされていた",
+      "final-integrity.json（完全性確認で読了）：件数のみ",
+      "design-review.txt, audit-rules-v1.md, audit-instructions-v1.md, plan.json（前回の注釈者の読順を含む）"
+    ]
+  },
+  "not_copied_until_reference_freeze": [
+    "outputs/",
+    "output-completions.json"
+  ],
+  "reason_not_copied": "validate_reference.py は outputs/*.md が存在すると凍結を拒否する。スクリプトを変えず、凍結後に outputs/ を複製する。",
+  "original_dir_made_read_only": true
+}

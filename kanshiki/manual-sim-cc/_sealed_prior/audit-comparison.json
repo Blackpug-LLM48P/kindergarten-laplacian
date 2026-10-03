@@ -1,0 +1,241 @@
+{
+  "outputs_compared": 8,
+  "relation_votes": 32,
+  "event_set_agreement": 32,
+  "event_set_agreement_rate": 1.0,
+  "comparisons": [
+    {
+      "input_id": "Q005",
+      "alias": "O1",
+      "condition": "B2",
+      "relation_votes_compared": 7,
+      "event_set_agreement_count": 7,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 1,
+        "branch": 2,
+        "unresolved": 0,
+        "claims": 27
+      },
+      "secondary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 1,
+        "branch": 1,
+        "unresolved": 0,
+        "claims": 24
+      },
+      "exact_same_claim_and_parent_spans": 15,
+      "exact_same_claim_label_agreement": 11,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q005",
+      "alias": "O2",
+      "condition": "v5",
+      "relation_votes_compared": 7,
+      "event_set_agreement_count": 7,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 20
+      },
+      "secondary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 15
+      },
+      "exact_same_claim_and_parent_spans": 13,
+      "exact_same_claim_label_agreement": 13,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q007",
+      "alias": "O1",
+      "condition": "v5",
+      "relation_votes_compared": 3,
+      "event_set_agreement_count": 3,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 1,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 24
+      },
+      "secondary_support": {
+        "doubtful_parents": 1,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 16
+      },
+      "exact_same_claim_and_parent_spans": 10,
+      "exact_same_claim_label_agreement": 10,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q007",
+      "alias": "O2",
+      "condition": "B2",
+      "relation_votes_compared": 3,
+      "event_set_agreement_count": 3,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 24
+      },
+      "secondary_support": {
+        "doubtful_parents": 2,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 21
+      },
+      "exact_same_claim_and_parent_spans": 5,
+      "exact_same_claim_label_agreement": 5,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q012",
+      "alias": "O1",
+      "condition": "v5",
+      "relation_votes_compared": 1,
+      "event_set_agreement_count": 1,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 23
+      },
+      "secondary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 20
+      },
+      "exact_same_claim_and_parent_spans": 16,
+      "exact_same_claim_label_agreement": 16,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q012",
+      "alias": "O2",
+      "condition": "B2",
+      "relation_votes_compared": 1,
+      "event_set_agreement_count": 1,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 12
+      },
+      "secondary_support": {
+        "doubtful_parents": 1,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 16
+      },
+      "exact_same_claim_and_parent_spans": 4,
+      "exact_same_claim_label_agreement": 4,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q013",
+      "alias": "O1",
+      "condition": "v5",
+      "relation_votes_compared": 5,
+      "event_set_agreement_count": 5,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 26
+      },
+      "secondary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 32
+      },
+      "exact_same_claim_and_parent_spans": 15,
+      "exact_same_claim_label_agreement": 15,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    },
+    {
+      "input_id": "Q013",
+      "alias": "O2",
+      "condition": "B2",
+      "relation_votes_compared": 5,
+      "event_set_agreement_count": 5,
+      "disagreements": [],
+      "primary_support": {
+        "doubtful_parents": 0,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 20
+      },
+      "secondary_support": {
+        "doubtful_parents": 1,
+        "has_UNSUP": 0,
+        "branch": 0,
+        "unresolved": 0,
+        "claims": 29
+      },
+      "exact_same_claim_and_parent_spans": 6,
+      "exact_same_claim_label_agreement": 6,
+      "ambiguous_claim_positions_excluded": {
+        "primary": 0,
+        "secondary": 0
+      },
+      "exact_span_only_note": "subset selected by extraction boundary equality; not overall support agreement"
+    }
+  ],
+  "interpretation": "Primary scores retained. Secondary disagreements are sensitivity evidence, not corrected truths."
+}

@@ -1,0 +1,7 @@
+{
+  "purpose": "independent second AI audit of a fixed subset; no selection by primary scores",
+  "inputs": ["Q005", "Q007", "Q012", "Q013"],
+  "rationale": "literary interpretation, one clear arithmetic contradiction, short excerpt, legal excerpt",
+  "outputs": 8,
+  "restriction": "do not view primary audits or condition map"
+}

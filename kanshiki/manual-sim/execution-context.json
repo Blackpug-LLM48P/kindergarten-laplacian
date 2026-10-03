@@ -1,0 +1,22 @@
+{
+  "declared_by_user": "Sol ウルトラに変更ずみ",
+  "agent_fork": "none for annotators/referee/evaluators/auditors",
+  "repetitions_per_input_per_condition": 1,
+  "planned_outputs": 16,
+  "sampling_temperature": null,
+  "output_token_budget": null,
+  "tool_execution_path": "collaboration agents; no separate evaluation-model API or formal kit run entries",
+  "scope": "8 input versions from 5 original-work groups; 3 AI annotators; auxiliary T3 operation check on 3 pairs",
+  "formal_human_gate_satisfied": false,
+  "formal_performance_values_modified": false,
+  "prompts_sha256": {
+    "v5.md": "793f4da3331e30526f3983e2b90a53076eb82a5c9f97c098db92814971adf1e1",
+    "B2.txt": "6c12723d515f23f9d3f05d8fe842945dd0fb639b36057066e277c4273a3b985d"
+  },
+  "created_at": "2026-10-02T20:28:15.433038+00:00",
+  "completed_outputs": 16,
+  "attached_v5_ledgers": 8,
+  "acquisition": "all 16 outputs returned; no content-driven reruns",
+  "model_settings_confirmation": "User declared Sol Ultra; agents inherited parent settings, exact runtime sampling parameters and API model identifier were not independently exposed.",
+  "audit_plan": "8 primary agents, one Q pair each; 2 independent secondary agents audit 4 preselected Q pairs; separate code/method QA"
+}

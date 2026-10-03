@@ -1,0 +1,237 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q005-combined.md",
+  "output_sha256": "6b19d9a3a67131013ce780c39319b8e278b04b096141065f51347ef63b9fc70f",
+  "sources": {
+    "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt": "776dab90253b67aeacf52b97e24b1380bcab671cfdd3ebcfa41fa4b7e8c80a48"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 10,
+      "exact": 10,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 38,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "どれほど味方にとってたのもしいものであったかわからなかった。"
+        },
+        {
+          "line": 44,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "敵にとってどれほどの脅威であるかわからなかった。"
+        },
+        {
+          "line": 50,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "こうして鎗中村の猩々緋と唐冠の兜は、戦場の華であり敵に対する脅威であり味方にとっ"
+        },
+        {
+          "line": 56,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "あの服折や兜は、申さば中村新兵衛の形じゃわ。"
+        },
+        {
+          "line": 62,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "猩々緋の武者の前には、戦わずして浮き足立った敵陣が、中村新兵衛の前には、ビクとも"
+        },
+        {
+          "line": 72,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "「ハハハハ念もないことじゃ」新兵衛は高らかに笑った。"
+        },
+        {
+          "line": 78,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "そして自分の形だけすらこれほどの力をもっているということに、かなり大きい誇りを感"
+        },
+        {
+          "line": 84,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "平素の二倍もの力さえ振るった。が、彼はともすれば突き負けそうになった。"
+        },
+        {
+          "line": 90,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "手軽に兜や猩々緋を借したことを、後悔するような感じが頭の中をかすめたときであった"
+        },
+        {
+          "line": 98,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q005.txt"
+          ],
+          "head": "育ぐくむような慈顔"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        122
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "機能",
+        "S02": "未検出",
+        "S03": "未検出",
+        "S04": "機能",
+        "S05": "機能",
+        "S06": "未検出",
+        "S07": "未検出",
+        "S08": "未検出",
+        "S09": "機能",
+        "S10": "機能",
+        "C01": "機能",
+        "C02": "未検出",
+        "C03": "未検出",
+        "C04": "機能",
+        "C05": "機能",
+        "C06": "機能",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "未検出",
+        "R04": "機能",
+        "R05": "未検出",
+        "R06": "不確定",
+        "E01": "対象外",
+        "E02": "未検出",
+        "E03": "対象外",
+        "E04": "未検出",
+        "E05": "未検出",
+        "E06": "機能",
+        "E07": "対象外"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "明示選択",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "pass",
+      "selected_table_index": 1,
+      "invalid_rows": [],
+      "tables": [
+        {
+          "start_line": 12,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "expected": {
+        "state": "数値",
+        "score": "0.0",
+        "score_fraction": "0/25",
+        "rate": "96.2",
+        "width": [
+          "0.0",
+          "3.8"
+        ]
+      },
+      "shown_state": "数値",
+      "shown_score": "0.0",
+      "shown_rate": "96.2",
+      "shown_width": [
+        "0.0",
+        "3.8"
+      ],
+      "problems": [],
+      "status": "pass",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 0,
+        "K": 10,
+        "U": 0,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 6,
+        "U": 0,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 5,
+        "U": 1,
+        "X": 0
+      },
+      "E": {
+        "P": 0,
+        "K": 4,
+        "U": 0,
+        "X": 3
+      }
+    },
+    "total": {
+      "P": 0,
+      "K": 25,
+      "U": 1,
+      "X": 3
+    },
+    "score": "0.0",
+    "score_fraction": "0/25",
+    "rate": "96.2",
+    "width": [
+      "0.0",
+      "3.8"
+    ],
+    "state": "数値"
+  },
+  "overall": "pass"
+}

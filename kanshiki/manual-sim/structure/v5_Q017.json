@@ -1,0 +1,277 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q017-combined.md",
+  "output_sha256": "a4c7fe960221ffbf68a90c62adb2b12ae4518f05b87d6ce614c58ccfebf9cb84",
+  "sources": {
+    "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt": "409ccf819d0cf8f6310152a27cc6209cc6a92a749d8c7b1b646762e7aaa085a4"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 14,
+      "exact": 14,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 38,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増"
+        },
+        {
+          "line": 44,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査か"
+        },
+        {
+          "line": 54,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるた"
+        },
+        {
+          "line": 64,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "日本、米国、ドイツ、中国の4か国を対象に実施したアンケート調査をもとに、企業にお"
+        },
+        {
+          "line": 70,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリテ"
+        },
+        {
+          "line": 129,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "企業におけるAI利活用の現状について整理した。"
+        },
+        {
+          "line": 135,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "自分が所属する企業における生成AIの活用方針について尋ねたところ、日本では、「積"
+        },
+        {
+          "line": 141,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "一方、今回調査した他の国と比較すると、引き続き日本は他の国より低い傾向にある（図"
+        },
+        {
+          "line": 147,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "また、日本国内の状況について企業規模別にみると、"
+        },
+        {
+          "line": 153,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "「メールや議事録、資料作成等の補助」"
+        },
+        {
+          "line": 159,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "生成AI導入に際しての懸念事項について尋ねたところ、日本では、「効果的な活用方法"
+        },
+        {
+          "line": 165,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "生成AIの活用推進による自社への影響に対する考え方について、日本では、「業務効率"
+        },
+        {
+          "line": 179,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "何らかの業務で生成AIを利用していると回答した割合は、日本で55.2％（「業務で"
+        },
+        {
+          "line": 185,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q017.txt"
+          ],
+          "head": "24　所属企業のAI活用方針を知っている者に対して、何らかの業務で生成AI利用し"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        93
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "機能",
+        "S02": "機能",
+        "S03": "機能",
+        "S04": "機能",
+        "S05": "未検出",
+        "S06": "未検出",
+        "S07": "未検出",
+        "S08": "機能",
+        "S09": "未検出",
+        "S10": "機能",
+        "C01": "機能",
+        "C02": "未検出",
+        "C03": "未検出",
+        "C04": "機能",
+        "C05": "機能",
+        "C06": "未検出",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "不確定",
+        "R04": "未検出",
+        "R05": "不確定",
+        "R06": "未検出",
+        "E01": "観測不能",
+        "E02": "観測不能",
+        "E03": "観測不能",
+        "E04": "観測不能",
+        "E05": "未検出",
+        "E06": "未検出",
+        "E07": "観測不能"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "一意の完全台帳",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "fail",
+      "selected_table_index": 1,
+      "invalid_rows": [
+        {
+          "line": 195,
+          "face": "S",
+          "head": "| S | 0 | 6 | 4 | 0 | 0 | 0 | 0 | 0／10／0／0 |"
+        },
+        {
+          "line": 196,
+          "face": "C",
+          "head": "| C | 0 | 3 | 3 | 0 | 0 | 0 | 0 | 0／6／0／0 |"
+        },
+        {
+          "line": 197,
+          "face": "R",
+          "head": "| R | 0 | 0 | 4 | 2 | 0 | 0 | 0 | 0／4／2／0 |"
+        },
+        {
+          "line": 198,
+          "face": "E",
+          "head": "| E | 0 | 0 | 2 | 0 | 0 | 5 | 0 | 0／2／5／0 |"
+        }
+      ],
+      "tables": [
+        {
+          "start_line": 13,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "status": "unverifiable",
+      "reason": "スコア欄が複数ある。現在値の欄を番号で指定する必要がある",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 0,
+        "K": 10,
+        "U": 0,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 6,
+        "U": 0,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 4,
+        "U": 2,
+        "X": 0
+      },
+      "E": {
+        "P": 0,
+        "K": 2,
+        "U": 5,
+        "X": 0
+      }
+    },
+    "total": {
+      "P": 0,
+      "K": 22,
+      "U": 7,
+      "X": 0
+    },
+    "score": "0.0",
+    "score_fraction": "0/22",
+    "rate": "75.9",
+    "width": [
+      "0.0",
+      "24.1"
+    ],
+    "state": "数値"
+  },
+  "overall": "fail"
+}

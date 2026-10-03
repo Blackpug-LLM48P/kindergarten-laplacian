@@ -1,0 +1,52 @@
+{
+  "primary-Q005.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:05:07.950407+00:00",
+    "sha256": "58367cec49a39b82b531ba038a08d284e7845331621bb9ebcf5ed16a872e8b78"
+  },
+  "primary-Q007.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:05:07.950622+00:00",
+    "sha256": "63abaccc3c921609ce3316f6d59514d414f4b8b074690f74850c2f95a0dc80b8"
+  },
+  "primary-Q012.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:08:23.520307+00:00",
+    "sha256": "5567c71dd92b53afa95286d1acbad2f2e2def7d0d7460b19454701a13f2e40bf"
+  },
+  "primary-Q013.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:08:23.520546+00:00",
+    "sha256": "d5551ffb24a94166f3f3fdbb67989669a4c4092e924302171881c74f2755094e"
+  },
+  "secondary-1.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:08:23.520660+00:00",
+    "sha256": "1f0b56f20dbc9ad38e1f5fc1c82067224aa99b9942dd7e4391d5f81fd91aea24"
+  },
+  "primary-Q008.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:15:11.516047+00:00",
+    "sha256": "ac384b2f9467a351b4ead7bee5d1d7751c376557d2b2a278592f7eebc5b2c8bd"
+  },
+  "secondary-2.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:16:27.327312+00:00",
+    "sha256": "4cdc60f53c8f63152b76f2d97a2385f6328f5033bbe6ca8d4bf8bbacbd0da4e2"
+  },
+  "primary-Q019.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:17:01.262811+00:00",
+    "sha256": "10ede3ad9d7c4c09e059d99af716788e48bf7db655fc1476b09981e6a3e25265"
+  },
+  "primary-Q017.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:19:43.032617+00:00",
+    "sha256": "99af70bae651de2fdc5b0260c7d517ed70cff10c3f7ddd379f8e88a02d6c6986"
+  },
+  "primary-Q010.json": {
+    "agent_reported_completed": true,
+    "completion_observed_at": "2026-10-02T21:21:44.305228+00:00",
+    "sha256": "b6cb8a9caabd40bef3e746486bf2445ce91388be6d7989d5a3120957c630c5ec"
+  }
+}

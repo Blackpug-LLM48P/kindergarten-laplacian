@@ -1,0 +1,3612 @@
+{
+  "status": "complete",
+  "reports": [
+    {
+      "annotator": "A",
+      "sha256": "628bdcc3beb1c0a030f9a5d25a4d89d15931513d556a47e61cf19494a2239133",
+      "inputs": 8,
+      "relations": 30,
+      "quotes": [
+        {
+          "relation_id": "A-Q013-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q013-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q013-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q013-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q013-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q013-03",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "A-Q005-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q005-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q017-04",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "A-Q010-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-05",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q010-05",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-05",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q008-05",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q007-04",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "A-Q012-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q012-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-01",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "A-Q019-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "A-Q019-04",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        }
+      ]
+    },
+    {
+      "annotator": "B",
+      "sha256": "8186e636132db1958b105d00aa574b34466cdf9e180c7b5c474d719bd7ad18ae",
+      "inputs": 8,
+      "relations": 24,
+      "quotes": [
+        {
+          "relation_id": "B-Q007-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q007-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q007-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q007-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q007-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q007-03",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "B-Q008-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q008-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q012-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q012-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q012-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q012-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q005-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q005-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q005-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q005-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q019-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q019-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q019-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q019-02",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "B-Q013-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q013-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q013-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q013-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q013-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q013-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-05",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q010-05",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q017-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q017-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q017-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q017-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q017-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "B-Q017-03",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        }
+      ]
+    },
+    {
+      "annotator": "C",
+      "sha256": "19e171e9764014c0cbf4262d861e4b4a6c84b571b7171e0ef5e836aaf0342c74",
+      "inputs": 8,
+      "relations": 29,
+      "quotes": [
+        {
+          "relation_id": "C-Q010-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q010-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q019-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q019-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q019-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q019-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q019-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q019-03",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "C-Q005-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q005-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q005-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q005-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q005-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q005-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q013-04",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "C-Q012-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q012-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q017-04",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        },
+        {
+          "relation_id": "C-Q008-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-04",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-05",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-05",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-06",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q008-06",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-01",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-01",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-02",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-02",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-03",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-03",
+          "side": "b",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-04",
+          "side": "a",
+          "required": true,
+          "exact": true,
+          "occurrences": 1
+        },
+        {
+          "relation_id": "C-Q007-04",
+          "side": "b",
+          "required": false,
+          "exact": null,
+          "occurrences": 0
+        }
+      ]
+    }
+  ],
+  "normalized": [
+    {
+      "relation_id": "A-Q013-01",
+      "item_ids": [
+        "E02",
+        "R03"
+      ],
+      "polarity": "function",
+      "quote_a": "原告Ａにつき５８３万７７３９円、同Ｂにつき２９１万８８６９円、同Ｃにつき２９１万８８６９円であるとして、それぞれ同額及び遅延損害金",
+      "quote_b": "これに対し、原告らが控訴し、当審において、請求する損害賠償額を、原告Ａにつき５４６万８６６０円に、同Ｂにつき２７３万４３３０円に、同Ｃにつき２７３万４３３０円に、それぞれ減縮した。",
+      "relation": "同じ原告らの請求額が異なるのは、原審の請求と当審で減縮した請求という手続段階の変更として明示される。数値の変化に比較時点が与えられている。",
+      "comparison_condition": "原告Ａ・Ｂ・Ｃの損害賠償請求額を原審時と当審の減縮後で比較する。主文の支払額算定の正しさまで確認しない。",
+      "textual_layer": "判決文の事案概要・手続経過を述べる地の文",
+      "alternative_explanations": "請求額の異なる数値だけを見ると矛盾にも見えるが、本文が手続段階と減縮を区別している。",
+      "missing_material": "減縮額の具体的な計算過程と原判決別表は未提示。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          973,
+          1038
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1379,
+          1469
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q013-02",
+      "item_ids": [
+        "R03"
+      ],
+      "polarity": "function",
+      "quote_a": "（以下、控訴人（原審原告）Ａを「原告Ａ」、同Ｂを「原告Ｂ」、同Ｃを「原告Ｃ」、被控訴人（原審被告）を「被告」という。",
+      "quote_b": "亡Ｄの法定相続人である原告らは、訴訟手続を受け継ぎ、",
+      "relation": "冒頭の控訴人・被控訴人と事案概要の原告・被告は明示した呼称対応で接続する。原告らへの呼称変更は対象人物の交替と読み分けられる。",
+      "comparison_condition": "同じ訴訟当事者Ａ・Ｂ・Ｃと被控訴人について、主文の手続上の呼称と事案概要の略称を比較する。",
+      "textual_layer": "判決文の略称定義と事案概要",
+      "alternative_explanations": "呼称が変わるだけでは参照の不連続としない。後続の略称には未提示の原判決から継承されるものもある。",
+      "missing_material": "この呼称対応自体にはなし。その他の略称の原判決定義は未提示。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          641,
+          699
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          859,
+          885
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q013-03",
+      "item_ids": [
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "次のとおり補正するほかは、原判決の「事実及び理由」第２の１（原判決２頁４行目～５頁２６行目）に記載のとおりであるから、これを引用する。",
+      "quote_b": "",
+      "relation": "前提事実の主要部分を原判決の特定箇所へ参照しているが、指定本文にはその箇所の全体がない。参照先の表示は確認できる一方、取り込まれる事実が支える主張の内容までは照合できない。資料不在だけを問題関係とはしない。",
+      "comparison_condition": "この判決の前提事実と、原判決第２の１の指定範囲が対応しているかを比較する。本文中に再掲された補正箇所だけは読めている。",
+      "textual_layer": "判決文の他判決引用・補正の指示",
+      "alternative_explanations": "判決文の参照による省略として合理的であり、参照表示の存在と支持内容の確認は別。未提示資料の誤りを推定しない。",
+      "missing_material": "原判決２頁４行目～５頁２６行目。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          1478,
+          1545
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "A-Q005-01",
+      "item_ids": [
+        "S10"
+      ],
+      "polarity": "function",
+      "quote_a": "こうして鎗中村の猩々緋と唐冠の兜は、戦場の華であり敵に対する脅威であり味方にとっては信頼の的であった。",
+      "quote_b": "ついてはお身さまの猩々緋と唐冠の兜を借してたもらぬか。あの服折と兜とを着て、敵の眼をおどろかしてみとうござる",
+      "relation": "猩々緋と唐冠の反復は、評判の可視的な徴から若者が借りたい品へ役割を変える。服装を再述することで、後の着用者交替を生む動機が示される。",
+      "comparison_condition": "冒頭の服装の対敵・対味方の役割と、初陣を前にした若者の借用要求を比較する。",
+      "textual_layer": "三人称の語りと若い士の発話",
+      "alternative_explanations": "単なる装飾の重複とも見えるが、借用要求が実際の服装交換につながるため情報が進む。",
+      "missing_material": "この対応にはなし。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          411,
+          462
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          715,
+          769
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q005-02",
+      "item_ids": [
+        "C04"
+      ],
+      "polarity": "function",
+      "quote_a": "その若い士は、新兵衛の主君松山新介の側腹の子であった。そして、幼少のころから、新兵衛が守り役として、わが子のようにいつくしみ育ててきたのであった。",
+      "quote_b": "新兵衛は、相手の子供らしい無邪気な功名心をこころよく受け入れることができた。",
+      "relation": "守り役として育てたという関係の説明は、若者の借用を親しみをもって受け入れる態度へ具体的に接続する。説明が人物の判断を理解する手がかりになっている。",
+      "comparison_condition": "借用を求める若者と新兵衛との関係、および要求を受け入れた時の反応を比較する。",
+      "textual_layer": "三人称の語りによる関係説明と内面説明",
+      "alternative_explanations": "親密さを説明しなくても会話から感じ取れるという評価は可能だが、背景と判断の対応は読める。説明量の好みだけで問題とはしない。",
+      "missing_material": "この対応にはなし。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          594,
+          667
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          798,
+          836
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q005-03",
+      "item_ids": [
+        "R03",
+        "E05",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "その日に限って、黒皮縅の冑を着て、南蛮鉄の兜をかぶっていた中村新兵衛は、会心の微笑を含みながら、猩々緋の武者のはなばなしい武者ぶりをながめていた。",
+      "quote_b": "そのうえに彼らは猩々緋の『鎗中村』に突きみだされたうらみを、この黒皮縅の武者の上に復讐せんとして、たけり立っていた。",
+      "relation": "実際の新兵衛は黒皮縅の装いで観戦しており、敵側は猩々緋の武者を鎗中村として受け止める。この呼称の食い違いは、借用した服装による認識差が敵の反応を変える場面を描く。語り手が同じ着用者を二人の人物として事実採用する矛盾ではない。",
+      "comparison_condition": "同じ戦闘で、黒皮縅の実際の新兵衛と猩々緋の武者に対する敵側の認識を比較する。",
+      "textual_layer": "実際の装いを示す地の文と、敵勢の認識・感情を述べる語り",
+      "alternative_explanations": "後者の鎗中村は敵側の認識を示す呼称として読める。誰がどの服装かの単純な接合ミスという読みは、直前の借用と着用変更に合わない。敵の故意や作者の意図までは確定しない。",
+      "missing_material": "この対応にはなし。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          1142,
+          1215
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1353,
+          1411
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q005-04",
+      "item_ids": [
+        "S09",
+        "E04"
+      ],
+      "polarity": "function",
+      "quote_a": "そして自分の形だけすらこれほどの力をもっているということに、かなり大きい誇りを感じていた。",
+      "quote_b": "猩々緋の武者の前には、戦わずして浮き足立った敵陣が、中村新兵衛の前には、ビクともしなかった。",
+      "relation": "服装だけの力に誇りを感じる新兵衛の内面は、その服装を持たない本人への敵の反応と対置される。内面の意味付けが後の戦闘経験によって裏返り、語りの進行に関与する。人物の誇りを外界一般の法則へ繰り上げない。",
+      "comparison_condition": "同じ戦闘で、新兵衛が若者の活躍を見た時の解釈と、本人が黒皮縅で突入した時の敵の反応を比較する。",
+      "textual_layer": "新兵衛の内面を記す語りと戦闘場面の地の文",
+      "alternative_explanations": "人物の誇りに原因の単純化があっても、それは後続の経験で対置される人物描写として読める。敵の心理の現実的妥当性までは未照合。",
+      "missing_material": "この本文内の対応にはなし。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          1215,
+          1260
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1307,
+          1353
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q017-01",
+      "item_ids": [
+        "E02",
+        "C01"
+      ],
+      "polarity": "function",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査から2024年度調査にかけて7.0ポイント上昇したといえる。",
+      "relation": "結末の7.0ポイント上昇は前段に示した49.7%と42.7%の差に一致する。活用方針の策定比率という対象と調査年度が保持され、百分率の差をポイントで述べている。",
+      "comparison_condition": "日本の所属企業における生成AI活用方針の2選択肢の合計比率について、本文に示した2024年度49.7%から2023年度42.7%を引く。個別業務の利用率は計算に含めない。",
+      "textual_layer": "調査結果を説明する本文と、その結果の結論",
+      "alternative_explanations": "脚注23は個別業務利用率の推計変更についての留保であり、本文の活用方針比率の計算そのものを禁止する範囲ではない。元調査の標本条件まで確認できたことにはならない。",
+      "missing_material": "元調査の活用方針設問・標本・両年度の推計条件は未提示。差の算術自体には不足なし。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1058,
+          1127
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q017-02",
+      "item_ids": [
+        "S02",
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "個別業務に関しては、例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率に対応する脚注は、推計方法が変わった年度間の単純比較を限定する。留保の対象と条件が具体的に示され、全ての数値比較を一律に否定する文にはなっていない。",
+      "comparison_condition": "個別業務ごとの生成AI利用率について2023年度と2024年度を直接比較する場合の留保。現年度の他国比較や活用方針の年度間比較と区別する。",
+      "textual_layer": "本文の個別業務利用率と対応する脚注23",
+      "alternative_explanations": "推計変更の事実や推計精度向上は未照合だが、脚注が制限している比較範囲は本文内で明示される。",
+      "missing_material": "両年度の個別業務利用率の推計手順は未提示。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          468,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q017-03",
+      "item_ids": [
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "中小企業では特に「方針を明確に定めていない」との回答が多く、約半数を占める。",
+      "quote_b": "日本の中小企業では大企業と比較して生成AIの活用方針の決定が立ち遅れている状況が見て取れる（図表Ⅰ-1-2-13）。",
+      "relation": "方針未決定の比率を決定の立ち遅れと表現しているが、この抜粋には大企業の数値や、未決定を遅れとして扱う条件が示されない。比較結果の説明と、進展を価値付ける読みの双方があり、問題・機能には確定しない。",
+      "comparison_condition": "日本の中小企業と大企業の同年度の活用方針決定状況、および未決定を時間的な遅れとして解釈する条件を比較する。",
+      "textual_layer": "調査回答の説明と解釈を述べる本文",
+      "alternative_explanations": "図表に大企業との対応する比率が示されていれば相対的な策定の遅れとして説明できる。明示的方針を置かない運用や導入の必要性の差もあり得るが、本文にない事情を事実として補わない。",
+      "missing_material": "図表Ⅰ-1-2-13、大企業の対応する回答比率、方針未決定と時間的な遅れを結ぶ定義。",
+      "confidence": "mid",
+      "input_id": "Q017",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          266,
+          304
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          304,
+          362
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q017-04",
+      "item_ids": [
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国全てで肯定的影響への注目が否定的影響を上回るという主張に図表の参照が付くが、図表の値は提示されない。参照の存在は確認でき、注目の大小の比較を支える資料内容は照合不能である。外部未照合だけを問題関係としない。",
+      "comparison_condition": "自社への影響の同じ設問・推計条件で、各国の肯定的な選択肢と否定的な選択肢の回答比率を比較する。",
+      "textual_layer": "調査結果の解釈と図表参照",
+      "alternative_explanations": "参照先の図表が比較を支えている可能性がある。本文の抜粋に値がないことと、資料に根拠がないことを同一視しない。",
+      "missing_material": "図表Ⅰ-1-2-16、影響についての設問・回答形式・集計値。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "A-Q010-01",
+      "item_ids": [
+        "S01"
+      ],
+      "polarity": "function",
+      "quote_a": "すなわちこの意味ではたしかに科学者は「あたま」がよくなくてはならないのである。",
+      "quote_b": "この点で科学者は、普通の頭の悪い人よりも、もっともっと物わかりの悪いのみ込みの悪い田舎者であり朴念仁でなければならない。",
+      "relation": "頭がよいという命題は論理・関係把握・内察の正確さを指し、頭が悪いという対置は常識的な理解で済ませず疑問を追う性質を指す。「この意味」「この点」が比較の軸を区別するため、同じ能力の必要と不要を同条件で主張する矛盾にならない。",
+      "comparison_condition": "科学者の必要な能力について、論理と観察の精度と、常識に対する疑問の持続という異なる意味を比較する。",
+      "textual_layer": "老科学者の談話として枠づけられた評論の言説",
+      "alternative_explanations": "同じ「あたま」の語が善悪両方に使われるため逆説的だが、直前の内容が意味の違いを与える。語の価値付けへの賛否は別に残る。",
+      "missing_material": "この意味の対置を確認するための追加資料はなし。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          434,
+          473
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          636,
+          696
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q010-02",
+      "item_ids": [
+        "S10"
+      ],
+      "polarity": "function",
+      "quote_a": "人より先に人のまだ行かない所へ行き着くこともできる代わりに、途中の道ばたあるいはちょっとしたわき道にある肝心なものを見落とす恐れがある。",
+      "quote_b": "自分の思ったような結果が出たときに、それが実は思ったとは別の原因のために生じた偶然の結果でありはしないかという可能性を吟味するというだいじな仕事を忘れる恐れがある。",
+      "relation": "頭のいい人への警戒が反復されるが、前者は探索経路での見落とし、後者は実験結果の原因検討の不足を述べる。主題の繰り返しに異なる研究上の判断が加わっている。",
+      "comparison_condition": "同じ評論の頭のよさに関する反復について、探索の速さと結果の解釈という別の研究局面を比較する。",
+      "textual_layer": "老科学者の談話として枠づけられた評論の言説・旅人の比喩と研究結果の説明",
+      "alternative_explanations": "人物類型の単純化への疑問はあり得るが、各反復が完全に同義で情報を増やさないとは読めない。",
+      "missing_material": "反復の情報増分を確認するにはなし。人物類型の経験的妥当性は別途未照合。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          729,
+          797
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1423,
+          1505
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q010-03",
+      "item_ids": [
+        "S06",
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "大小方円の見さかいもつかないほどに頭が悪いおかげで大胆な実験をし大胆な理論を公にしその結果として百の間違いの内に一つ二つの真を見つけ出して学界に何がしかの貢献をしまた誤って大家の名を博する事さえある。",
+      "quote_b": "しかし科学の世界ではすべての間違いは泡沫のように消えて真なもののみが生き残る。それで何もしない人よりは何かした人のほうが科学に貢献するわけである。",
+      "relation": "少数の真を得る可能性から、全ての間違いが消え真のみが残るという強い一般化を介して行為の貢献へ結ぶ。訂正が成立する条件や時点は示されず、経験的な一般則と、科学の理想を誇張した評論的表現のどちらとして評価するかが定まらないため保留する。",
+      "comparison_condition": "失策を含む研究の発表と科学への貢献を結ぶ際、誤りの除去が全ての研究で成り立つという条件を評価する。",
+      "textual_layer": "老科学者の談話として枠づけられた評論の一般化と比喩",
+      "alternative_explanations": "長期の自己訂正を理想として説く比喩、行動を促す誇張としても読める。文字通りの経験的全称命題として読むと本文内の例示だけでは支えられないが、修辞の価値判断を問題に確定しない。",
+      "missing_material": "この一般化を経験的主張として読む場合の対象期間・科学分野・訂正過程を示す資料。",
+      "confidence": "mid",
+      "input_id": "Q010",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          2505,
+          2605
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          2605,
+          2678
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q010-04",
+      "item_ids": [
+        "C05"
+      ],
+      "polarity": "function",
+      "quote_a": "しかしそれだけでは科学者にはなれない事ももちろんである。やはり観察と分析と推理の正確周到を必要とするのは言うまでもないことである。",
+      "quote_b": "つまり、頭が悪いと同時に頭がよくなくてはならないのである。",
+      "relation": "頭の悪さを称揚してきた議論に、観察・分析・推理の正確さも必要という条件を戻した直後、二つの意味の同時必要性をまとめる。冒頭の逆説の単なる復唱でなく、片側だけを採る読みを限定する条件に対応した小結である。",
+      "comparison_condition": "研究への没入・行動だけでは足りないという直前の留保と、両方が必要という小結を比較する。",
+      "textual_layer": "老科学者の談話として枠づけられた評論の条件追加と小結",
+      "alternative_explanations": "要約文そのものは冒頭に近いが、直前に必要条件を復帰させるため結論の情報上の役割がある。",
+      "missing_material": "この小結の対応にはなし。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          3167,
+          3232
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3235,
+          3264
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q010-05",
+      "item_ids": [
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "この老科学者の世迷い言を読んで不快に感ずる人はきっとうらやむべきすぐれた頭のいい学者であろう。",
+      "quote_b": "これを読んで何事をも考えない人はおそらく科学の世界に縁のない科学教育者か科学商人の類であろうと思われる。",
+      "relation": "読者の不快・無反応から学者や教育者などの人物類型を割り当てる結末である。本文内には実際の読者反応や、その反応が職業・研究姿勢を示す条件はない。一方で世迷い言という自評を伴う挑発・自嘲としても読めるため、実証的な帰属の飛躍か、修辞的な締めの機能かを確定しない。",
+      "comparison_condition": "読者の本文への感情反応・思考の有無だけから、その読者の科学との関わりや類型を推測してよいかという条件を評価する。",
+      "textual_layer": "老科学者の世迷い言と評した後の、読者に向けた結末の言説",
+      "alternative_explanations": "先の頭のよさ／悪さの逆説を読者にも返す風刺として成立し得る。反応と属性が文字通り対応するという主張としても読めるが、その読みを一意に採らない。",
+      "missing_material": "経験的な人物分類として読むなら読者反応と属性の資料。修辞の評価を一意に決める本文外の用途条件は未提示。",
+      "confidence": "mid",
+      "input_id": "Q010",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          3718,
+          3765
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3811,
+          3863
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q008-01",
+      "item_ids": [
+        "E04",
+        "E06",
+        "S09"
+      ],
+      "polarity": "function",
+      "quote_a": "兵十のおっ母は、床についていて、うなぎが食べたいと言ったにちがいない。",
+      "quote_b": "ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。",
+      "relation": "母がうなぎを望んだという推測はごんの考えとして示され、その推測に伴う後悔がつぐないという本人の行動評価へ接続する。母の希望を語り手の確認済み事実として採用するのでなく、ごんの意味付けが行動を動かす関係として読める。",
+      "comparison_condition": "葬式の後に穴でごんが考えた母の希望と、その後いわしを届けたごん自身の目的・評価を比較する。",
+      "textual_layer": "ごんの内心の引用と、ごんの評価を報告する地の文",
+      "alternative_explanations": "母の希望は作中でも未確認である。ごんの推測に飛躍があることは、内面と行動を結ぶ描写の機能を妨げず、作品の外界の因果主張には繰り上げない。",
+      "missing_material": "母の実際の希望、病状、死因は提示されない。この心理と行動の対応自体には不足なし。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          2326,
+          2361
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3001,
+          3034
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q008-02",
+      "item_ids": [
+        "E05",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。",
+      "quote_b": "おかげでおれは、盗人と思われて、いわし屋のやつに、ひどい目にあわされた",
+      "relation": "ごんがよいことと評価したいわしの贈与は、受け取った兵十には盗人との誤認による被害をもたらしたと発話で示される。善意の自己評価と相手の経験を分けることが、ごんの「これはしまった」という認識変化につながる。",
+      "comparison_condition": "ごんが盗んだいわしを兵十の家へ投げ込んだ同じ出来事について、ごんの評価と兵十が翌日語る結果を比較する。",
+      "textual_layer": "ごんの評価を報告する語りと兵十のひとりごと",
+      "alternative_explanations": "兵十の被害報告の全てを現実の検証済み証言とはしないが、頬の傷とごんの反応が作中の対応を補う。両者の評価差を同じ話者の矛盾にしない。",
+      "missing_material": "いわし屋と兵十のやり取りそのものは描かれない。場面内の認識変化を確認するには不足なし。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          3001,
+          3034
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3228,
+          3263
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q008-03",
+      "item_ids": [
+        "E05",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "つぎの日も、そのつぎの日もごんは、栗をひろっては、兵十の家へもって来てやりました。",
+      "quote_b": "神さまが、お前がたった一人になったのをあわれに思わっしゃって、いろんなものをめぐんで下さるんだよ",
+      "relation": "実際の贈与者をごんと示す地の文と、加助が神さまへ帰属する発話の食い違いは、贈与者を知らない人間側の認識として提示される。続くごんの不満を生み、読者と登場人物の情報差を働かせる。",
+      "comparison_condition": "兵十に日々届く栗・まつたけの同じ贈与について、地の文で示された行為者と加助の推測を比較する。",
+      "textual_layer": "贈与行動を描く地の文と加助の発話",
+      "alternative_explanations": "神さまの発話は人物の宗教的解釈であり、語り手が贈与者を神として置換した記述ではない。信仰自体の価値を評価せず、場面に示された認識差を評価する。",
+      "missing_material": "この作中の行為者と推測の対応にはなし。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          3383,
+          3424
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4384,
+          4432
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q008-04",
+      "item_ids": [
+        "R03",
+        "E05",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "そのあくる日もごんは、栗をもって、兵十の家へ出かけました。",
+      "quote_b": "こないだうなぎをぬすみやがったあのごん狐めが、またいたずらをしに来たな。",
+      "relation": "ごんが栗を持って来る行動と、兵十が再びいたずらと受け止める認識が対立する。以前のうなぎの出来事を手がかりにする兵十の見方が発砲に先行し、来訪目的の食い違いが物語の結果を生む。作品が目的を同時に二種類の事実として採用する不整合ではない。",
+      "comparison_condition": "第六節の同じ来訪について、ごんの携行物と兵十が狐の侵入を見た時の認識を比較する。",
+      "textual_layer": "来訪行動の地の文と兵十の内面に寄った地の文",
+      "alternative_explanations": "うなぎの窃取が先に描かれ、兵十には贈与者の情報がないため認識差として具体的に読める。本文外の不信頼な語り手や裏設定を補う必要はない。",
+      "missing_material": "この認識差と発砲の連続を確認するにはなし。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          4574,
+          4603
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4686,
+          4722
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q008-05",
+      "item_ids": [
+        "C06"
+      ],
+      "polarity": "function",
+      "quote_a": "「ごん、お前だったのか。いつも栗をくれたのは」",
+      "quote_b": "兵十は火縄銃をばたりと、とり落しました。青い煙が、まだ筒口から細く出ていました。",
+      "relation": "贈与者の認識が発砲の後に成立した直後、銃が落ち煙がまだ出るという細部で閉じる。遅れて理解したことと直前の発砲を同じ時間の内へ結び、後悔などの感情を明示し切らずに結果の重さを残す。",
+      "comparison_condition": "兵十が栗の贈与者をごんと認識する時点と、発砲直後の銃・煙の描写を比較する。",
+      "textual_layer": "兵十の発話と結末の動作・物の描写",
+      "alternative_explanations": "煙だけなら装飾とも読めるが、「まだ」が理解と発砲の近接を示す。ごんの最終的生死や兵十の長期の行動は本文外に補わない。",
+      "missing_material": "ごんのその後の生死・兵十のその後は明示されない。提示された結末の時間的対応は確認できる。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          4903,
+          4926
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4958,
+          4998
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q007-01",
+      "item_ids": [
+        "E02",
+        "C01"
+      ],
+      "polarity": "problem",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査から2024年度調査にかけて7.0ポイント低下したといえる。",
+      "relation": "同じ日本の活用方針策定比率について、前段の49.7%と42.7%は2024年度が7.0ポイント高い。一方、結末は同じ年度順で7.0ポイント低下とするため、差の方向が本文内の数値と対応しない。",
+      "comparison_condition": "日本の所属企業の生成AI活用方針の2選択肢の合計比率について、2023年度42.7%から2024年度49.7%への変化を比較する。49.7−42.7＝+7.0ポイント。個別業務利用率は比較対象に含めない。",
+      "textual_layer": "調査結果を説明する本文と、その結果の結論",
+      "alternative_explanations": "単語の誤記や編集の誤りでも説明でき、原因は確定しない。脚注23は個別業務利用率に限るため、この同一方針比率の数値方向の不対応を説明しない。",
+      "missing_material": "この本文内の差の方向の照合にはなし。元調査の標本や推計条件は未提示。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1058,
+          1127
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q007-02",
+      "item_ids": [
+        "S02",
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "個別業務に関しては、例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率に付いた脚注が、推計方法変更による年度間の単純比較の制限を明示する。留保の対象が個別業務利用率であり、全ての比較を無差別に曖昧にしていない。",
+      "comparison_condition": "個別業務の利用率について2023年度と2024年度を直接比較する際の制限を評価する。活用方針策定比率や現年度の他国比較と区別する。",
+      "textual_layer": "本文の個別業務利用率と脚注23",
+      "alternative_explanations": "推計方法変更の事実や推計精度は未照合だが、留保の比較範囲は本文に示される。この留保の機能で別の結末の方向誤りを取り消さない。",
+      "missing_material": "両年度の個別業務利用率の推計手順。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          468,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q007-03",
+      "item_ids": [
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "中小企業では特に「方針を明確に定めていない」との回答が多く、約半数を占める。",
+      "quote_b": "日本の中小企業では大企業と比較して生成AIの活用方針の決定が立ち遅れている状況が見て取れる（図表Ⅰ-1-2-13）。",
+      "relation": "中小企業の方針未決定の回答比率を、対大企業での決定の立ち遅れへ結んでいる。この本文には大企業の対応数値と、未決定を時間的な遅れとして扱う条件がない。相対的状況の説明と価値付けの読みが分かれるため保留する。",
+      "comparison_condition": "日本の中小企業と大企業の同年度の方針決定状況、および未決定を時間的な遅れとみなす条件を比較する。",
+      "textual_layer": "調査回答の説明と本文の解釈",
+      "alternative_explanations": "図表が大企業との相対差を示す可能性がある。明示的方針を置かない運用や必要性の差もあり得るが、本文外の事情を事実として補わない。",
+      "missing_material": "図表Ⅰ-1-2-13、大企業の対応比率、時間的な遅れを示す定義・比較情報。",
+      "confidence": "mid",
+      "input_id": "Q007",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          266,
+          304
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          304,
+          362
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q007-04",
+      "item_ids": [
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国全てで肯定的影響への注目が否定的影響を上回るという主張に図表の参照があるが、図表の値はない。出典表示を確認したことと、大小比較を支える資料内容を確認したことを分け、支持は未照合とする。",
+      "comparison_condition": "自社への影響の同一設問・推計条件で、各国の肯定的選択肢と否定的選択肢の回答比率を比較する。",
+      "textual_layer": "調査結果の解釈と図表参照",
+      "alternative_explanations": "図表に比較根拠がある可能性がある。抜粋への数値不掲載だけを根拠不存在の問題としない。",
+      "missing_material": "図表Ⅰ-1-2-16、設問・回答形式・集計値。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "A-Q012-01",
+      "item_ids": [
+        "S01",
+        "E05"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "「科学者になるには『あたま』がよくなくてはいけない」これは普通世人の口にする一つの命題である。これはある意味ではほんとうだと思われる。",
+      "quote_b": "しかし、一方でまた「科学者はあたまが悪くなくてはいけない」という命題も、ある意味ではやはりほんとうである。",
+      "relation": "頭がよいことと頭が悪いことの両方を必要とする対立命題が提示されるが、双方に「ある意味」と条件が付き、その意味の内容はこの入力にはない。同条件の矛盾か、別の意味を対置する逆説の機能かを、この提示範囲だけでは確定しない。",
+      "comparison_condition": "科学者の必要条件として頭のよさと悪さを述べる二命題の「あたま」の意味と適用条件が同じかを比較する。",
+      "textual_layer": "老科学者の談話を紹介する枠内で、世人の命題と対抗命題を述べる言説",
+      "alternative_explanations": "能力の異なる側面を対置する導入として機能する可能性がある。単に反対語があるだけでは矛盾としない。既読の別入力の後続説明によってこの入力の未提示部分を埋めない。",
+      "missing_material": "この入力内では示されていない、両命題の「あたま」と「ある意味」の定義・具体的な条件。",
+      "confidence": "high",
+      "input_id": "Q012",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          36,
+          103
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          103,
+          156
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q019-01",
+      "item_ids": [
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "",
+      "relation": "提示された同じ活用方針の比率は2024年度49.7%が2023年度42.7%より高く、増加という方向の記述と数値が対応する。差は7.0ポイントであるが、この入力にない末尾の結論文は評価しない。",
+      "comparison_condition": "日本の所属企業における活用方針の2選択肢の合計比率について、2023年度42.7%と2024年度49.7%を比較する。個別業務利用率はこの比較の対象ではない。",
+      "textual_layer": "調査結果の数値と増加を述べる同一文",
+      "alternative_explanations": "脚注23は個別業務利用率の年度間比較を限定しているため、この活用方針比率の数値方向自体とは対象が異なる。元調査の両年度の条件が確認済みという意味ではない。",
+      "missing_material": "元調査の活用方針設問・標本・両年度の推計条件。示された数値と増加方向の照合には不足なし。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "A-Q019-02",
+      "item_ids": [
+        "S02",
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "個別業務に関しては、例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務利用率に付く脚注23は、その利用率の年度間単純比較を推計方法の変更によって制限する。留保の対象と比較条件が具体的で、無条件に全調査を曖昧にする留保ではない。",
+      "comparison_condition": "個別業務ごとの利用率の2023年度と2024年度の直接比較に限る。活用方針の策定比率や現年度の他国比較と区別する。",
+      "textual_layer": "本文の個別業務利用率と脚注23",
+      "alternative_explanations": "推計変更や精度向上の事実は元資料で未照合だが、留保が何を制限しているかは本文内で確認できる。",
+      "missing_material": "両年度の個別業務利用率の推計手順。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          468,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q019-03",
+      "item_ids": [
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "中小企業では特に「方針を明確に定めていない」との回答が多く、約半数を占める。",
+      "quote_b": "日本の中小企業では大企業と比較して生成AIの活用方針の決定が立ち遅れている状況が見て取れる（図表Ⅰ-1-2-13）。",
+      "relation": "中小企業の未決定比率を大企業との比較で立ち遅れと解釈するが、大企業の比率と時間的な遅れを判定する条件はこの抜粋にない。比較状況の説明と、未決定に対する価値付けの読みが分かれるため保留する。",
+      "comparison_condition": "同年度の日本の中小企業と大企業の方針決定状況、および未決定を時間的な遅れと解釈する条件を比較する。",
+      "textual_layer": "調査回答の説明と本文の解釈",
+      "alternative_explanations": "参照された図表が大企業との相対差を支える可能性がある。未決定には運用や必要性の違いという別説明もあり得るが、未提示の事情を補作しない。",
+      "missing_material": "図表Ⅰ-1-2-13、大企業の対応比率、方針未決定を時間的な遅れとして捉える定義・比較情報。",
+      "confidence": "mid",
+      "input_id": "Q019",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          266,
+          304
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          304,
+          362
+        ]
+      ]
+    },
+    {
+      "relation_id": "A-Q019-04",
+      "item_ids": [
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国全てで肯定的影響への注目が否定的影響を上回るという主張に図表の参照が付くが、その比較値は提示されない。出典表示は確認できるものの、支持する資料内容は照合できない。未提示だけを問題関係としない。",
+      "comparison_condition": "自社への影響の同じ設問・推計条件で、各国の肯定的選択肢と否定的選択肢の回答比率を比較する。",
+      "textual_layer": "調査結果の解釈と図表参照",
+      "alternative_explanations": "図表に必要な比較値が示されている可能性があり、抜粋に値がないことを原資料の根拠欠落とはしない。",
+      "missing_material": "図表Ⅰ-1-2-16、影響に関する設問・回答形式・集計値。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "A",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "B-Q007-01",
+      "item_ids": [
+        "E02",
+        "E05",
+        "C01"
+      ],
+      "polarity": "problem",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査から2024年度調査にかけて7.0ポイント低下したといえる。",
+      "relation": "同じ日本企業の活用方針策定比率の年度差を、前段は増加、結論は低下としている。提示値49.7−42.7は+7.0ポイントで、結論の方向と両立しない。",
+      "comparison_condition": "日本の企業で二つの活用方針を定めている比率、2023年度から2024年度への変化。本文が結論で同じ策定比率を指す条件。",
+      "textual_layer": "調査を整理する本文の地の文と結論。",
+      "alternative_explanations": "別の方針区分・母数を結論だけ指す可能性はあるが、その変更は本文に示されていない。誤記でも説明でき、作者・工程は確定しない。",
+      "missing_material": "提示値と結論の本文内不一致を確認するための追加資料は不要。原調査の真の比率は未照合。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1058,
+          1127
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q007-02",
+      "item_ids": [
+        "E02",
+        "S02"
+      ],
+      "polarity": "function",
+      "quote_a": "例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率に付された注記は、推計方法の変更を理由に年度比較を限定する。前段の方針策定比率の年度比較と、個別業務の利用率の比較条件を同一視しない働きがある。",
+      "comparison_condition": "2024年度と2023年度の個別業務ごとの生成AI利用率の単純比較に限る。方針策定比率の比較まで一律に禁止する注記ではない。",
+      "textual_layer": "調査本文と本文末の注23。",
+      "alternative_explanations": "注記の方法変更そのものは申告であり、統計上の妥当性が検証されたとはいえない。",
+      "missing_material": "推計法の詳細と原調査は未提示。注記が本文で比較範囲を限定する働きは読める。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          478,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q007-03",
+      "item_ids": [
+        "E01",
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国すべてでポジティブ面への注目がネガティブ面を上回るという比較は図表に帰属されるが、提示本文には双方の数値がない。出典表示と内容による支持を分け、比較の真偽・十分な支持は未確定とする。",
+      "comparison_condition": "当該調査での日本・米国・ドイツ・中国、活用推進の影響についてのポジティブ項目とネガティブ項目への回答の比較。",
+      "textual_layer": "調査を整理する本文の外界への主張と図表参照。",
+      "alternative_explanations": "図表に比較を支える回答分布が掲載されている可能性があり、未提示だけを問題としない。",
+      "missing_material": "図表Ⅰ-1-2-16と集計条件・回答項目。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "B-Q008-01",
+      "item_ids": [
+        "E04",
+        "E06",
+        "S09"
+      ],
+      "polarity": "function",
+      "quote_a": "「兵十のおっ母は、床についていて、うなぎが食べたいと言ったにちがいない。それで兵十がはりきり網をもち出したんだ。",
+      "quote_b": "ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。",
+      "relation": "母の希望についての強い推測は、夜に考えるごんの発話として区切られ、その推測による後悔がいわしを与える行動の自己評価へつながる。母が実際にうなぎを望んだという作者の確認済み事実へ繰り上げず、人物の因果理解が行動を変える関係として読める。",
+      "comparison_condition": "兵十の母の葬式を見た後のごんの推測と、その後の償いの行動。母の実際の希望や死因は対象外の未確定部分として保持する。",
+      "textual_layer": "作中人物ごんの内心発話と、地の文が示すごんの自己評価。",
+      "alternative_explanations": "ごんの推測が作中で正しい可能性もあるが、提示本文には母の希望を直接示す場面がない。後悔の因果を説明するための内心であり、無用なメタ説明と即断しない。",
+      "missing_material": "母の希望や病状を確定する資料・場面は未提示。人物の推測と償いの連動は本文で確認できる。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          2325,
+          2381
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3001,
+          3034
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q008-02",
+      "item_ids": [
+        "E05",
+        "E06",
+        "S10"
+      ],
+      "polarity": "function",
+      "quote_a": "ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。",
+      "quote_b": "「一たいだれが、いわしなんかをおれの家へほうりこんでいったんだろう。おかげでおれは、盗人と思われて、いわし屋のやつに、ひどい目にあわされた」と、ぶつぶつ言っています。",
+      "relation": "ごんの善行という自己評価と兵十が受けた被害の報告は異なる人物の立場に属する。食べ物を置く行為が再登場する際に、いわしを盗んだ贈与の不利益を知り、次は栗を置くという変化が生じるので、評価の食い違いが場面を動かしている。",
+      "comparison_condition": "ごんが盗んだいわしを兵十の家に投げ込んだ一件と、その翌日の兵十の被害。",
+      "textual_layer": "ごんの自己評価を示す地の文と兵十の独り言。",
+      "alternative_explanations": "善意と結果の不一致であり、作品が同じ行為を無条件に善行かつ無害と断定した矛盾ではない。償いとしての価値がどれだけあるかという倫理判断は確定しない。",
+      "missing_material": "兵十が殴られた場面自体は報告で示されるが、頬の傷も提示される。いわし売の詳細な判断過程は不明。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          3001,
+          3034
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3194,
+          3277
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q008-03",
+      "item_ids": [
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "「おれは、あれからずっと考えていたが、どうも、そりゃ、人間じゃない、神さまだ、神さまが、お前がたった一人になったのをあわれに思わっしゃって、いろんなものをめぐんで下さるんだよ」",
+      "quote_b": "ごんは、へえ、こいつはつまらないなと思いました。おれが、栗や松たけを持っていってやるのに、そのおれにはお礼をいわないで、神さまにお礼をいうんじゃア、おれは、引き合わないなあ。",
+      "relation": "加助の神への帰属は、読者が既に見たごんの贈与と食い違い、その場でごんも報いられないと感じる。贈与者について人物と読者の情報差があり、発話を作品の事実主張へ転換せずに誤った帰属が認知のすれ違いを作る働きを確認できる。",
+      "comparison_condition": "同じ栗・まつたけの継続的な贈与について、加助が理由を述べ、ごんがそれを聞く時点。",
+      "textual_layer": "加助の発話とごんの内心。ごんの贈与行動は先行する地の文に提示。",
+      "alternative_explanations": "人物が神を信じることと作品が贈与の原因を神と確認することは別。加助の故意の嘘や作者の意図は確定しない。",
+      "missing_material": "当該食い違いの機能確認に追加資料は不要。神についての外界の真偽は評価しない。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          4345,
+          4433
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4482,
+          4569
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q008-04",
+      "item_ids": [
+        "C06"
+      ],
+      "polarity": "function",
+      "quote_a": "「ごん、お前だったのか。いつも栗をくれたのは」",
+      "quote_b": "兵十は火縄銃をばたりと、とり落しました。青い煙が、まだ筒口から細く出ていました。",
+      "relation": "贈与者を認める台詞の直後に、直前の射撃がまだ煙として残る。贈与者への理解が射撃の後に到来した順序を、銃を落とす行為と煙が保持し、ごんのその後を説明し切らずに取り返しのつかない遅れを示す余韻が働く。",
+      "comparison_condition": "射撃直後、栗を見て兵十が贈与者を理解した結末の時間順序。ごんの生死の最終状態を補わない。",
+      "textual_layer": "兵十の発話と結末の地の文。",
+      "alternative_explanations": "煙は単に発砲の物理的結果とも読めるが、発覚直後にも残る時間的近接が本文内にある。明示されない死や贖罪を補って解釈しない。",
+      "missing_material": "提示結末の後の場面は未提示であり、必要な結末情報として勝手に補わない。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          4903,
+          4926
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4958,
+          4998
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q012-01",
+      "item_ids": [
+        "E05",
+        "S08"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "「科学者になるには『あたま』がよくなくてはいけない」これは普通世人の口にする一つの命題である。これはある意味ではほんとうだと思われる。",
+      "quote_b": "しかし、一方でまた「科学者はあたまが悪くなくてはいけない」という命題も、ある意味ではやはりほんとうである。",
+      "relation": "あたまがよい・悪いという逆向きの命題は、双方とも『ある意味』という条件付きで提示される。よい・悪いの意味と各条件がまだ説明されていないため、同一条件で両立不能なのか、異なる能力や態度をいうのかを確定できない。",
+      "comparison_condition": "科学者になる／科学者であるためのあたまの性質。ただし対象段階の違いと『ある意味』の具体的内容が未定義。",
+      "textual_layer": "老科学者が語った内容として導入された命題の紹介と解説。",
+      "alternative_explanations": "意味の異なる語を用いた逆説、発想の転換を促す導入として成立する可能性がある。語の反対だけで論理矛盾としない。",
+      "missing_material": "各命題の『ある意味』、よい・悪いの定義、その後の解説。",
+      "confidence": "high",
+      "input_id": "Q012",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          36,
+          103
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          103,
+          156
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q012-02",
+      "item_ids": [
+        "S01"
+      ],
+      "polarity": "function",
+      "quote_a": "これは普通世人の口にする一つの命題である。",
+      "quote_b": "そうしてこの後のほうの命題は、それを指摘し解説する人が比較的に少数である。",
+      "relation": "『しかし、一方でまた』が導く第二の命題は、単に逆向きの語を置くのではなく、通常よく語られる命題とあまり解説されない命題の差として位置づけられる。二つを並べることが、これから扱う少数側の命題へ焦点を移す。",
+      "comparison_condition": "提示された二つの命題の本文中の扱いと解説の焦点。実際の世間の人数や頻度は確認しない。",
+      "textual_layer": "老科学者の話を紹介する解説の構造。",
+      "alternative_explanations": "世間での流通頻度については裏付けがなく、外界の事実としては未照合。本文の対比構造の働きとその真偽は分ける。",
+      "missing_material": "対比構造は本文から読める。実際の流通頻度を確かめる資料は未提示。",
+      "confidence": "mid",
+      "input_id": "Q012",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          62,
+          83
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          156,
+          193
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q005-01",
+      "item_ids": [
+        "E04",
+        "E05",
+        "E06",
+        "S08"
+      ],
+      "polarity": "function",
+      "quote_a": "猩々緋の武者の前には、戦わずして浮き足立った敵陣が、中村新兵衛の前には、ビクともしなかった。",
+      "quote_b": "そのうえに彼らは猩々緋の『鎗中村』に突きみだされたうらみを、この黒皮縅の武者の上に復讐せんとして、たけり立っていた。",
+      "relation": "衣装を借りた若者と衣装を変えた新兵衛への敵の反応が比較され、敵が猩々緋の武者を『鎗中村』として扱う情報差が示される。実際の新兵衛と敵がそう扱う武者の食い違いを、作品の人物参照の破綻とせず、衣装を通じた認識が戦い方を変える関係として読める。",
+      "comparison_condition": "同じ戦いで、先に突入する借り手の猩々緋の武者と、その後に突入する黒皮縅の新兵衛に対する敵陣の対応。完全に同時・同一心理条件ではないことは保持する。",
+      "textual_layer": "地の文の作中行動と、地の文が示す敵の認識・反応。",
+      "alternative_explanations": "先行の攻撃で敵が奮起した順序効果も本文に示されるため、衣装だけを唯一原因と確定しない。敵の呼称は作者が若者を実際の新兵衛と同定した記述ではない。",
+      "missing_material": "本文内の情報差と反応差を読むための追加資料は不要。現実の戦場の史実・心理一般則は未照合。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          1307,
+          1353
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1353,
+          1411
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q005-02",
+      "item_ids": [
+        "S10",
+        "C06"
+      ],
+      "polarity": "function",
+      "quote_a": "そして自分の形だけすらこれほどの力をもっているということに、かなり大きい誇りを感じていた。",
+      "quote_b": "手軽に兜や猩々緋を借したことを、後悔するような感じが頭の中をかすめたときであった。敵の突き出した鎗が、縅の裏をかいて彼の脾腹を貫いていた。",
+      "relation": "衣装を貸した行為への認識が、借り手の成功を見た誇りから、自分が苦戦した後悔へ変わる。衣装の力という話題の再登場に判断の変化があり、その変化の最中に負傷して終わるため、認識の反転が結末の出来事に接続している。",
+      "comparison_condition": "同じ新兵衛が同じ貸与行為について、若者の初攻撃を見た時点と、自分の攻撃で苦戦した時点に持つ評価。",
+      "textual_layer": "地の文による新兵衛の内心と結末の戦闘行動。",
+      "alternative_explanations": "後悔は『ような感じ』と限定されており、衣装を貸さなければ必ず勝てたという確定反実仮想にはしない。負傷後の生死を本文から補わない。",
+      "missing_material": "負傷後の経過は未提示。誇りから後悔への転換は提示範囲で確認できる。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          1215,
+          1260
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1645,
+          1714
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q019-01",
+      "item_ids": [
+        "E02",
+        "S02"
+      ],
+      "polarity": "function",
+      "quote_a": "例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率の注記は、推計方法の変更を理由に年度比較を限定する。活用方針の策定比率と個別業務の利用率を同じ比較条件の数値として扱わない働きがある。",
+      "comparison_condition": "2024年度と2023年度の個別業務ごとの生成AI利用率の単純比較に限る。方針策定比率まで一律に比較禁止としない。",
+      "textual_layer": "調査本文と本文末の注23。",
+      "alternative_explanations": "方法変更と推計精度向上は本文の申告であり、その実際の妥当性が検証されたとはいえない。",
+      "missing_material": "推計法の詳細と原調査は未提示。注記による比較範囲の限定は本文で確認できる。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          478,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q019-02",
+      "item_ids": [
+        "E01",
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国すべてでポジティブ面への注目がネガティブ面を上回るという比較は図表に帰属されるが、提示本文には双方の数値がない。出典表示と内容による支持を分け、比較の真偽・十分な支持は未確定とする。",
+      "comparison_condition": "当該調査の日本・米国・ドイツ・中国、活用推進の影響についてのポジティブ項目とネガティブ項目への回答比較。",
+      "textual_layer": "調査を整理する本文の外界への主張と図表参照。",
+      "alternative_explanations": "参照図表に必要な回答分布がある可能性があり、未提示だけを問題としない。",
+      "missing_material": "図表Ⅰ-1-2-16と集計条件・回答項目。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "B-Q013-01",
+      "item_ids": [
+        "E02",
+        "E05",
+        "R03"
+      ],
+      "polarity": "function",
+      "quote_a": "原告Ａにつき５８３万７７３９円、同Ｂにつき２９１万８８６９円、同Ｃにつき２９１万８８６９円であるとして、",
+      "quote_b": "これに対し、原告らが控訴し、当審において、請求する損害賠償額を、原告Ａにつき５４６万８６６０円に、同Ｂにつき２７３万４３３０円に、同Ｃにつき２７３万４３３０円に、それぞれ減縮した。",
+      "relation": "原審で述べた請求額と当審での請求額の違いは、控訴後の減縮という手続上の変化で接続される。異なる額を同じ時点の請求として矛盾させず、主文に対応する最新の対象額を明確にする。",
+      "comparison_condition": "同じ原告Ａ・Ｂ・Ｃについての原審請求額と、控訴後に減縮した当審請求額。時点を同一視しない。",
+      "textual_layer": "事案の骨子における請求経緯の説明。",
+      "alternative_explanations": "減縮後の具体的計算の正確性は、経緯の整合性とは別に未確認。減縮の説明があることだけで全計算を確認済みにしない。",
+      "missing_material": "請求額の計算根拠となる原判決別表・解決金充当明細は未提示。時点間の額の接続は本文で確認できる。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          973,
+          1025
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1379,
+          1469
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q013-02",
+      "item_ids": [
+        "S04"
+      ],
+      "polarity": "function",
+      "quote_a": "３被控訴人は、控訴人Ｂに対し、２７３万４３３０円及びうち１３７万５０００円に対する令和２年１１月１３日から、うち１３万７５００円に対する平成１２年５月３０日から各支払済みまで年５分の割合による金員を支払え。",
+      "quote_b": "４被控訴人は、控訴人Ｃに対し、２７３万４３３０円及びうち１３７万５０００円に対する令和２年１１月１３日から、うち１３万７５００円に対する平成１２年５月３０日から各支払済みまで年５分の割合による金員を支払え。",
+      "relation": "主文の同型の文は、額と起算日が同じでも受領者ＢとＣを分け、各人への支払命令を対応付ける。繰り返しが各対象の義務を区別するために働いており、異なる内容を無理に均す構文とは認めない。",
+      "comparison_condition": "主文第３項と第４項の、同一額・利率・起算日で異なる控訴人への支払命令。",
+      "textual_layer": "判決主文の個別命令。",
+      "alternative_explanations": "定型の法文体という説明も成立するが、定型の存在だけで機能を認定せず、受領者の違いを明示する具体的な役割に基づく。",
+      "missing_material": "当該構文反復の役割を確認する追加資料は不要。現実の判決の真正性は未照合。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          117,
+          220
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          222,
+          325
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q013-03",
+      "item_ids": [
+        "E02",
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "亡Ｄの勤務先企業から受領した解決金の同受領日までの確定遅延損害金への充当処理を経た後の弁護士費用を含む損害賠償額は、原判決別表のとおり、",
+      "quote_b": "原告らの被告に対する各請求額は、亡Ｄの勤務先企業から受領した解決金（前記前提事実⑺）の受領日までの確定遅延損害金への充当処理や弁護士費用を踏まえると、原告Ａにつき合計５４６万８６６０円、同Ｂにつき合計２７３万４３３０円、同Ｃにつき合計２７３万４３３０円となる。",
+      "relation": "旧額は原判決別表に、減縮後の額は解決金の充当と弁護士費用に帰属されるが、提示抜粋には別表と前提事実⑺がない。金額の本文内の再掲一致と、計算根拠の確認を分け、請求総額の導出は未確認とする。",
+      "comparison_condition": "解決金受領日までの確定遅延損害金への充当処理と弁護士費用を踏まえた各原告の旧請求額・減縮後の請求額の計算。",
+      "textual_layer": "事案の骨子での原判決参照と、原判決の主張欄を改める引用文。",
+      "alternative_explanations": "未提示の原判決別表と前提事実に必要な計算がある可能性が高く、抜粋で観測できないことを数値の誤りとしない。",
+      "missing_material": "原判決別表、前提事実⑺、解決金額・受領日と充当明細、弁護士費用の算出根拠。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          905,
+          973
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          2124,
+          2254
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q010-01",
+      "item_ids": [
+        "S08",
+        "E05"
+      ],
+      "polarity": "function",
+      "quote_a": "論理の連鎖のただ一つの輪をも取り失わないように、また混乱の中に部分と全体との関係を見失わないようにするためには、正確でかつ緻密な頭脳を要する。",
+      "quote_b": "普通にいわゆる常識的にわかりきったと思われることで、そうして、普通の意味でいわゆるあたまの悪い人にでも容易にわかったと思われるような尋常茶飯事の中に、何かしら不可解な疑点を認めそうしてその闡明に苦吟するということが、単なる科学教育者にはとにかく、科学的研究に従事する者にはさらにいっそう重要必須なことである。",
+      "relation": "冒頭のあたまがよい・悪いという対立は、論理や部分と全体を保持する精密さと、常識をすぐ飲み込まず疑点を追う態度として具体化される。異なる能力・態度を扱うので、同じ能力が同時によくも悪くもなければならないという形式的矛盾へ確定しない。",
+      "comparison_condition": "科学的研究に必要だと論じる頭脳の精密さと、既知と思われる事柄を疑い続ける態度の区別。",
+      "textual_layer": "老科学者の話として示される随筆の概念説明。",
+      "alternative_explanations": "『頭が悪い』の通常語義とはずれた修辞的な用語法であり、心理測定の定義としては不十分でも、本文で区別する具体的な行動は示される。必要条件の科学的実証とは分ける。",
+      "missing_material": "語の対立の本文内での説明は確認できる。実際の科学者の能力に関する経験的資料は未提示。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          306,
+          377
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          482,
+          636
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q010-02",
+      "item_ids": [
+        "S10",
+        "S04"
+      ],
+      "polarity": "function",
+      "quote_a": "人より先に人のまだ行かない所へ行き着くこともできる代わりに、途中の道ばたあるいはちょっとしたわき道にある肝心なものを見落とす恐れがある。",
+      "quote_b": "頭のいい人は見通しがきくだけに、あらゆる道筋の前途の難関が見渡される。少なくも自分でそういう気がする。そのためにややもすると前進する勇気を阻喪しやすい。",
+      "relation": "『頭のいい人』と進行する道の比喩は反復されるが、先へ急ぐことで途中を見落とす問題から、難関の予測で着手する勇気を失う問題へ論点が変わる。同じ語の再登場に異なる行動の機序が加わり、単なる同義反復ではない。",
+      "comparison_condition": "道・進行を用いた前後の比喩的説明。実際の研究者の頻度や因果を確認する比較ではない。",
+      "textual_layer": "随筆の比喩と一般的傾向の説明。",
+      "alternative_explanations": "二つとも知的な速さ・見通しの危険を述べるため大きな主題は重なるが、見落としと断念は異なる出来事である。一般化の経験的妥当性は別問題として未確認。",
+      "missing_material": "反復の情報増分は本文で確認できる。実際の傾向を裏付ける資料は未提示。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          729,
+          797
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          939,
+          1015
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q010-03",
+      "item_ids": [
+        "C05",
+        "S02"
+      ],
+      "polarity": "function",
+      "quote_a": "しかしそれだけでは科学者にはなれない事ももちろんである。やはり観察と分析と推理の正確周到を必要とするのは言うまでもないことである。",
+      "quote_b": "つまり、頭が悪いと同時に頭がよくなくてはならないのである。",
+      "relation": "自然の前で自分の限界を自覚する態度を述べた後、精密な観察・分析・推理の必要を再導入して、二つを同時に要求する要約へつなげる。前段の『頭の悪さ』の推奨だけで終わらず、冒頭の両条件を再統合する働きがある。",
+      "comparison_condition": "自然に向き合う覚悟の提示後、正確周到さがなお必要という限定と、その直後の要約。",
+      "textual_layer": "随筆の論点を再統合する地の文。",
+      "alternative_explanations": "要約は冒頭の命題に似るが、間の説明で二つの語義が分けられているため、同じ命題を説明なしで繰り返す場合とは異なる。",
+      "missing_material": "当該要約の本文内の働きは確認できる。実際の科学者の必要十分条件の実証は未提示。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          3167,
+          3232
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3235,
+          3264
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q010-04",
+      "item_ids": [
+        "S06",
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "すなわち何もしなかったのと、実証的な見地からは同等になる。",
+      "quote_b": "しかし科学の世界ではすべての間違いは泡沫のように消えて真なもののみが生き残る。それで何もしない人よりは何かした人のほうが科学に貢献するわけである。",
+      "relation": "結果を公にしない慎重さと誤りを含む公表を比較し、後者が貢献する根拠を『すべての間違い』が消えるという一般則に置く。これは科学の選別作用を強調する比喩とも、無条件の事実主張とも読め、誤りの影響や時間条件が示されないため、問題・機能を一義的に確定しない。",
+      "comparison_condition": "自分の仕事のあらを見て結果をまとめない研究者と、多数の誤りを含んでも公表する研究者の科学への貢献。間違いが消える時間・選別条件は未提示。",
+      "textual_layer": "老科学者の話として提示された随筆の価値比較と一般化。",
+      "alternative_explanations": "『泡沫』は長期的な選別の理想を表す修辞と読める。一方、文字どおりなら全称の根拠が不足する。どちらかへ無理に確定しない。",
+      "missing_material": "全称を事実主張として読む場合の対象期間・選別条件と具体例。修辞上の強調の範囲も本文だけでは一意に定まらない。",
+      "confidence": "mid",
+      "input_id": "Q010",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          2417,
+          2446
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          2605,
+          2678
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q010-05",
+      "item_ids": [
+        "S03",
+        "E04"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "この老科学者の世迷い言を読んで不快に感ずる人はきっとうらやむべきすぐれた頭のいい学者であろう。",
+      "quote_b": "これを読んで何事をも考えない人はおそらく科学の世界に縁のない科学教育者か科学商人の類であろうと思われる。",
+      "relation": "読者の反応から能力や職業的性質を分類する末尾は、その反応を観測・検証した推論ではない。ただし『世迷い言』と評し読者に返す諧謔とも読めるため、反応を引き出す機能か、根拠を超えた読者分類かは確定せず残す。",
+      "comparison_condition": "同じ随筆を読んだ人の不快・無反応から、学者の能力・科学との関係を推定する関係。",
+      "textual_layer": "老科学者の話を『世迷い言』と呼ぶ末尾の読者への言及。",
+      "alternative_explanations": "文字どおりの人物診断ではなく、本文の頭のよさ・悪さの逆説を読者に向けて繰り返す皮肉の可能性がある。読者の実際の内心を確定しない。",
+      "missing_material": "読者反応と分類の対応を裏付ける観測資料は未提示。末尾の皮肉をどこまで事実主張として読むかは解釈が残る。",
+      "confidence": "mid",
+      "input_id": "Q010",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          3718,
+          3765
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3811,
+          3863
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q017-01",
+      "item_ids": [
+        "E02",
+        "C01"
+      ],
+      "polarity": "function",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査から2024年度調査にかけて7.0ポイント上昇したといえる。",
+      "relation": "同じ策定比率の提示値49.7%と42.7%の差は+7.0ポイントであり、末尾の上昇という方向と差分が対応する。結論は提示された年度差に限定され、因果や他の数値へ飛躍していない。",
+      "comparison_condition": "日本の企業の二つの活用方針を定めている比率の、2023年度調査から2024年度調査への変化。",
+      "textual_layer": "調査を整理する本文の数値説明と末尾の結論。",
+      "alternative_explanations": "調査の推計対象や設計自体が適切かは原調査で別途確認が必要。本文の二値と結論の算術上の対応を確認したもので、真の全国比率を検証したことにはしない。",
+      "missing_material": "本文内の差分対応の確認に追加資料は不要。原調査・図表Ⅰ-1-2-12の真の値や方法は未照合。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1058,
+          1127
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q017-02",
+      "item_ids": [
+        "E02",
+        "S02"
+      ],
+      "polarity": "function",
+      "quote_a": "例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率の注記は、推計方法の変更を理由に年度比較を限定する。活用方針の策定比率と個別業務の利用率を同じ比較条件の数値として扱わない働きがある。",
+      "comparison_condition": "2024年度と2023年度の個別業務ごとの生成AI利用率の単純比較に限る。方針策定比率まで一律に比較禁止としない。",
+      "textual_layer": "調査本文と本文末の注23。",
+      "alternative_explanations": "方法変更と推計精度向上は本文の申告であり、その実際の妥当性が検証されたとはいえない。",
+      "missing_material": "推計法の詳細と原調査は未提示。注記による比較範囲の限定は本文で確認できる。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          478,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "B-Q017-03",
+      "item_ids": [
+        "E01",
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国すべてでポジティブ面への注目がネガティブ面を上回るという比較は図表に帰属されるが、提示本文には双方の数値がない。出典表示と内容による支持を分け、比較の真偽・十分な支持は未確定とする。",
+      "comparison_condition": "当該調査の日本・米国・ドイツ・中国、活用推進の影響についてのポジティブ項目とネガティブ項目への回答比較。",
+      "textual_layer": "調査を整理する本文の外界への主張と図表参照。",
+      "alternative_explanations": "参照図表に必要な回答分布がある可能性があり、未提示だけを問題としない。",
+      "missing_material": "図表Ⅰ-1-2-16と集計条件・回答項目。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "B",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "C-Q010-01",
+      "item_ids": [
+        "S01",
+        "R05",
+        "E05"
+      ],
+      "polarity": "function",
+      "quote_a": "すなわちこの意味ではたしかに科学者は「あたま」がよくなくてはならないのである。",
+      "quote_b": "この点で科学者は、普通の頭の悪い人よりも、もっともっと物わかりの悪いのみ込みの悪い田舎者であり朴念仁でなければならない。",
+      "relation": "「この意味」は論理・観察を正確に扱う能力、「この点」は常識で済ませず疑点を追う態度を指す。相反する頭のよさ／悪さを異なる意味条件へ割り当て、冒頭の見かけの矛盾を説明する対比として働く。",
+      "comparison_condition": "同じ科学的研究者に必要な資質を論じるが、「頭」の評価条件が論理の正確さと既知と思う事柄への納得の遅さで異なる。",
+      "textual_layer": "冒頭で老科学者の話として導入された論説の叙述。二つの一般命題の引用と、その解説。",
+      "alternative_explanations": "優劣を同じ尺度で述べた矛盾とも一見読めるが、直前の具体的説明と指示語が異なる尺度を明示している。",
+      "missing_material": "なし。この意味の区別は提示本文内で確認できる。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          434,
+          473
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          636,
+          696
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q010-02",
+      "item_ids": [
+        "C05"
+      ],
+      "polarity": "function",
+      "quote_a": "しかしそれだけでは科学者にはなれない事ももちろんである。やはり観察と分析と推理の正確周到を必要とするのは言うまでもないことである。",
+      "quote_b": "つまり、頭が悪いと同時に頭がよくなくてはならないのである。",
+      "relation": "最後の「つまり」は研究へ踏み込む覚悟だけでは足りず正確な推理も必要だと直前で戻した条件を統合する。頭の悪さのみを勧める説明から両面の必要性へ判断を戻すため、単なる同義反復以上の締めの働きがある。",
+      "comparison_condition": "科学者になるための条件を、自然へ身を投じる態度と観察・分析・推理の正確さの併存としてまとめる箇所。",
+      "textual_layer": "老科学者の話として提示された論説の叙述。",
+      "alternative_explanations": "冒頭の二命題の再掲でもあるが、途中の「頭の悪い人」の利点の列挙を限定し直す直前の条件を受けている。",
+      "missing_material": "なし。",
+      "confidence": "high",
+      "input_id": "Q010",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          3167,
+          3232
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3235,
+          3264
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q010-03",
+      "item_ids": [
+        "C01",
+        "E04",
+        "S06"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "しかし科学の世界ではすべての間違いは泡沫のように消えて真なもののみが生き残る。",
+      "quote_b": "それで何もしない人よりは何かした人のほうが科学に貢献するわけである。",
+      "relation": "すべての誤りが除去され真だけが残るという一般前提から、行動する方が貢献するとの結論へ進む。前段は百の間違いのうち一、二の真を見つける可能性を述べるが、誤りの除去機構や例外は示さない。研究へ着手させる誇張された励ましとしての機能と、一般的因果説明として支持不足という読みが競合するため確定しない。",
+      "comparison_condition": "大胆な実験・理論が科学全体へ与える貢献。ある人の失敗から真が見つかる場合と、科学全体で誤りがすべて消えるという無例外命題を比較する。",
+      "textual_layer": "老科学者の話を伝える論説内の科学についての一般化。現実の個別研究記録ではない。",
+      "alternative_explanations": "科学の理念を比喩的に述べ、行為の価値を強調する箴言として読める。個別の経験的な法則の証明を意図しているかは本文だけでは確定できない。",
+      "missing_material": "この一般化の経験的妥当性を論じるなら、扱う科学分野・期間・訂正過程の資料が必要。本文内でその全称命題を実証済みにする根拠はない。",
+      "confidence": "mid",
+      "input_id": "Q010",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          2605,
+          2644
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          2644,
+          2678
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q010-04",
+      "item_ids": [
+        "E04",
+        "C06"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "この老科学者の世迷い言を読んで不快に感ずる人はきっとうらやむべきすぐれた頭のいい学者であろう。",
+      "quote_b": "またこれを読んで会心の笑みをもらす人は、またきっとうらやむべく頭の悪い立派な科学者であろう。",
+      "relation": "文章への感情的反応を読者の科学者としての資質へ帰属させる。論説の逆説を読者自身へ向ける皮肉な結末として働く読みと、反応だけから人物像を分類する支持不足という読みが競合する。",
+      "comparison_condition": "同じ文章を読んだ際の不快・笑みという反応と、その読者の頭のよさ／悪さや学者としての資質。",
+      "textual_layer": "老科学者の発言を伝えた後の読者へ向く論説の結び。",
+      "alternative_explanations": "「世迷い言」「きっと」「であろう」による戯画・自己戯画として読め、測定に基づく読者分類とは限らない。",
+      "missing_material": "読者反応と資質を経験的に結ぶ資料は未提示。皮肉の効果への評価は価値判断を含む。",
+      "confidence": "mid",
+      "input_id": "Q010",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          3718,
+          3765
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3765,
+          3811
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q019-01",
+      "item_ids": [
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "個別業務に関しては、例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "本文の個別業務利用率に付いた注記番号が、同じ個別業務利用率の年度間比較を禁じる条件へ対応している。47.3％を単純な前年比として読み替えないための留保として働く。",
+      "comparison_condition": "企業の個別業務ごとの生成AI利用率についての2024年度と2023年度の比較。活用方針の49.7％と42.7％の比較へ、この注記を自動で拡張しない。",
+      "textual_layer": "アンケート結果の報告本文と、その本文に番号23で結ばれた方法注記。",
+      "alternative_explanations": "単なる形式的な注記にも見えるが、本文中の番号と対象名が対応し比較可能な範囲を具体的に狭めている。方法変更の具体的内容は未確認。",
+      "missing_material": "推計方法の新旧仕様および図表本体は未提示。制限の文中対応を確認したのであり、推計精度の改善を確認したのではない。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          468,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q019-02",
+      "item_ids": [
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "生成AIの活用推進による自社への影響に対する考え方について、日本では、「業務効率化や人員不足の解消につながる」が最も多く挙げられている。",
+      "quote_b": "他の3か国においてはビジネスの拡大や新たな顧客獲得、新たなイノベーションを多く挙げる傾向にある。",
+      "relation": "両国群の記述は「影響に対する考え方」の回答傾向として提示され、効率化や顧客獲得が実際に生じた成果としては述べられていない。回答者の予想と実績の境界が保持される。",
+      "comparison_condition": "4か国の調査回答者が自社への影響をどう考えるかという同じ設問。生成AI導入後の実績測定との比較ではない。",
+      "textual_layer": "アンケート回答傾向の報告。回答内容がかぎ括弧で示されている。",
+      "alternative_explanations": "「つながる」という回答を実際の因果効果と誤読する余地はあるが、設問の枠が考え方と明示されている。",
+      "missing_material": "図表Ⅰ-1-2-16および設問・回答分布は未提示。効果の実証は対象にしていない。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          709,
+          777
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          777,
+          825
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q019-03",
+      "item_ids": [
+        "E03",
+        "E01"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "4か国すべてで肯定面が否定面より注目されるという比較主張に図表番号が付くが、図表の回答数・割合はこの入力にはない。直前には国ごとの肯定項目の傾向があるだけで、肯定面対否定面の大小を独立に照合できない。出典表示と支持確認を分け、真偽を未確定とする。",
+      "comparison_condition": "同じ影響設問について4か国それぞれの肯定的回答と否定的回答の注目度を比較する。",
+      "textual_layer": "調査報告本文の総括と、未提示の図表への参照。",
+      "alternative_explanations": "図表本体には十分な回答分布がある可能性があり、抜粋で欠けたことだけを本文の論理的欠陥にはしない。",
+      "missing_material": "図表Ⅰ-1-2-16、設問の回答方式と各項目の回答分布。",
+      "confidence": "high",
+      "input_id": "Q019",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "C-Q005-01",
+      "item_ids": [
+        "R03",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "ついてはお身さまの猩々緋と唐冠の兜を借してたもらぬか。",
+      "quote_b": "その日に限って、黒皮縅の冑を着て、南蛮鉄の兜をかぶっていた中村新兵衛は、会心の微笑を含みながら、猩々緋の武者のはなばなしい武者ぶりをながめていた。",
+      "relation": "衣装を借りたいという若い士の願いの後、翌日の新兵衛が別の衣装で猩々緋の武者を見ている。そのため猩々緋の武者と新兵衛の分離は参照の不連続ではなく、衣装を貸した場面から回収できる省略として働く。",
+      "comparison_condition": "初陣の前日に衣装を願った若い士と、翌日の戦場で猩々緋を着る武者。新兵衛が黒皮縅に替わった同日の場面。",
+      "textual_layer": "若い士の作中発話と、翌日の戦場を記す地の文。",
+      "alternative_explanations": "貸与の実行を逐語的に描く文はないが、承諾の発話と翌日の衣装・視線の関係から回収できる。外部の登場人物情報を補う必要はない。",
+      "missing_material": "なし。貸与をつなぐ省略は提示本文内で回収できる。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          715,
+          742
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1142,
+          1215
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q005-02",
+      "item_ids": [
+        "E05",
+        "R03"
+      ],
+      "polarity": "function",
+      "quote_a": "その日に限って、黒皮縅の冑を着て、南蛮鉄の兜をかぶっていた中村新兵衛は、会心の微笑を含みながら、猩々緋の武者のはなばなしい武者ぶりをながめていた。",
+      "quote_b": "そのうえに彼らは猩々緋の『鎗中村』に突きみだされたうらみを、この黒皮縅の武者の上に復讐せんとして、たけり立っていた。",
+      "relation": "地の文が黒皮縅の人物を本当の新兵衛と同定する一方、敵側では猩々緋の姿に『鎗中村』の名を対応させる。人名の食い違いは外見を目印とする敵の認識差を描き、衣装を変えた新兵衛への攻撃性が増す場面の仕組みになる。",
+      "comparison_condition": "衣装を貸した翌日の同じ戦場。同じ新兵衛という実体と、敵が衣装で識別する『鎗中村』の像を比較する。",
+      "textual_layer": "地の文による人物同定と、地の文が描く敵勢の認識・反応。",
+      "alternative_explanations": "語り手が若い士を実体として新兵衛と呼び間違えたとも単独では読めるが、黒皮縅の新兵衛を先に示し「彼ら」の反応として続けるため、認識の差として回収できる。",
+      "missing_material": "なし。敵の全員の内心や故意までは確定していない。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          1142,
+          1215
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1353,
+          1411
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q005-03",
+      "item_ids": [
+        "C01",
+        "C02",
+        "C06"
+      ],
+      "polarity": "function",
+      "quote_a": "「が、申しておく、あの服折や兜は、申さば中村新兵衛の形じゃわ。そなたが、あの品々を身に着けるうえは、われらほどの肝魂を持たいではかなわぬことぞ」と言いながら、新兵衛はまた高らかに笑った。",
+      "quote_b": "手軽に兜や猩々緋を借したことを、後悔するような感じが頭の中をかすめたときであった。敵の突き出した鎗が、縅の裏をかいて彼の脾腹を貫いていた。",
+      "relation": "貸与時には衣装を着る若者へ肝魂を求めた本人が、衣装を失った戦場で後悔し負傷する。前段で描かれた敵の反応の変化を受けて当人にも衣装の作用が及ぶ逆転が生じ、一般的な教訓を付け足さず行動の結果として末尾を閉じる。",
+      "comparison_condition": "前日の衣装貸与と、翌日その衣装を着ない本人が戦う局面の対応。負傷までが提示範囲であり、死亡や後日の教訓は含めない。",
+      "textual_layer": "新兵衛の作中発話と、戦場での内面・負傷を記す地の文。",
+      "alternative_explanations": "負傷は個別の槍の攻撃によるため衣装だけを唯一原因とは確定しない。ただし本文は敵の恐怖の消失と攻撃性の増大を間に描き、後悔を貸与へ明示的に結ぶ。",
+      "missing_material": "なし。提示範囲後の生死は未確認であり、この機能判断には補わない。",
+      "confidence": "high",
+      "input_id": "Q005",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          838,
+          931
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1645,
+          1714
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q013-01",
+      "item_ids": [
+        "R05",
+        "E02",
+        "E05"
+      ],
+      "polarity": "function",
+      "quote_a": "原告Ａにつき５８３万７７３９円、同Ｂにつき２９１万８８６９円、同Ｃにつき２９１万８８６９円であるとして、それぞれ同額及び遅延損害金",
+      "quote_b": "これに対し、原告らが控訴し、当審において、請求する損害賠償額を、原告Ａにつき５４６万８６６０円に、同Ｂにつき２７３万４３３０円に、同Ｃにつき２７３万４３３０円に、それぞれ減縮した。",
+      "relation": "同じ3人について旧請求額と新請求額が異なるが、当審での減縮という手続上の変化が明示される。主文の新額と原審の旧額を同じ時点の不一致にせず追跡できる。",
+      "comparison_condition": "A・B・Cそれぞれの原審での請求額と控訴審で減縮後の請求額。時点と手続段階が異なる。",
+      "textual_layer": "裁判文書の事案概要に記された当事者の旧請求と、控訴審での訴訟行為の説明。",
+      "alternative_explanations": "接合による金額の取り違えにも一見見えるが、減縮の明示と主文・控訴の趣旨・末尾修正の新額の対応で説明できる。算定自体の妥当性は別問題。",
+      "missing_material": "各損害額の算定過程を検証する原判決別表は未提示。この関係では時点の接続だけを確認した。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          973,
+          1038
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1379,
+          1469
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q013-02",
+      "item_ids": [
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "被告においてじん肺の発生又はその増悪を防止するために労働基準法（昭和４７年法律第５７号による改正前のもの）及び労働安全衛生法に基づく規制権限を行使しなかったことが違法であると主張して、",
+      "quote_b": "これに対し、被告は、除斥期間の経過等を主張して争った。",
+      "relation": "規制権限不行使の違法という見解は訴えを提起した側の主張として述べられ、被告の抗弁も別の主張として配置される。両当事者の主張を本文がすべて確認済みの法的事実として採用したとは読ませない層分けがある。",
+      "comparison_condition": "同じ訴訟について原告側の違法主張と被告側の除斥期間等の抗弁を比較する。主張の存在と主張内容の正しさを区別する。",
+      "textual_layer": "事案概要の地の文および補正として引用された訴えの経緯。当事者の主張の間接引用。",
+      "alternative_explanations": "裁判文書の形式的な「主張して」でもあるが、法的争いの立場を区別する実務上の働きが対象に直接対応する。",
+      "missing_material": "法的主張の実体的妥当性を確認する証拠・当審の判断部分は未提示。主張の境界を確認しただけである。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          1818,
+          1910
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1164,
+          1191
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q013-03",
+      "item_ids": [
+        "R02",
+        "R05",
+        "E03"
+      ],
+      "polarity": "function",
+      "quote_a": "次のとおり補正するほかは、原判決の「事実及び理由」第２の１（原判決２頁４行目～５頁２６行目）に記載のとおりであるから、これを引用する。",
+      "quote_b": "⑴４頁８～９行目を次のとおり改める。",
+      "relation": "行を改めるという指示形は、原判決の特定部分を引用し補正するという本文の文書構造に結ばれている。未処理の編集メモとして残った語と確定せず、控訴審文書が引用元へ与える差分として働く。",
+      "comparison_condition": "原判決の事実部分を引用する範囲と、その中の特定頁・行への補正。提示入力で元の頁行の内容の一致までは確認しない。",
+      "textual_layer": "裁判文書本体の引用・補正手続の記述。本文外の作業指示ではない。",
+      "alternative_explanations": "制作過程の差し替えメモにも似た書式だが、原判決の頁行と引用範囲が明示され、修正文が続くため文書内の引用方式として回収できる。",
+      "missing_material": "原判決本体は未提示で、指定された頁行との一致は未照合。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          1478,
+          1545
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1557,
+          1575
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q013-04",
+      "item_ids": [
+        "E02",
+        "E03"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "亡Ｄの勤務先企業から受領した解決金（前記前提事実⑺）の受領日までの確定遅延損害金への充当処理や弁護士費用を踏まえると、原告Ａにつき合計５４６万８６６０円、同Ｂにつき合計２７３万４３３０円、同Ｃにつき合計２７３万４３３０円となる。",
+      "quote_b": "",
+      "relation": "新しい合計額は主文等と表面上対応しているが、解決金の金額、充当処理、相続割合、費用計算が本文に展開されていない。数値間の明示的矛盾を確認したわけではなく、参照された前提事実・別表がないため算定の支持関係を未確定とする。",
+      "comparison_condition": "解決金充当後・弁護士費用込みのA・B・Cの損害賠償合計額。原審の旧額や利息対象の一部分と単純に同額とみなさない。",
+      "textual_layer": "原判決に対する引用修正として示された請求額の算定説明。",
+      "alternative_explanations": "引用元の前提事実⑺や別表に十分な内訳が記載されている可能性がある。抜粋で算式が見えないことだけを本文の誤計算としない。",
+      "missing_material": "前提事実⑺、原判決別表、解決金額・受領日までの確定遅延損害金・弁護士費用・各人への配分の内訳。",
+      "confidence": "high",
+      "input_id": "Q013",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          2140,
+          2254
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "C-Q012-01",
+      "item_ids": [
+        "E05",
+        "R05"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "「科学者になるには『あたま』がよくなくてはいけない」",
+      "quote_b": "「科学者はあたまが悪くなくてはいけない」",
+      "relation": "一見相反する命題をいずれも「ある意味では」真とするが、提示範囲にはそれぞれの意味条件の定義がない。対比を立てて後続説明を予告する導入とも読め、同一条件の矛盾とも異なる資質の共存とも現入力だけでは確定しない。",
+      "comparison_condition": "科学者の必要条件について、頭がよい／悪いという語が同じ尺度を指すか異なる尺度を指すかが未確定。",
+      "textual_layer": "老科学者の話として導入された論説内の二つの命題の引用と、その評価。",
+      "alternative_explanations": "未提示の続きで意味を区別して解説する導入の可能性がある。先読した別入力の説明を現入力へ合成して機能確認にはしていない。",
+      "missing_material": "現入力としての「あたま」の意味区分の説明および続き。全文としてはこの2段落を読了している。",
+      "confidence": "high",
+      "input_id": "Q012",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          36,
+          62
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          112,
+          132
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q017-01",
+      "item_ids": [
+        "E02",
+        "C01"
+      ],
+      "polarity": "function",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査から2024年度調査にかけて7.0ポイント上昇したといえる。",
+      "relation": "最終段落の7.0ポイント上昇は、本文の同じ活用方針策定比率49.7％と42.7％の差へ対応する。比率の差を増加率と混同せず、本文で提示した数値に限定して結論を閉じている。",
+      "comparison_condition": "日本の企業で積極活用または領域を限定した利用方針を定めた比率の2024年度調査と2023年度調査。数値差49.7−42.7＝7.0を百分率のポイント差として扱う。",
+      "textual_layer": "アンケート結果を報告する本文と、同じ報告者による最終段落の数値総括。",
+      "alternative_explanations": "方法変更の注記があるため年度比較全般が禁じられるようにも見えるが、注記23の対象は個別業務ごとの利用率であり、ここでまとめる活用方針策定比率とは区別される。年度間の調査設計そのものは未照合。",
+      "missing_material": "調査の年度別設計と図表Ⅰ-1-2-12は未提示。この機能判断は本文内の対象名と数値差の対応に限る。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1058,
+          1127
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q017-02",
+      "item_ids": [
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "個別業務に関しては、例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率に付いた注記23が同じ個別業務利用率の推計方法変更を説明し、年度間の単純比較を限定する。方針策定率の前年比へ無条件に制限を広げない形で、比較対象を区別できる。",
+      "comparison_condition": "企業における個別業務利用率の2023年度調査と2024年度調査。活用方針策定比率や国間比較とは別の比較。",
+      "textual_layer": "調査報告本文と、その個別業務の記述に番号23で結ばれた方法注記。",
+      "alternative_explanations": "推計精度を高めたという効果まで確認できる注記ではなく、本文中で述べられた比較制限の役割を認めるもの。",
+      "missing_material": "新旧の推計方法仕様と図表本体は未提示。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          468,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q017-03",
+      "item_ids": [
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "生成AIの活用推進による自社への影響に対する考え方について、日本では、「業務効率化や人員不足の解消につながる」が最も多く挙げられている。",
+      "quote_b": "他の3か国においてはビジネスの拡大や新たな顧客獲得、新たなイノベーションを多く挙げる傾向にある。",
+      "relation": "効率化や顧客獲得は自社への影響について回答者が挙げた考え方の内容として提示される。実際に導入後の成果が測定されたという主張へ変換せず、回答傾向の層を保持する。",
+      "comparison_condition": "同じ自社への影響設問について日本と他の3か国で挙がった期待・考え方。導入の実際の因果効果は比較していない。",
+      "textual_layer": "アンケート回答の間接報告と、回答内容の引用。",
+      "alternative_explanations": "回答文の「つながる」を本文の因果断定と読む余地はあるが、「考え方について」という設問の枠がある。",
+      "missing_material": "図表Ⅰ-1-2-16と設問・回答分布は未提示。効果の実証は確認していない。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          709,
+          777
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          777,
+          825
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q017-04",
+      "item_ids": [
+        "E03",
+        "E01"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "肯定面と否定面の大小について図表番号が示されるが、各国の両群の回答分布はこの入力にはない。出典を表示したことと、内容が4か国すべての比較主張を支持すると確認したことを分け、後者を未確定とする。",
+      "comparison_condition": "自社への影響の同じ設問で、4か国それぞれが肯定面と否定面へ向ける注目度。",
+      "textual_layer": "調査報告本文の総括と、未提示図表への参照。",
+      "alternative_explanations": "省略された図表に十分なデータがある可能性があり、この抜粋の資料不足を誤りと確定しない。",
+      "missing_material": "図表Ⅰ-1-2-16、回答方式、国別の各項目回答分布。",
+      "confidence": "high",
+      "input_id": "Q017",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    },
+    {
+      "relation_id": "C-Q008-01",
+      "item_ids": [
+        "S10"
+      ],
+      "polarity": "function",
+      "quote_a": "ごんは、一人ぼっちの小狐で、しだの一ぱいしげった森の中に穴をほって住んでいました。",
+      "quote_b": "「おれと同じ一人ぼっちの兵十か」",
+      "relation": "冒頭ではごんの居住と孤独を説明した「一人ぼっち」が、母を失った兵十を自分と同じ者として見る語へ変わる。反復は境遇の説明から共感へ判断を進め、その後の贈与へつながる。",
+      "comparison_condition": "ごんの既存の独居と、母の死後に一人となった兵十の境遇。時点と対象が異なり、同義の説明をただ重ねているのではない。",
+      "textual_layer": "冒頭の地の文と、ごんの内面の直接引用。",
+      "alternative_explanations": "感傷的な同語反復としての評価も可能だが、対象が自分から兵十へ移るため認識の変化を具体的に回収できる。",
+      "missing_material": "なし。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          135,
+          176
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          2612,
+          2628
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q008-02",
+      "item_ids": [
+        "E06",
+        "E04"
+      ],
+      "polarity": "function",
+      "quote_a": "「ははん、死んだのは兵十のおっ母だ」",
+      "quote_b": "「兵十のおっ母は、床についていて、うなぎが食べたいと言ったにちがいない。",
+      "relation": "葬列を見たごんの推測から、母がうなぎを望んだという未確認の事情へ、ごん自身の想像が広がる。その想像はごんの考えとして枠づけられ、後悔と償いを生む人物の意味付けとして働く。母のうなぎの希望や死因を語り手が検証した事実として扱わない。",
+      "comparison_condition": "葬儀の日にごんが見た兵十の様子と、その晩にごんが想像する母の希望・盗んだうなぎの影響。観察から確認できる範囲と内面の推論を分ける。",
+      "textual_layer": "ごんの内面の直接引用。「ごんはそう思いながら」「その晩、ごんは、穴の中で考えました。」により人物の思考へ帰属する。",
+      "alternative_explanations": "後段で母の死亡は地の文にも示されるが、うなぎを望んだことまで事実に採用されたとは確認できない。人物の強い推測を本文全体の因果断定に繰り上げない。",
+      "missing_material": "母の希望や死亡原因を確認する作中資料は未提示。その不足はこの人物の推測が果たす働きの確認を妨げない。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          2260,
+          2278
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          2325,
+          2361
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q008-03",
+      "item_ids": [
+        "E06",
+        "C02"
+      ],
+      "polarity": "function",
+      "quote_a": "ごんは、うなぎのつぐないに、まず一つ、いいことをしたと思いました。",
+      "quote_b": "「一たいだれが、いわしなんかをおれの家へほうりこんでいったんだろう。おかげでおれは、盗人と思われて、いわし屋のやつに、ひどい目にあわされた」と、ぶつぶつ言っています。",
+      "relation": "ごんが「いいこと」と判断したいわしの贈与に、受け取った兵十が盗人と誤認される結果が続く。善意の内面と行動の結果のずれを示し、ごんの「これはしまった」という判断の更新を生むため、善行へ安全に回収されない。",
+      "comparison_condition": "同じいわしを盗んで兵十へ投げ入れた行為に対する、ごんの直後の評価と兵十の翌日の受けた結果。",
+      "textual_layer": "ごんの内面を記す地の文と、兵十の独り言の直接引用。",
+      "alternative_explanations": "両方の人物が別の出来事を述べる可能性は、いわしの贈与・翌日の傷・兵十の独り言の順序により小さい。ごんの善意は作者の道徳判断とは分ける。",
+      "missing_material": "なし。兵十がいわし屋に襲われる現場は直接描写されず、発話と傷で示される範囲の対応を確認した。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          3001,
+          3034
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          3194,
+          3277
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q008-04",
+      "item_ids": [
+        "E05",
+        "E04",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "つぎの日も、そのつぎの日もごんは、栗をひろっては、兵十の家へもって来てやりました。そのつぎの日には、栗ばかりでなく、まつたけも二、三ぼんもっていきました。",
+      "quote_b": "「おれは、あれからずっと考えていたが、どうも、そりゃ、人間じゃない、神さまだ、神さまが、お前がたった一人になったのをあわれに思わっしゃって、いろんなものをめぐんで下さるんだよ」",
+      "relation": "読者にはごんの継続した贈与が示されるが、加助は差出人を見ず神へ帰属させる。両立しない差出人像は登場人物の情報不足として描かれ、ごんが礼を自分に向けてもらえず不満を感じる場面を作る。作品の事実記述同士の矛盾にはしない。",
+      "comparison_condition": "兵十に日々届けられる同じ栗・まつたけの差出人。地の文に描かれた贈与行為と、加助が兵十へ説明する帰属。",
+      "textual_layer": "作中行動を記す地の文と、加助の作中発話。",
+      "alternative_explanations": "狐が人間ではないという一部分だけなら地の文と一致するが、「神さまが」の差出人帰属は別である。加助の故意や作者の宗教観は確定しない。",
+      "missing_material": "なし。神の実在などの裏設定は補っていない。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          3383,
+          3460
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4345,
+          4433
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q008-05",
+      "item_ids": [
+        "E05",
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "そのあくる日もごんは、栗をもって、兵十の家へ出かけました。",
+      "quote_b": "こないだうなぎをぬすみやがったあのごん狐めが、またいたずらをしに来たな。",
+      "relation": "地の文は栗を届ける行為を先に示すが、兵十の認識に寄った文は過去の盗みから今回もいたずらだと判断する。この情報差が火縄銃で撃つ行動へつながり、贈与の意図と受け手の解釈のずれを具体化する。",
+      "comparison_condition": "六でごんが兵十の家へ入る同じ時点・同じ行為の目的。現在の栗の持参と、以前のうなぎの盗みをもとにした兵十の推定。",
+      "textual_layer": "作中行動の地の文と、兵十の視認直後にその認識へ寄る地の文。「ぬすみやがった」等の語勢で人物の視点が示される。",
+      "alternative_explanations": "二文とも語り手の確定事実と読めば目的が不一致になるが、顔を上げた兵十の視認から「ようし。」と行動へ続く配置が内面の判断として回収させる。",
+      "missing_material": "なし。兵十の動機の全体や撃つ行為の倫理的正当性までは確定しない。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          4574,
+          4603
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4686,
+          4722
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q008-06",
+      "item_ids": [
+        "C06",
+        "C02"
+      ],
+      "polarity": "function",
+      "quote_a": "「ごん、お前だったのか。いつも栗をくれたのは」",
+      "quote_b": "兵十は火縄銃をばたりと、とり落しました。青い煙が、まだ筒口から細く出ていました。",
+      "relation": "兵十の贈り主への認識が撃った後に更新され、銃を落とす動作と残る煙で末尾が止まる。既に起きた行為の直後という時間を保ったまま、驚きや後悔を一般的教訓へ言い換えず余韻として残す。",
+      "comparison_condition": "発砲・倒れたごん・土間の栗の発見が続いた直後、兵十が贈り主を認識する瞬間。",
+      "textual_layer": "兵十の作中発話と、その後の動作・銃煙を記す地の文。",
+      "alternative_explanations": "死亡や後悔の内面が逐語的には説明されていないが、直前の発砲と銃を落とす対応があるため単なる必要情報の欠落とは確定しない。",
+      "missing_material": "提示範囲後のごんの生死や兵十の後日談は未提示。この余韻の働きには補っていない。",
+      "confidence": "high",
+      "input_id": "Q008",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          4903,
+          4926
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          4958,
+          4998
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q007-01",
+      "item_ids": [
+        "E02",
+        "E05",
+        "C01"
+      ],
+      "polarity": "problem",
+      "quote_a": "2024年度調査では49.7%となり、2023年度調査（42.7%）と比較して増加していた。",
+      "quote_b": "以上の調査結果から、日本の企業の生成AI活用方針の策定比率は、2023年度調査から2024年度調査にかけて7.0ポイント低下したといえる。",
+      "relation": "同じ日本の活用方針策定比率・同じ二年度を、本文では42.7％から49.7％への増加とし、結論では7.0ポイントの低下とする。差の大きさは対応するが変化の向きが両立せず、総括が本文の数値を支持として使う関係に問題がある。",
+      "comparison_condition": "日本の企業における積極活用または領域限定利用の方針策定比率の、2023年度調査から2024年度調査への変化。49.7−42.7＝＋7.0ポイント。",
+      "textual_layer": "同じ調査報告者の結果本文と最終段落の総括。人物の異なる見解や引用反論ではない。",
+      "alternative_explanations": "「低下」の誤記、総括時の方向の取り違え等で説明できるが、不対応自体は残る。注記23は個別業務利用率の推計変更を述べており、この同一の策定比率の正負を逆転させない。",
+      "missing_material": "方向の本文内不一致を確認する追加資料は不要。調査の外部での正確さや原因・作者・編集工程は未確認。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          143,
+          189
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          1058,
+          1127
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q007-02",
+      "item_ids": [
+        "E02"
+      ],
+      "polarity": "function",
+      "quote_a": "個別業務に関しては、例えば、「メールや議事録、資料作成等の補助」に生成AIを使用していると回答した割合は、日本で47.3％（「業務で使用中」と回答した割合）であった23。",
+      "quote_b": "23　企業における個別業務ごとの生成AI利用率については、より推計精度を高めるため、2023年度調査と推計方法を変えたため、2024年度調査と2023年度調査とは単純比較はできない。",
+      "relation": "個別業務の利用率と方法注記が番号23で結ばれ、同じ対象の年度間比較を制限する。これは個別業務利用率について成立する留保の機能であり、別の策定比率の結論の正負の不一致を取り消さない。",
+      "comparison_condition": "2023年度と2024年度の個別業務ごとの生成AI利用率。方針策定比率とは対象が異なる。",
+      "textual_layer": "調査報告本文と、その個別業務の記述に付く方法注記。",
+      "alternative_explanations": "単なる定型注記にも見えるが、本文の番号と対象が一致し、読者が行える年度比較を具体的に限定している。",
+      "missing_material": "新旧推計方法の仕様と図表本体は未提示。方法改善の効果そのものは確認していない。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          468,
+          553
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          908,
+          999
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q007-03",
+      "item_ids": [
+        "E06"
+      ],
+      "polarity": "function",
+      "quote_a": "生成AIの活用推進による自社への影響に対する考え方について、日本では、「業務効率化や人員不足の解消につながる」が最も多く挙げられている。",
+      "quote_b": "他の3か国においてはビジネスの拡大や新たな顧客獲得、新たなイノベーションを多く挙げる傾向にある。",
+      "relation": "国別の効率化・顧客獲得等は回答者の「考え方」として述べられ、実際に測定された導入成果へ置換されていない。期待の内容と実績の境界がこの箇所では保たれる。",
+      "comparison_condition": "日本および他の3か国の自社への影響設問に対する回答傾向。",
+      "textual_layer": "アンケート結果の間接報告および回答内容の引用。",
+      "alternative_explanations": "回答内容の「つながる」を報告者の因果的結論と誤読し得るが、設問の枠が考え方であると明示される。",
+      "missing_material": "図表Ⅰ-1-2-16と設問・回答分布は未提示。現実の効果を検証したとの認定はしていない。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          709,
+          777
+        ]
+      ],
+      "quote_b_positions": [
+        [
+          777,
+          825
+        ]
+      ]
+    },
+    {
+      "relation_id": "C-Q007-04",
+      "item_ids": [
+        "E03",
+        "E01"
+      ],
+      "polarity": "unresolved",
+      "quote_a": "総じて、4か国いずれも、業務効率化やビジネス拡大等のポジティブな面を、セキュリティリスク拡大などネガティブな面よりも注目しているといえる（図表Ⅰ-1-2-16）。",
+      "quote_b": "",
+      "relation": "肯定面対否定面の大小を4か国すべてに述べる主張へ図表番号は付いているが、支持となる回答分布は現入力にない。図表の表示と内容の支持確認を分けて照合不能として残す。",
+      "comparison_condition": "同じ自社への影響設問について4か国それぞれの肯定的回答と否定的回答の注目度。",
+      "textual_layer": "調査報告本文の総括と、未提示の図表への参照。",
+      "alternative_explanations": "図表に十分な支持がある可能性は残る。図表未提示だけを問題関係にはしない。最終段落の数値方向の不一致は別の関係として確定している。",
+      "missing_material": "図表Ⅰ-1-2-16、回答方式、国別の各項目の回答分布。",
+      "confidence": "high",
+      "input_id": "Q007",
+      "annotator_id": "C",
+      "quote_a_positions": [
+        [
+          825,
+          906
+        ]
+      ],
+      "quote_b_positions": []
+    }
+  ]
+}

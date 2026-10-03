@@ -1,0 +1,146 @@
+[
+  {
+    "job": "v5_Q012",
+    "raw_components": [
+      "outputs/v5_Q012.md",
+      "outputs/v5_Q012_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[UNVERIFIABLE] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q012-combined.md\n  引用   pass: 4/4 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=0 K=18 U=9 X=2  スコア 0.0（0/18）、評価済み率 66.7、欠測幅 0.0〜33.3\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 0,
+      "stdout": "[PASS] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q012-combined.md\n  引用   pass: 4/4 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=18 U=9 X=2  スコア 0.0（0/18）、評価済み率 66.7、欠測幅 0.0〜33.3\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q005",
+    "raw_components": [
+      "outputs/v5_Q005.md",
+      "outputs/v5_Q005_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[UNVERIFIABLE] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q005-combined.md\n  引用   pass: 10/10 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=0 K=25 U=1 X=3  スコア 0.0（0/25）、評価済み率 96.2、欠測幅 0.0〜3.8\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 0,
+      "stdout": "[PASS] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q005-combined.md\n  引用   pass: 10/10 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=25 U=1 X=3  スコア 0.0（0/25）、評価済み率 96.2、欠測幅 0.0〜3.8\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q007",
+    "raw_components": [
+      "outputs/v5_Q007.md",
+      "outputs/v5_Q007_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q007-combined.md\n  引用   pass: 7/7 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=4 K=23 U=6 X=0  スコア 17.4（4/23）、評価済み率 79.3、欠測幅 13.8〜34.5\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 1,
+      "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q007-combined.md\n  引用   pass: 7/7 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   fail: スコアの正確な分数が欠落・不一致・重複: [] / [(4, 23)]\n  形式   pass\n  再計算 P=4 K=23 U=6 X=0  スコア 17.4（4/23）、評価済み率 79.3、欠測幅 13.8〜34.5\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q013",
+    "raw_components": [
+      "outputs/v5_Q013.md",
+      "outputs/v5_Q013_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[UNVERIFIABLE] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q013-combined.md\n  引用   pass: 14/14 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=0 K=21 U=8 X=0  スコア 0.0（0/21）、評価済み率 72.4、欠測幅 0.0〜27.6\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 0,
+      "stdout": "[PASS] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q013-combined.md\n  引用   pass: 14/14 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=21 U=8 X=0  スコア 0.0（0/21）、評価済み率 72.4、欠測幅 0.0〜27.6\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q019",
+    "raw_components": [
+      "outputs/v5_Q019.md",
+      "outputs/v5_Q019_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q019-combined.md\n  引用   pass: 12/12 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=0 K=20 U=9 X=0  スコア 0.0（0/20）、評価済み率 69.0、欠測幅 0.0〜31.0\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 1,
+      "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q019-combined.md\n  引用   pass: 12/12 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=20 U=9 X=0  スコア 0.0（0/20）、評価済み率 69.0、欠測幅 0.0〜31.0\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q008",
+    "raw_components": [
+      "outputs/v5_Q008.md",
+      "outputs/v5_Q008_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q008-combined.md\n  引用   pass: 13/13 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=26 U=2 X=1  スコア 0.0（0/26）、評価済み率 92.9、欠測幅 0.0〜7.1\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 1,
+      "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q008-combined.md\n  引用   pass: 13/13 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=26 U=2 X=1  スコア 0.0（0/26）、評価済み率 92.9、欠測幅 0.0〜7.1\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q017",
+    "raw_components": [
+      "outputs/v5_Q017.md",
+      "outputs/v5_Q017_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q017-combined.md\n  引用   pass: 14/14 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=0 K=22 U=7 X=0  スコア 0.0（0/22）、評価済み率 75.9、欠測幅 0.0〜24.1\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 1,
+      "stdout": "[FAIL] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q017-combined.md\n  引用   pass: 14/14 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   fail\n  数値   fail: スコアの正確な分数が欠落・不一致・重複: [] / [(0, 22)]\n  形式   pass\n  再計算 P=0 K=22 U=7 X=0  スコア 0.0（0/22）、評価済み率 75.9、欠測幅 0.0〜24.1\n",
+      "stderr": ""
+    }
+  },
+  {
+    "job": "v5_Q010",
+    "raw_components": [
+      "outputs/v5_Q010.md",
+      "outputs/v5_Q010_ledger.md"
+    ],
+    "exit_code": 1,
+    "stdout": "[UNVERIFIABLE] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q010-combined.md\n  引用   pass: 16/16 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   unverifiable: スコア欄が複数ある。現在値の欄を番号で指定する必要がある\n  形式   pass\n  再計算 P=0 K=23 U=4 X=2  スコア 0.0（0/23）、評価済み率 85.2、欠測幅 0.0〜14.8\n",
+    "stderr": "",
+    "explicit_selection": {
+      "score": 1,
+      "ledger": 1,
+      "tally": 1,
+      "exit_code": 0,
+      "stdout": "[PASS] /workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q010-combined.md\n  引用   pass: 16/16 完全一致（正規化のみ一致 0、不一致 0）\n  台帳   pass: 完全な台帳 1件、部分的な塊 0件\n  集計   pass\n  数値   pass: 一致\n  形式   pass\n  再計算 P=0 K=23 U=4 X=2  スコア 0.0（0/23）、評価済み率 85.2、欠測幅 0.0〜14.8\n",
+      "stderr": ""
+    }
+  }
+]

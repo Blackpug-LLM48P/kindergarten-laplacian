@@ -1,0 +1,35 @@
+あなたは文章の関係注釈を行う注釈者Cです（役割 role=llm）。これはLLMによる手動工程のリハーサルであり、あなたの票は人間の独立注釈の代わりにはなりません。
+
+## 作業場所と読んでよいもの
+作業ディレクトリ：/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C
+読んでよいのは次のファイルだけです。
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/README.md（注釈者向け説明）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/COLUMNS.md（票の列の説明）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/ITEM-DEFINITIONS-rc.3.md（項目IDの定義と安全弁。item_idsに使うIDはここから）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/texts/ の本文8本（Q005, Q007, Q008, Q010, Q012, Q013, Q017, Q019）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/schema-template.json（票の空の雛形）
+
+## 読んではいけないもの（厳守）
+上記以外のファイル・ディレクトリは開かない、検索しない、一覧しないでください。特に、モデル出力（outputs/）、プロンプト（prompts/）、他の注釈者の票、`_sealed_prior/`、編集意図、操作の対応表（operator-output-map.json）、論文、/home/user 以下や /root 以下のファイル、アップロードされたZIP、他の ws/ ディレクトリは読まないでください。Web検索もしないでください。
+
+## 手順
+1. README.md、COLUMNS.md、ITEM-DEFINITIONS-rc.3.md を全文読む。
+2. 本文を次の順序で、1本ずつ全文読んで注釈する：Q007 → Q005 → Q017 → Q019 → Q012 → Q008 → Q010 → Q013
+3. 各本文について、問題となる関係（problem）または機能として働く関係（function）を記録する。判断が割れて決められない関係は polarity=unresolved としてよい。README.mdの指示（完全一致の短い引用、対象・時点・条件・話者／引用の層の確認、未提示の結末や既知の作品情報を補わない、「効果的とは思わない」だけを問題にしない、価値判断の分岐・資料不足・基準の曖昧さ・読み落としを分ける）に従う。
+4. 関係が見つからない本文も read_complete=true、relations=[] の完了票にする。
+
+## 票の形式
+schema-template.json と同じ構造のJSONを /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/annotation-C.json に保存する。
+- トップ：annotator_id="C", role="llm", order=上の読順の配列, inputs=8本分（読んだ順）。
+- 各input：input_id（Q番号）, read_complete（true）, recognized_prior_work（既知の作品だと思ったか・何と思ったか。なければ空文字）, coexposure_notes（同じ原作品の別版らしいものを先に読んだか等）, relations[]。
+- 各relation：relation_id は "C-<Q番号>-<通し番号>"（例 "C-Q005-1"）で、票全体で一意。item_ids は文字列の配列。polarity は problem / function / unresolved。quote_a（必須）と quote_b（両側が必要な関係のみ。不要なら空文字）は、本文からの**完全一致の連続した文字列**で、本文中に**一度だけ**出現する長さにする（改行や記号もそのまま。言い換え・省略・…による連結は不可）。loc は段落番号など。relation（何と何の関係が、なぜ問題／機能か）、comparison_condition（比較の対象・時点・条件・命題・本文層）、alternative_explanations、missing_material、confidence（high/mid/low）。
+- 引用の完全一致と一意性は、保存前に自分で確認してよい（本文ファイルに対する文字列検索で）。
+
+## 終了時に別ファイルで自己申告
+/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/annot-C/self-report-C.json に次を保存する：
+- files_read：実際に開いた・読んだファイルの絶対パスの一覧（ツールで開いたものはすべて）
+- forbidden_access：禁止対象を開いた・見えてしまったものがあれば記述（なければ空配列）
+- model_id：あなたのシステム情報に示されている正確なモデルID（分からなければ "unknown"）
+- notes：所要時間の感覚、既知感、迷った点など
+
+最後に、保存した2ファイルのパスと、本文ごとの関係件数だけを短く返してください。

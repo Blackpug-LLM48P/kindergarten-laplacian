@@ -1,0 +1,264 @@
+[
+  {
+    "file": "audits/primary-Q005.json",
+    "sha256": "58367cec49a39b82b531ba038a08d284e7845331621bb9ebcf5ed16a872e8b78",
+    "outputs": [
+      {
+        "input_id": "Q005",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 29,
+        "references": 7,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q005",
+        "alias": "O2",
+        "parents": 23,
+        "claims": 33,
+        "references": 7,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q007.json",
+    "sha256": "63abaccc3c921609ce3316f6d59514d414f4b8b074690f74850c2f95a0dc80b8",
+    "outputs": [
+      {
+        "input_id": "Q007",
+        "alias": "O1",
+        "parents": 15,
+        "claims": 27,
+        "references": 3,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q007",
+        "alias": "O2",
+        "parents": 11,
+        "claims": 24,
+        "references": 3,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q008.json",
+    "sha256": "ac384b2f9467a351b4ead7bee5d1d7751c376557d2b2a278592f7eebc5b2c8bd",
+    "outputs": [
+      {
+        "input_id": "Q008",
+        "alias": "O1",
+        "parents": 21,
+        "claims": 36,
+        "references": 7,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q008",
+        "alias": "O2",
+        "parents": 16,
+        "claims": 49,
+        "references": 7,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q010.json",
+    "sha256": "b6cb8a9caabd40bef3e746486bf2445ce91388be6d7989d5a3120957c630c5ec",
+    "outputs": [
+      {
+        "input_id": "Q010",
+        "alias": "O1",
+        "parents": 24,
+        "claims": 52,
+        "references": 4,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q010",
+        "alias": "O2",
+        "parents": 37,
+        "claims": 51,
+        "references": 4,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q012.json",
+    "sha256": "5567c71dd92b53afa95286d1acbad2f2e2def7d0d7460b19454701a13f2e40bf",
+    "outputs": [
+      {
+        "input_id": "Q012",
+        "alias": "O1",
+        "parents": 27,
+        "claims": 50,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q012",
+        "alias": "O2",
+        "parents": 7,
+        "claims": 14,
+        "references": 1,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q013.json",
+    "sha256": "d5551ffb24a94166f3f3fdbb67989669a4c4092e924302171881c74f2755094e",
+    "outputs": [
+      {
+        "input_id": "Q013",
+        "alias": "O1",
+        "parents": 17,
+        "claims": 30,
+        "references": 5,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q013",
+        "alias": "O2",
+        "parents": 14,
+        "claims": 20,
+        "references": 5,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q017.json",
+    "sha256": "99af70bae651de2fdc5b0260c7d517ed70cff10c3f7ddd379f8e88a02d6c6986",
+    "outputs": [
+      {
+        "input_id": "Q017",
+        "alias": "O1",
+        "parents": 12,
+        "claims": 23,
+        "references": 3,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q017",
+        "alias": "O2",
+        "parents": 28,
+        "claims": 40,
+        "references": 3,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/primary-Q019.json",
+    "sha256": "10ede3ad9d7c4c09e059d99af716788e48bf7db655fc1476b09981e6a3e25265",
+    "outputs": [
+      {
+        "input_id": "Q019",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 32,
+        "references": 3,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q019",
+        "alias": "O2",
+        "parents": 30,
+        "claims": 44,
+        "references": 3,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/secondary-1.json",
+    "sha256": "1f0b56f20dbc9ad38e1f5fc1c82067224aa99b9942dd7e4391d5f81fd91aea24",
+    "outputs": [
+      {
+        "input_id": "Q005",
+        "alias": "O1",
+        "parents": 11,
+        "claims": 26,
+        "references": 7,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q005",
+        "alias": "O2",
+        "parents": 6,
+        "claims": 15,
+        "references": 7,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q007",
+        "alias": "O1",
+        "parents": 8,
+        "claims": 17,
+        "references": 3,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q007",
+        "alias": "O2",
+        "parents": 11,
+        "claims": 21,
+        "references": 3,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "audits/secondary-2.json",
+    "sha256": "4cdc60f53c8f63152b76f2d97a2385f6328f5033bbe6ca8d4bf8bbacbd0da4e2",
+    "outputs": [
+      {
+        "input_id": "Q012",
+        "alias": "O1",
+        "parents": 27,
+        "claims": 46,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q012",
+        "alias": "O2",
+        "parents": 7,
+        "claims": 18,
+        "references": 1,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q013",
+        "alias": "O1",
+        "parents": 34,
+        "claims": 67,
+        "references": 5,
+        "audit_complete": true
+      },
+      {
+        "input_id": "Q013",
+        "alias": "O2",
+        "parents": 14,
+        "claims": 29,
+        "references": 5,
+        "audit_complete": true
+      }
+    ],
+    "errors": []
+  }
+]

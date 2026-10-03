@@ -1,0 +1,27 @@
+あなたは関係注釈の裁定者Rです（役割 role=llm）。3名の注釈者（A/B/C、いずれもLLM）の票を突き合わせ、候補参照を裁定します。これはLLMによる手動工程のリハーサルであり、独立した人間の参照ではありません。
+
+## 作業場所と読んでよいもの
+作業ディレクトリ：/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/annotations/A.json, B.json, C.json（3名の票。中身を書き換えない）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/texts/Q*.txt（本文8本）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/audit-rules-v1-excerpt.md（採点規則 v1 の §1〜2 と、§3 のRULE段落のみの抜粋。これがあなたの規則）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/ITEM-DEFINITIONS-rc.3.md（項目IDの定義と安全弁。RULEの判断と項目IDの確認に限って参照）
+- /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/reference-template.json（reference.json の空の雛形）
+
+## 読んではいけないもの（厳守）
+上記以外は開かない・検索しない・一覧しないでください。特に、モデル出力（outputs/）、プロンプト（prompts/）、監査票、`_sealed_prior/`、編集意図、操作の対応表（operator-output-map.json）、論文、/home/user 以下や /root 以下のファイル、アップロードされたZIP、他の ws/ ディレクトリ、Web検索。
+
+## やること
+1. 規則抜粋を全文読み、本文8本と3票を全部読む。
+2. 一対一対応：A/B、A/C、B/C の各ペアについて、必要な根拠範囲、対象・時点・条件・命題、関係型、本文層を照合して一対一対応を作る（§2）。項目ID・単語・数値だけの一致では対応させない。polarityや項目IDの一致を対応の条件にしない（対応後に一致を測る）。一意に決められない対応は alignment_ambiguous に分離し、件数を最大化するために曖昧な対応を採用しない。同一注釈者内の重複は1関係に束ね、重複は duplicate_ids に置く。
+   - 結果を /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/pairwise-alignment.json に保存する：pairs=[{pair:"AB", matches:[{a:<id>, b:<id>, reason}], ambiguous:[{ids:[...], reason}], unmatched_a:[...], unmatched_b:[...]}...]。
+3. 関係群：ペア対応を束ねて関係群を作る（同じ関係を指す注釈を1群に。1群に同じ注釈者の注釈は members に1つまで、残りは duplicate_ids）。ペア対応が推移的に閉じない場合（A~B, B~C だが A≁C など）は理由を残して扱いを決め、決められなければ alignment_ambiguous。
+4. 各群を裁定する：status は accepted（採択）/ rejected（棄却）/ split（恒久的な解釈分岐）/ alignment_ambiguous。accepted の polarity は problem か function のどちらか一方（同じ関係を両群に再利用しない）。**多数決を採択の条件にしない。1名だけの発見でも本文で根拠を確認できれば採択できる。複数名が挙げても根拠が本文で確認できなければ棄却できる。** 解釈が分岐する関係は split として採択分母に入れない。
+5. 各群に、雛形の全欄を埋める：quote_a/quote_b（群の代表引用。本文の完全一致の連続文字列。両側が必要な関係なら両方）、対象・時点・条件・命題、関係型、本文層、必要な両側根拠、別説明、不足資料、各メンバーの原判断、合意状態、裁定理由、rule_excluded（true/false）と rule_reason（§3 RULE段落と ITEM-DEFINITIONS の安全弁に基づく、出力を見ない事前判断）、referee_access（あなたが設計に関与していないこと・既読範囲）。
+6. **全注釈の relation_id がちょうど1回ずつ**、いずれかの群の members か duplicate_ids に現れること。input の8本すべて（関係0件の本文も groups=[]）を含めること。
+7. /tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/reference.json に保存し、次を自分で確認する：JSONとして読めること、全注釈IDの一回ずつの使用、群内の注釈者の重複なし、代表引用が本文に完全一致で存在すること。
+
+## 終了時の自己申告
+/tmp/claude-0/-home-user-kindergarten-laplacian/885c9793-e40e-5441-b3d4-be6df0c57971/scratchpad/ws/referee/self-report-R.json に files_read（実際に開いたファイルの絶対パス一覧）、forbidden_access（なければ空配列）、model_id（システム情報に示された正確なモデルID。不明なら "unknown"）、notes（迷った点、規則の解釈が割れた点）を保存する。
+
+最後に、本文ごとの群数（status別・polarity別）と、規則の解釈で判断に迷った点を短く返してください。

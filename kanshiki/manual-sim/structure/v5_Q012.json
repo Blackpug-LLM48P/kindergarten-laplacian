@@ -1,0 +1,166 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q012-combined.md",
+  "output_sha256": "f7109452000c55a7e0daea8cf7c64f2be14fcf726db186a734b483fda9cab24b",
+  "sources": {
+    "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q012.txt": "ecc1e2c99ee299066c7cbe9e3135038c4c00c18a378a9f6d310706891464a195"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 4,
+      "exact": 4,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 35,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q012.txt"
+          ],
+          "head": "「科学者になるには『あたま』がよくなくてはいけない」これは普通世人の口にする一つ"
+        },
+        {
+          "line": 39,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q012.txt"
+          ],
+          "head": "これはある意味ではほんとうだと思われる。しかし、一方でまた「科学者はあたまが悪く"
+        },
+        {
+          "line": 47,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q012.txt"
+          ],
+          "head": "そうしてこの後のほうの命題は、それを指摘し解説する人が比較的に少数である。"
+        },
+        {
+          "line": 55,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q012.txt"
+          ],
+          "head": "　私に親しいある老科学者がある日私に次のようなことを語って聞かせた。"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        76
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "機能",
+        "S02": "機能",
+        "S03": "未検出",
+        "S04": "不確定",
+        "S05": "未検出",
+        "S06": "未検出",
+        "S07": "機能",
+        "S08": "不確定",
+        "S09": "未検出",
+        "S10": "機能",
+        "C01": "未検出",
+        "C02": "未検出",
+        "C03": "不確定",
+        "C04": "未検出",
+        "C05": "未検出",
+        "C06": "不確定",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "未検出",
+        "R04": "不確定",
+        "R05": "未検出",
+        "R06": "未検出",
+        "E01": "観測不能",
+        "E02": "対象外",
+        "E03": "観測不能",
+        "E04": "不確定",
+        "E05": "不確定",
+        "E06": "機能",
+        "E07": "対象外"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "一意の完全台帳",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "pass",
+      "selected_table_index": 1,
+      "invalid_rows": [],
+      "tables": [
+        {
+          "start_line": 13,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "status": "unverifiable",
+      "reason": "スコア欄が複数ある。現在値の欄を番号で指定する必要がある",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 0,
+        "K": 8,
+        "U": 2,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 4,
+        "U": 2,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 5,
+        "U": 1,
+        "X": 0
+      },
+      "E": {
+        "P": 0,
+        "K": 1,
+        "U": 4,
+        "X": 2
+      }
+    },
+    "total": {
+      "P": 0,
+      "K": 18,
+      "U": 9,
+      "X": 2
+    },
+    "score": "0.0",
+    "score_fraction": "0/18",
+    "rate": "66.7",
+    "width": [
+      "0.0",
+      "33.3"
+    ],
+    "state": "数値"
+  },
+  "overall": "unverifiable"
+}

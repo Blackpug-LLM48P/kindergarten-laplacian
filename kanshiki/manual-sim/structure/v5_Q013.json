@@ -1,0 +1,256 @@
+{
+  "tool": "kv5-verify-0.3.2",
+  "output": "/workspace/scratch/c43ef4dc346d/manual-sim/structure/v5_Q013-combined.md",
+  "output_sha256": "ba5c46f475a83f37aab1c35dc27fba9b062a253449bba00e5096371278e20767",
+  "sources": {
+    "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt": "3b5d7e87e34743db06e3f7fce9a23e4e1efd4b7b51952324aff4af93116dd43d"
+  },
+  "checks": {
+    "format": {
+      "status": "pass",
+      "json_block_lines": [],
+      "unclosed_fence_lines": []
+    },
+    "quotes": {
+      "status": "pass",
+      "blocks": 14,
+      "exact": 14,
+      "normalized_only": 0,
+      "no_match": 0,
+      "exact_rate": 1.0,
+      "details": [
+        {
+          "line": 28,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "１原判決を取り消す。"
+        },
+        {
+          "line": 44,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "２被控訴人は、控訴人Ａに対し、５４６万８６６０円及びうち２７５万円"
+        },
+        {
+          "line": 48,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "３被控訴人は、控訴人Ｂに対し、２７３万４３３０円及びうち１３７万５０００円"
+        },
+        {
+          "line": 52,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "４被控訴人は、控訴人Ｃに対し、２７３万４３３０円及びうち１３７万５０００円"
+        },
+        {
+          "line": 62,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "（以下、控訴人（原審原告）Ａを「原告Ａ」、同Ｂを「原告Ｂ」、同Ｃを「原告Ｃ」、被"
+        },
+        {
+          "line": 68,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "原審における控訴人Ａにつき５８３万７７３９円、同Ｂにつき２９１万８８６９円、同Ｃ"
+        },
+        {
+          "line": 72,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "これに対し、原告らが控訴し、当審において、請求する損害賠償額を、原告Ａにつき５４"
+        },
+        {
+          "line": 82,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "次のとおり補正するほかは、原判決の「事実及び理由」第２の１（原判決２頁４行目～５"
+        },
+        {
+          "line": 88,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "解決金（前記前提事実⑺）の受領日までの確定遅延損害金への充当処理や弁護士費用を踏"
+        },
+        {
+          "line": 149,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "第２項ないし第４項に限り、被控訴人に送達された日から１４日経過した時から、仮に執"
+        },
+        {
+          "line": 153,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "ただし、被控訴人が、第２項につき控訴人Ａのために４３０万円、第３項につき控訴人Ｂ"
+        },
+        {
+          "line": 163,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "小陰影の分類区分は『０／１』〔じん肺の陰影は認められるが、第一型と判定するに至ら"
+        },
+        {
+          "line": 173,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "規制権限を行使しなかったことが違法であると主張して、被告に対し、国家賠償法１条１"
+        },
+        {
+          "line": 177,
+          "info": "text",
+          "result": "exact",
+          "matched_sources": [
+            "/workspace/scratch/c43ef4dc346d/manual-sim/blind/texts/Q013.txt"
+          ],
+          "head": "亡Ｄは、令和２年６月１４日に死亡し、法定相続人である原告らが訴訟手続を受継した。"
+        }
+      ],
+      "note": "フェンス外の「」引用は検証していない。no_match には引用でないフェンスが含まれうるので、headで確認すること。"
+    },
+    "ledger": {
+      "status": "pass",
+      "blocks_found": 1,
+      "complete_blocks": [
+        113
+      ],
+      "complete_blocks_agree": true,
+      "partial_blocks": [],
+      "categories": {
+        "S01": "機能",
+        "S02": "機能",
+        "S03": "機能",
+        "S04": "機能",
+        "S05": "未検出",
+        "S06": "不確定",
+        "S07": "未検出",
+        "S08": "機能",
+        "S09": "未検出",
+        "S10": "機能",
+        "C01": "未検出",
+        "C02": "未検出",
+        "C03": "未検出",
+        "C04": "未検出",
+        "C05": "未検出",
+        "C06": "不確定",
+        "R01": "未検出",
+        "R02": "未検出",
+        "R03": "観測不能",
+        "R04": "未検出",
+        "R05": "観測不能",
+        "R06": "未検出",
+        "E01": "観測不能",
+        "E02": "観測不能",
+        "E03": "観測不能",
+        "E04": "未検出",
+        "E05": "未検出",
+        "E06": "機能",
+        "E07": "観測不能"
+      },
+      "note": "複数の完全台帳は明示選択が必要。意味と履歴の役割は人間監査。",
+      "selected_complete_index": 1,
+      "selection_reason": "一意の完全台帳",
+      "invalid_rows": []
+    },
+    "tally": {
+      "status": "pass",
+      "selected_table_index": 1,
+      "invalid_rows": [],
+      "tables": [
+        {
+          "start_line": 15,
+          "diffs": {}
+        }
+      ],
+      "note": "最初の四面表を現在値とみなす。2つ目以降（初回値など）の不一致はwarn。"
+    },
+    "numbers": {
+      "status": "unverifiable",
+      "reason": "スコア欄が複数ある。現在値の欄を番号で指定する必要がある",
+      "selected_score_index": 1
+    }
+  },
+  "recomputed": {
+    "faces": {
+      "S": {
+        "P": 0,
+        "K": 9,
+        "U": 1,
+        "X": 0
+      },
+      "C": {
+        "P": 0,
+        "K": 5,
+        "U": 1,
+        "X": 0
+      },
+      "R": {
+        "P": 0,
+        "K": 4,
+        "U": 2,
+        "X": 0
+      },
+      "E": {
+        "P": 0,
+        "K": 3,
+        "U": 4,
+        "X": 0
+      }
+    },
+    "total": {
+      "P": 0,
+      "K": 21,
+      "U": 8,
+      "X": 0
+    },
+    "score": "0.0",
+    "score_fraction": "0/21",
+    "rate": "72.4",
+    "width": [
+      "0.0",
+      "27.6"
+    ],
+    "state": "数値"
+  },
+  "overall": "unverifiable"
+}

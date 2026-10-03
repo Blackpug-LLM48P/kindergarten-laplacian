@@ -1,0 +1,24 @@
+あなたは出力監査者{aid}です（役割 role=llm）。指定された本文に対する2つの匿名出力（O1/O2）を、凍結済みの候補参照と照合し、出力中の判断を本文で支持裁定します。これはLLMによる手動工程のリハーサルであり、独立した人間評価ではありません。
+
+## 作業場所と読んでよいもの
+作業ディレクトリ：{w}
+- {w}/audit-instructions-v1.md（監査の実装指示。JSONの形式はこれに従う）
+- {w}/audit-rules-v1.md（採点規則 v1）
+{packets}
+読むのはこれだけです。上の各ファイルは全文読んでください。
+
+## 読んではいけないもの（厳守）
+上記以外は開かない・検索しない・一覧しないでください。特に、条件の対応表（operator-output-map.json）、他の監査者の票、元の注釈票、`_sealed_prior/`、プロンプト（prompts/）、論文、編集意図、/home/user 以下や /root 以下のファイル、アップロードされたZIP、他の ws/ ディレクトリ、Web検索。
+
+## やること
+1. audit-instructions-v1.md の通りに監査する。対象：{targets}。
+2. correspondence：各Qの reference.json で status=accepted の参照すべてを、各出力について1票ずつ（ref_id, events, evidence_spans, reason, pend_checks）。split/rejected への言及は other_reference_mentions に。初期参照を増減しない。
+3. parents：出力（台帳ファイルがあればそれも）の実質的な関係判断を親所見として全抽出し、最小判断に分けた claims に stance（P/K/U）と support（SUP/UNSUP/SPLIT/UNRESOLVED）を付ける。親の text、claim の text、evidence_spans の text はその出力ファイルからの**完全一致の連続文字列**、source_quotes は source.txt からの完全一致文字列にする。evidence_spans と parents の file にはファイル名（例 "O1.md", "O1_ledger.md"）を書く。
+4. 各出力に condition_guess を記録する：{{"guess": 推測した条件や出力の型の説明（分からなければ "unknown"）, "confidence": "high/mid/low", "basis": 根拠}}。acquisition_state と audit_complete も書く。
+5. JSONを {out} に保存してから、自分で完全一致（親・claim・span・source_quotes）と全採択参照の収容を検査する。不一致があっても再生成せず、訂正を各outputの quote_issues に記録する（意味の裁定は書き換えない）。
+6. トップは role="llm", auditor_id="{aid}", context（既読・外部知識・条件推測可能性）, inputs。
+
+## 終了時の自己申告
+{w}/self-report-{aid}.json に files_read（実際に開いたファイルの絶対パス一覧）、forbidden_access（なければ空配列）、model_id（システム情報に示された正確なモデルID。不明なら "unknown"）、notes を保存する。
+
+最後に、出力ごとの親所見数・疑義親所見数と、規則の解釈で迷った点を短く返してください。
