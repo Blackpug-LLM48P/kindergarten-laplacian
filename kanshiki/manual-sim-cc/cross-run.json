@@ -1,0 +1,1603 @@
+{
+  "kind": "cross-run comparison of two LLM manual-rehearsal runs; neither run is ground truth",
+  "alignment_by": "実行者（メイン、claude-opus-5-5）が封印解除後に audit-rules-v1 §2 の基準で作成。サブエージェントは使っていない。",
+  "reference": {
+    "n_current": 20,
+    "n_prior": 33,
+    "matched": 11,
+    "dice": 0.41509433962264153,
+    "jaccard": 0.2619047619047619,
+    "polarity_agreement": "11/11",
+    "current_problem": [
+      "Q019-R1",
+      "Q007-R1",
+      "Q007-R2",
+      "Q017-R2"
+    ],
+    "prior_problem": [
+      "Q007-R01"
+    ],
+    "status_counts": {
+      "current": {
+        "accepted": 20,
+        "split": 1,
+        "rejected": 18,
+        "alignment_ambiguous": 0
+      },
+      "prior": {
+        "accepted": 33,
+        "split": 3,
+        "rejected": 9,
+        "alignment_ambiguous": 0
+      }
+    },
+    "annotations": {
+      "current": 73,
+      "prior": 83
+    },
+    "annotator_pairs": {
+      "current": [
+        {
+          "pair": "AB",
+          "n_a": 32,
+          "n_b": 18,
+          "matches": 16,
+          "dice": 0.64,
+          "jaccard": 0.47058823529411764,
+          "polarity_agreement": 0.875,
+          "item_set_agreement": 0.4375
+        },
+        {
+          "pair": "AC",
+          "n_a": 32,
+          "n_b": 23,
+          "matches": 18,
+          "dice": 0.6545454545454545,
+          "jaccard": 0.4864864864864865,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.6111111111111112
+        },
+        {
+          "pair": "BC",
+          "n_a": 18,
+          "n_b": 23,
+          "matches": 15,
+          "dice": 0.7317073170731707,
+          "jaccard": 0.5769230769230769,
+          "polarity_agreement": 0.8666666666666667,
+          "item_set_agreement": 0.6666666666666666
+        }
+      ],
+      "prior": [
+        {
+          "pair": "AB",
+          "n_a": 30,
+          "n_b": 24,
+          "matches": 19,
+          "dice": 0.7037037037037037,
+          "jaccard": 0.5428571428571428,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.3684210526315789
+        },
+        {
+          "pair": "AC",
+          "n_a": 30,
+          "n_b": 29,
+          "matches": 19,
+          "dice": 0.6440677966101694,
+          "jaccard": 0.475,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.10526315789473684
+        },
+        {
+          "pair": "BC",
+          "n_a": 24,
+          "n_b": 29,
+          "matches": 18,
+          "dice": 0.6792452830188679,
+          "jaccard": 0.5142857142857142,
+          "polarity_agreement": 1.0,
+          "item_set_agreement": 0.3333333333333333
+        }
+      ]
+    },
+    "alignment": [
+      {
+        "current": "Q005-R1",
+        "prior": "Q005-R07",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "前日の衣装貸与と、本人が別装束で戦い脾腹を貫かれる結末の対応。両者とも負傷文を必要根拠にし、教訓で回収しない点を含む。A側引用は異なるが同じ関係。"
+      },
+      {
+        "current": "Q005-R3",
+        "prior": "Q005-R03",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "同じ戦闘で、敵が猩々緋の姿に結びつける『鎗中村』像と、黒皮縅の実際の新兵衛への反応を区別する関係。うらみの文が共通の必要根拠。"
+      },
+      {
+        "current": "Q005-R4",
+        "prior": "Q005-R06",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "『猩々緋の武者』の正体が、本人の黒皮縅への装束替えで確定する関係。『その日に限って、黒皮縅』が共通の必要根拠。"
+      },
+      {
+        "current": "Q008-R1",
+        "prior": "Q008-R01",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "母のうなぎの希望はごんの推測として示され、償いの動機になる関係。引用が同一。（前回R07の観察／推論の区別は、今回R1の命題の一部とも重なるが、一対一ではR01に対応させた）"
+      },
+      {
+        "current": "Q008-R2",
+        "prior": "Q008-R04",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "第六節の同じ来訪で、ごんの意図（栗）と兵十の認識（いたずら）の情報差が誤射に結びつく関係。『ごん狐めが、またいたずら』が共通の必要根拠。"
+      },
+      {
+        "current": "Q008-R3",
+        "prior": "Q008-R05",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "結末を発砲直後の銃と煙の像で閉じる関係。煙の文が共通の必要根拠。"
+      },
+      {
+        "current": "Q008-R4",
+        "prior": "Q008-R02",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "いわしの投げ入れに対する、ごんの評価と兵十が受けた結果（独り言で原因が判明）の関係。兵十の同じ独り言が必要根拠。"
+      },
+      {
+        "current": "Q010-R2",
+        "prior": "Q010-R05",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "『しかしそれだけでは…』の留保と『頭が悪いと同時に頭がよくなくてはならない』の小結の関係。引用が同一（順序のみ逆）。"
+      },
+      {
+        "current": "Q010-R3",
+        "prior": "Q010-R02",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "『頭のいい人は』の反復が段落ごとに別の論点（研究局面）を導入する関係。前回R03（道・進行の比喩の一貫）とも引用範囲が近いが、命題（反復が別論点を導入）はR02と同じ。"
+      },
+      {
+        "current": "Q007-R1",
+        "prior": "Q007-R01",
+        "polarity": [
+          "problem",
+          "problem"
+        ],
+        "reason": "42.7%→49.7%の増加と結論の『7.0ポイント低下』の不両立。両方problem。"
+      },
+      {
+        "current": "Q017-R1",
+        "prior": "Q017-R01",
+        "polarity": [
+          "function",
+          "function"
+        ],
+        "reason": "42.7%→49.7%と結論の『7.0ポイント上昇』の対応。両方function。"
+      }
+    ],
+    "by_input": [
+      {
+        "input_id": "Q005",
+        "current": 4,
+        "prior": 7,
+        "matched": 3,
+        "current_only": [
+          {
+            "ref_id": "Q005-R2",
+            "polarity": "function",
+            "note": "『形』の語の役割変化（戒め→誇り）。前回R04・R05はA側に誇りの文を共有するが、比較対象（敵の反応／後悔）が異なり対応させない。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q005-R01",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q005-R02",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q005-R04",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q005-R05",
+            "polarity": "function",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "input_id": "Q008",
+        "current": 5,
+        "prior": 7,
+        "matched": 4,
+        "current_only": [
+          {
+            "ref_id": "Q008-R5",
+            "polarity": "function",
+            "note": "冒頭の伝聞枠と『そうです』による伝達層。前回に対応する群なし。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q008-R03",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q008-R06",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q008-R07",
+            "polarity": "function",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "input_id": "Q019",
+        "current": 1,
+        "prior": 3,
+        "matched": 0,
+        "current_only": [
+          {
+            "ref_id": "Q019-R1",
+            "polarity": "problem",
+            "note": "脚注24に対応する参照記号の欠落（problem）。前回の3注釈者はいずれも注釈していない。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q019-R01",
+            "polarity": "function",
+            "note": "前回function：42.7→49.7の増加記述と数値の対応。今回は注釈なし（Q017の結論との対応はQ017-R1で採択）。"
+          },
+          {
+            "ref_id": "Q019-R02",
+            "polarity": "function",
+            "note": "前回function：脚注23の単純比較の留保。今回は注釈なし。"
+          },
+          {
+            "ref_id": "Q019-R05",
+            "polarity": "function",
+            "note": "前回function：4か国の影響認識の比較。今回は同じ総括をunresolvedとして棄却・RULE該当（Q019-R2）。"
+          }
+        ]
+      },
+      {
+        "input_id": "Q010",
+        "current": 3,
+        "prior": 4,
+        "matched": 2,
+        "current_only": [
+          {
+            "ref_id": "Q010-R1",
+            "polarity": "function",
+            "note": "老科学者の語りとしての枠付けと『世迷い言』での相対化。前回は末尾の読者反応の分類をsplit（Q010-R06）とし、枠付け自体の採択群はない。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q010-R01",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q010-R03",
+            "polarity": "function",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "input_id": "Q012",
+        "current": 1,
+        "prior": 1,
+        "matched": 0,
+        "current_only": [
+          {
+            "ref_id": "Q012-R2",
+            "polarity": "function",
+            "note": "二命題が『ある意味では』で条件限定され矛盾でない。前回は同じ関係をsplit（Q012-R01）とし、採択R02は命題の扱いと解説の焦点（別根拠）。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q012-R02",
+            "polarity": "function",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "input_id": "Q013",
+        "current": 2,
+        "prior": 5,
+        "matched": 0,
+        "current_only": [
+          {
+            "ref_id": "Q013-R1",
+            "polarity": "function",
+            "note": "主文のＢ・Ｃ額がＡのちょうど半額で請求額と対応。前回R04（主文Ｂ＝Ｃ）・R01（原審額と減縮額）と一部重なるが、必要根拠・命題が一意に対応しないため対応させない（alignment_ambiguous相当）。"
+          },
+          {
+            "ref_id": "Q013-R2",
+            "polarity": "function",
+            "note": "日付の段落間整合。前回に対応する群なし。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q013-R01",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q013-R02",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q013-R04",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q013-R06",
+            "polarity": "function",
+            "note": ""
+          },
+          {
+            "ref_id": "Q013-R07",
+            "polarity": "function",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "input_id": "Q007",
+        "current": 2,
+        "prior": 3,
+        "matched": 1,
+        "current_only": [
+          {
+            "ref_id": "Q007-R2",
+            "polarity": "problem",
+            "note": "同上（脚注24）。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q007-R02",
+            "polarity": "function",
+            "note": "同上（脚注23の留保）。"
+          },
+          {
+            "ref_id": "Q007-R05",
+            "polarity": "function",
+            "note": "同上（今回Q007-R4）。"
+          }
+        ]
+      },
+      {
+        "input_id": "Q017",
+        "current": 2,
+        "prior": 3,
+        "matched": 1,
+        "current_only": [
+          {
+            "ref_id": "Q017-R2",
+            "polarity": "problem",
+            "note": "同上（脚注24）。"
+          }
+        ],
+        "prior_only": [
+          {
+            "ref_id": "Q017-R02",
+            "polarity": "function",
+            "note": "同上（脚注23の留保）。"
+          },
+          {
+            "ref_id": "Q017-R05",
+            "polarity": "function",
+            "note": "同上（今回Q017-R4）。"
+          }
+        ]
+      }
+    ]
+  },
+  "audit_on_common_refs": {
+    "scope": "両実行で対応した採択参照（11）について、主監査の挙動フラグ集合の一致",
+    "agreement": {
+      "v5": "8/11",
+      "B2": "10/11"
+    },
+    "rows": [
+      {
+        "input_id": "Q005",
+        "condition": "v5",
+        "current_ref": "Q005-R1",
+        "prior_ref": "Q005-R07",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": false
+      },
+      {
+        "input_id": "Q005",
+        "condition": "B2",
+        "current_ref": "Q005-R1",
+        "prior_ref": "Q005-R07",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q005",
+        "condition": "v5",
+        "current_ref": "Q005-R3",
+        "prior_ref": "Q005-R03",
+        "current_events": [
+          "FMISS"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q005",
+        "condition": "B2",
+        "current_ref": "Q005-R3",
+        "prior_ref": "Q005-R03",
+        "current_events": [
+          "FMISS"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q005",
+        "condition": "v5",
+        "current_ref": "Q005-R4",
+        "prior_ref": "Q005-R06",
+        "current_events": [
+          "FMISS"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q005",
+        "condition": "B2",
+        "current_ref": "Q005-R4",
+        "prior_ref": "Q005-R06",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "v5",
+        "current_ref": "Q008-R1",
+        "prior_ref": "Q008-R01",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "B2",
+        "current_ref": "Q008-R1",
+        "prior_ref": "Q008-R01",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "v5",
+        "current_ref": "Q008-R2",
+        "prior_ref": "Q008-R04",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": false
+      },
+      {
+        "input_id": "Q008",
+        "condition": "B2",
+        "current_ref": "Q008-R2",
+        "prior_ref": "Q008-R04",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "v5",
+        "current_ref": "Q008-R3",
+        "prior_ref": "Q008-R05",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "B2",
+        "current_ref": "Q008-R3",
+        "prior_ref": "Q008-R05",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "v5",
+        "current_ref": "Q008-R4",
+        "prior_ref": "Q008-R02",
+        "current_events": [
+          "FMISS"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q008",
+        "condition": "B2",
+        "current_ref": "Q008-R4",
+        "prior_ref": "Q008-R02",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q010",
+        "condition": "v5",
+        "current_ref": "Q010-R2",
+        "prior_ref": "Q010-R05",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q010",
+        "condition": "B2",
+        "current_ref": "Q010-R2",
+        "prior_ref": "Q010-R05",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q010",
+        "condition": "v5",
+        "current_ref": "Q010-R3",
+        "prior_ref": "Q010-R02",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": false
+      },
+      {
+        "input_id": "Q010",
+        "condition": "B2",
+        "current_ref": "Q010-R3",
+        "prior_ref": "Q010-R02",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FMISS"
+        ],
+        "same": false
+      },
+      {
+        "input_id": "Q007",
+        "condition": "v5",
+        "current_ref": "Q007-R1",
+        "prior_ref": "Q007-R01",
+        "current_events": [
+          "DET"
+        ],
+        "prior_events": [
+          "DET"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q007",
+        "condition": "B2",
+        "current_ref": "Q007-R1",
+        "prior_ref": "Q007-R01",
+        "current_events": [
+          "DET"
+        ],
+        "prior_events": [
+          "DET"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q017",
+        "condition": "v5",
+        "current_ref": "Q017-R1",
+        "prior_ref": "Q017-R01",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      },
+      {
+        "input_id": "Q017",
+        "condition": "B2",
+        "current_ref": "Q017-R1",
+        "prior_ref": "Q017-R01",
+        "current_events": [
+          "FUN"
+        ],
+        "prior_events": [
+          "FUN"
+        ],
+        "same": true
+      }
+    ]
+  },
+  "main_metrics_pooled": {
+    "v5": {
+      "DET": {
+        "prior": {
+          "n": 1,
+          "den": 1,
+          "rate": 1.0
+        },
+        "current": {
+          "n": 1,
+          "den": 4,
+          "rate": 0.25
+        }
+      },
+      "PEND": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 4,
+          "rate": 0.0
+        }
+      },
+      "HOLD": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 3,
+          "den": 4,
+          "rate": 0.75
+        }
+      },
+      "MISS": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 4,
+          "rate": 0.0
+        }
+      },
+      "FUN": {
+        "prior": {
+          "n": 17,
+          "den": 32,
+          "rate": 0.53125
+        },
+        "current": {
+          "n": 10,
+          "den": 16,
+          "rate": 0.625
+        }
+      },
+      "FHOLD": {
+        "prior": {
+          "n": 0,
+          "den": 32,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 2,
+          "den": 16,
+          "rate": 0.125
+        }
+      },
+      "FMISS": {
+        "prior": {
+          "n": 15,
+          "den": 32,
+          "rate": 0.46875
+        },
+        "current": {
+          "n": 5,
+          "den": 16,
+          "rate": 0.3125
+        }
+      },
+      "FERR": {
+        "prior": {
+          "n": 0,
+          "den": 32,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 16,
+          "rate": 0.0
+        }
+      },
+      "pure_SUP": {
+        "prior": {
+          "n": 1,
+          "den": 1,
+          "rate": 1.0
+        },
+        "current": {
+          "n": 2,
+          "den": 2,
+          "rate": 1.0
+        }
+      },
+      "has_UNSUP": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 2,
+          "rate": 0.0
+        }
+      },
+      "mixed": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 2,
+          "rate": 0.0
+        }
+      },
+      "branch": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 2,
+          "rate": 0.0
+        }
+      },
+      "doubtful_parents": {
+        "prior": 1,
+        "current": 2
+      },
+      "zero_doubt_outputs": {
+        "prior": 7,
+        "current": 7
+      },
+      "any_UNSUP_outputs": {
+        "prior": 0,
+        "current": 0
+      }
+    },
+    "B2": {
+      "DET": {
+        "prior": {
+          "n": 1,
+          "den": 1,
+          "rate": 1.0
+        },
+        "current": {
+          "n": 4,
+          "den": 4,
+          "rate": 1.0
+        }
+      },
+      "PEND": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 4,
+          "rate": 0.0
+        }
+      },
+      "HOLD": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 4,
+          "rate": 0.0
+        }
+      },
+      "MISS": {
+        "prior": {
+          "n": 0,
+          "den": 1,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 4,
+          "rate": 0.0
+        }
+      },
+      "FUN": {
+        "prior": {
+          "n": 23,
+          "den": 32,
+          "rate": 0.71875
+        },
+        "current": {
+          "n": 13,
+          "den": 16,
+          "rate": 0.8125
+        }
+      },
+      "FHOLD": {
+        "prior": {
+          "n": 0,
+          "den": 32,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 1,
+          "den": 16,
+          "rate": 0.0625
+        }
+      },
+      "FMISS": {
+        "prior": {
+          "n": 9,
+          "den": 32,
+          "rate": 0.28125
+        },
+        "current": {
+          "n": 3,
+          "den": 16,
+          "rate": 0.1875
+        }
+      },
+      "FERR": {
+        "prior": {
+          "n": 0,
+          "den": 32,
+          "rate": 0.0
+        },
+        "current": {
+          "n": 0,
+          "den": 16,
+          "rate": 0.0
+        }
+      },
+      "pure_SUP": {
+        "prior": {
+          "n": 18,
+          "den": 28,
+          "rate": 0.6428571428571429
+        },
+        "current": {
+          "n": 15,
+          "den": 28,
+          "rate": 0.5357142857142857
+        }
+      },
+      "has_UNSUP": {
+        "prior": {
+          "n": 3,
+          "den": 28,
+          "rate": 0.10714285714285714
+        },
+        "current": {
+          "n": 3,
+          "den": 28,
+          "rate": 0.10714285714285714
+        }
+      },
+      "mixed": {
+        "prior": {
+          "n": 3,
+          "den": 28,
+          "rate": 0.10714285714285714
+        },
+        "current": {
+          "n": 3,
+          "den": 28,
+          "rate": 0.10714285714285714
+        }
+      },
+      "branch": {
+        "prior": {
+          "n": 8,
+          "den": 28,
+          "rate": 0.2857142857142857
+        },
+        "current": {
+          "n": 11,
+          "den": 28,
+          "rate": 0.39285714285714285
+        }
+      },
+      "doubtful_parents": {
+        "prior": 28,
+        "current": 28
+      },
+      "zero_doubt_outputs": {
+        "prior": 2,
+        "current": 0
+      },
+      "any_UNSUP_outputs": {
+        "prior": 2,
+        "current": 2
+      }
+    }
+  },
+  "group_equal_weight": {
+    "FUN": {
+      "v5": {
+        "prior": 0.562063492063492,
+        "current": 0.61
+      },
+      "B2": {
+        "prior": 0.7106349206349206,
+        "current": 0.86
+      },
+      "paired_difference": {
+        "prior": -0.14857142857142858,
+        "current": -0.25
+      }
+    },
+    "FERR": {
+      "v5": {
+        "prior": 0.0,
+        "current": 0.0
+      },
+      "B2": {
+        "prior": 0.0,
+        "current": 0.0
+      },
+      "paired_difference": {
+        "prior": 0.0,
+        "current": 0.0
+      }
+    },
+    "has_UNSUP": {
+      "v5": {
+        "prior": 0.0,
+        "current": 0.0
+      },
+      "B2": {
+        "prior": 0.16666666666666666,
+        "current": 0.12857142857142856
+      },
+      "paired_difference": {
+        "prior": 0.0,
+        "current": 0.0
+      }
+    }
+  },
+  "per_input": {
+    "Q005": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 7,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 6,
+          "FERR": 0,
+          "parents": 11,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 20
+        },
+        "current": {
+          "RP": 0,
+          "RF": 4,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 3,
+          "FERR": 0,
+          "parents": 12,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 22
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 7,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 5,
+          "FHOLD": 0,
+          "FMISS": 2,
+          "FERR": 0,
+          "parents": 10,
+          "doubtful": 2,
+          "has_UNSUP": 1,
+          "claims": 27
+        },
+        "current": {
+          "RP": 0,
+          "RF": 4,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 2,
+          "FERR": 0,
+          "parents": 10,
+          "doubtful": 2,
+          "has_UNSUP": 1,
+          "claims": 30
+        }
+      }
+    },
+    "Q008": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 7,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 3,
+          "FHOLD": 0,
+          "FMISS": 4,
+          "FERR": 0,
+          "parents": 10,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 20
+        },
+        "current": {
+          "RP": 0,
+          "RF": 5,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 4,
+          "FHOLD": 1,
+          "FMISS": 1,
+          "FERR": 0,
+          "parents": 24,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 35
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 7,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 7,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 16,
+          "doubtful": 5,
+          "has_UNSUP": 0,
+          "claims": 49
+        },
+        "current": {
+          "RP": 0,
+          "RF": 5,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 4,
+          "FHOLD": 0,
+          "FMISS": 1,
+          "FERR": 0,
+          "parents": 16,
+          "doubtful": 4,
+          "has_UNSUP": 0,
+          "claims": 42
+        }
+      }
+    },
+    "Q019": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 3,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 3,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 12,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 23
+        },
+        "current": {
+          "RP": 1,
+          "RF": 0,
+          "DET": 0,
+          "HOLD": 1,
+          "FUN": 0,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 14,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 29
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 3,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 1,
+          "FERR": 0,
+          "parents": 11,
+          "doubtful": 4,
+          "has_UNSUP": 2,
+          "claims": 32
+        },
+        "current": {
+          "RP": 1,
+          "RF": 0,
+          "DET": 1,
+          "HOLD": 0,
+          "FUN": 0,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 11,
+          "doubtful": 4,
+          "has_UNSUP": 0,
+          "claims": 32
+        }
+      }
+    },
+    "Q010": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 4,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 2,
+          "FERR": 0,
+          "parents": 13,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 24
+        },
+        "current": {
+          "RP": 0,
+          "RF": 3,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 3,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 16,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 26
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 4,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 2,
+          "FERR": 0,
+          "parents": 23,
+          "doubtful": 12,
+          "has_UNSUP": 0,
+          "claims": 50
+        },
+        "current": {
+          "RP": 0,
+          "RF": 3,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 3,
+          "FHOLD": 1,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 15,
+          "doubtful": 7,
+          "has_UNSUP": 2,
+          "claims": 45
+        }
+      }
+    },
+    "Q012": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 1,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 11,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 23
+        },
+        "current": {
+          "RP": 0,
+          "RF": 1,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 0,
+          "FHOLD": 1,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 8,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 20
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 1,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 6,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 12
+        },
+        "current": {
+          "RP": 0,
+          "RF": 1,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 6,
+          "doubtful": 2,
+          "has_UNSUP": 0,
+          "claims": 18
+        }
+      }
+    },
+    "Q013": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 5,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 3,
+          "FHOLD": 0,
+          "FMISS": 2,
+          "FERR": 0,
+          "parents": 13,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 26
+        },
+        "current": {
+          "RP": 0,
+          "RF": 2,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 1,
+          "FERR": 0,
+          "parents": 7,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 24
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 5,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 4,
+          "FERR": 0,
+          "parents": 14,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 20
+        },
+        "current": {
+          "RP": 0,
+          "RF": 2,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 14,
+          "doubtful": 3,
+          "has_UNSUP": 0,
+          "claims": 33
+        }
+      }
+    },
+    "Q007": {
+      "v5": {
+        "prior": {
+          "RP": 1,
+          "RF": 2,
+          "DET": 1,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 12,
+          "doubtful": 1,
+          "has_UNSUP": 0,
+          "claims": 24
+        },
+        "current": {
+          "RP": 2,
+          "RF": 0,
+          "DET": 1,
+          "HOLD": 1,
+          "FUN": 0,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 3,
+          "doubtful": 2,
+          "has_UNSUP": 0,
+          "claims": 12
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 1,
+          "RF": 2,
+          "DET": 1,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 11,
+          "doubtful": 2,
+          "has_UNSUP": 0,
+          "claims": 24
+        },
+        "current": {
+          "RP": 2,
+          "RF": 0,
+          "DET": 2,
+          "HOLD": 0,
+          "FUN": 0,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 11,
+          "doubtful": 3,
+          "has_UNSUP": 0,
+          "claims": 26
+        }
+      }
+    },
+    "Q017": {
+      "v5": {
+        "prior": {
+          "RP": 0,
+          "RF": 3,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 2,
+          "FHOLD": 0,
+          "FMISS": 1,
+          "FERR": 0,
+          "parents": 12,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 22
+        },
+        "current": {
+          "RP": 1,
+          "RF": 1,
+          "DET": 0,
+          "HOLD": 1,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 8,
+          "doubtful": 0,
+          "has_UNSUP": 0,
+          "claims": 21
+        }
+      },
+      "B2": {
+        "prior": {
+          "RP": 0,
+          "RF": 3,
+          "DET": 0,
+          "HOLD": 0,
+          "FUN": 3,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 12,
+          "doubtful": 3,
+          "has_UNSUP": 0,
+          "claims": 23
+        },
+        "current": {
+          "RP": 1,
+          "RF": 1,
+          "DET": 1,
+          "HOLD": 0,
+          "FUN": 1,
+          "FHOLD": 0,
+          "FMISS": 0,
+          "FERR": 0,
+          "parents": 12,
+          "doubtful": 3,
+          "has_UNSUP": 0,
+          "claims": 30
+        }
+      }
+    }
+  },
+  "secondary_audit_agreement": {
+    "prior": "32/32",
+    "current": "15/18",
+    "note": "同じ4Q・8出力だが参照数が異なる（前回32票、今回18票）。今回の不一致3票はすべて機能参照の認識境界（FMISS/FUN、FHOLD/FUN+FHOLD）。"
+  }
+}
