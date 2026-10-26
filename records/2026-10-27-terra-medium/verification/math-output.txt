@@ -1,0 +1,12 @@
+Formal Cartesian chain-rule expansion: {(0, 0, 2, 0): (1+0j), (-1, 0, 1, 0): (1+0j), (-2, 0, 0, 2): (1+0j)}
+General identity residual: zero
+constant max absolute error: 0
+plane max absolute error: 1.17e-07
+bowl max absolute error: 1.65e-07
+saddle max absolute error: 1.06e-07
+quartic minimum max absolute error: 4.55e-07
+mixed polynomial max absolute error: 6.55e-07
+nonpolynomial max absolute error: 3.81e-08
+Finite-sector flux: 62.83185307179804 analytic area integral: 62.83185307179586 residual: 2.1742607714259066e-12
+Strict minimum u=x^4+y^4: u(0,0)=0; u>0 elsewhere; Laplacian(0,0)=0.
+PASS: generic formal identity, 21 numerical point checks, finite-sector flux.
