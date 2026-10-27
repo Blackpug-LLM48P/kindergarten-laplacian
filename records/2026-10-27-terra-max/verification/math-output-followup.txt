@@ -1,0 +1,6 @@
+r²         polar= 4.000000077 exact= 4.000000000 abs error=7.7e-08
+x          polar= 0.000000016 exact= 0.000000000 abs error=1.6e-08
+x(x²+y²)   polar= 12.237475179 exact= 12.237474997 abs error=1.8e-07
+x²y²       polar= 8.000000265 exact= 8.000000000 abs error=2.7e-07
+r          polar= 0.500000022 exact= 0.500000000 abs error=2.2e-08
+x²-y²      polar= 0.000000016 exact= 0.000000000 abs error=1.6e-08

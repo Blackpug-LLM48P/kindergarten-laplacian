@@ -1,0 +1,13 @@
+r²               r=0.7 θ= 2.0 polar=4.0000000 Cartesian=4.0000000 exact=4.0000000 max_error=3.4e-09
+r²               r=2.0 θ= 0.7 polar=4.0000001 Cartesian=4.0000000 exact=4.0000000 max_error=7.7e-08
+r²               r=3.0 θ=-1.5 polar=4.0000000 Cartesian=4.0000000 exact=4.0000000 max_error=2.4e-08
+r cosθ           r=0.7 θ= 2.0 polar=-0.0000000 Cartesian=0.0000000 exact=0.0000000 max_error=3e-08
+r cosθ           r=2.0 θ= 0.7 polar=0.0000000 Cartesian=0.0000000 exact=0.0000000 max_error=1.6e-08
+r cosθ           r=3.0 θ=-1.5 polar=0.0000000 Cartesian=0.0000000 exact=0.0000000 max_error=3.2e-09
+r³ cosθ          r=0.7 θ= 2.0 polar=-2.3304223 Cartesian=-2.3304223 exact=-2.3304223 max_error=2.7e-08
+r³ cosθ          r=2.0 θ= 0.7 polar=12.2374752 Cartesian=12.2374751 exact=12.2374750 max_error=1.8e-07
+r³ cosθ          r=3.0 θ=-1.5 polar=1.6976928 Cartesian=1.6976929 exact=1.6976928 max_error=3.5e-08
+r⁴ cos²θ sin²θ   r=0.7 θ= 2.0 polar=0.9800000 Cartesian=0.9800000 exact=0.9800000 max_error=1.4e-08
+r⁴ cos²θ sin²θ   r=2.0 θ= 0.7 polar=8.0000003 Cartesian=8.0000000 exact=8.0000000 max_error=2.7e-07
+r⁴ cos²θ sin²θ   r=3.0 θ=-1.5 polar=17.9999998 Cartesian=18.0000000 exact=18.0000000 max_error=2.3e-07
+PASS: 12 cases; maximum absolute error 2.7e-07

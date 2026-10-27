@@ -1,0 +1,6 @@
+length: 500 Unicode code points
+mismatched symmetric pairs: 0
+hiragana only: True
+halves mirrored: True
+SHA-256 (UTF-8, no trailing newline): 0b64b24dcc19e42bf73dc153a6aa51425ef592ccb5605f5485f69fa93042a868
+PASS
