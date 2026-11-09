@@ -1,0 +1,6 @@
+sympy 1.14.0
+x**3*y + x**2 - 2*x*y**2 -> 0
+exp(x)*sin(y) -> 0
+x*exp(-x**2 - y**2) -> 0
+log(x**2 + y**2) -> 0
+PASS: 4 functions, residual 0
