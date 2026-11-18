@@ -1,0 +1,18 @@
+--- 1階微分の変換パーツ（Pythonが自動導出） ---
+∂r/∂x = cos(theta),  ∂r/∂y = sin(theta)
+∂θ/∂x = -sin(theta)/r, ∂θ/∂y = cos(theta)/r
+
+--- 完成した極座標ラプラシアン ---
+                              2          
+                             ∂           
+               ∂             ───(f(r, θ))
+ 2             ──(f(r, θ))     2         
+∂              ∂r            ∂θ          
+───(f(r, θ)) + ─────────── + ────────────
+  2                 r              2     
+∂r                                r      
+Registration environment: SymPy 1.14.0
+General identity residual: 0
+Laplacian of r: 1/r
+Laplacian of r**2: 4
+Laplacian of r*cos(theta): 0

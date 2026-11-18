@@ -1,0 +1,9 @@
+SymPy 1.14.0
+Checks used before the first answer
+Cartesian minus polar for T(r, theta): 0
+Laplacian of r: 1/r
+Laplacian of r*cos(theta): 0
+Additional check at registration
+Angular contribution for a constant angular slope: 0
+Angular contribution for (theta - theta0)**2: 2/r**2
+Ratio at twice the radius: 1/4

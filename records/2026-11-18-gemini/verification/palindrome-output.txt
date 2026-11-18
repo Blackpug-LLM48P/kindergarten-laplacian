@@ -1,0 +1,13 @@
+Unicode code points: 500
+Hiragana code points: 500
+Equals reverse: True
+Compared symmetric pairs: 250
+Mismatched pairs: 0
+Characters 250 and 251: よよ
+SHA-256 (UTF-8, no trailing newline): 045244309caff9110ac2cfc5ee76b8aa3d8c4c5fe8541af7896cbfcbbe2c85a4
+よるのうみ <-> みうのるよ: positions 1 and 496
+とおいほし <-> しほいおと: positions 6 and 491
+ここよるながい <-> いがなるよここ: positions 52 and 443
+もりのしかはまう <-> うまはかしのりも: positions 96 and 398
+よるがあけるよ <-> よるけあがるよ: positions 244 and 251
+PASS
